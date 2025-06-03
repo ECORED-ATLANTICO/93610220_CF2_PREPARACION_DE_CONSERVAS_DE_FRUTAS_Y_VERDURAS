@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-atlantico.github.io/ECORED-BASE-REPO/](https://ecored-atlantico.github.io/ECORED-BASE-REPO/)
+[https://ecored-atlantico.github.io/93610220_CF2_PREPARACION_DE_CONSERVAS_DE_FRUTAS_Y_VERDURAS/](https://ecored-atlantico.github.io/93610220_CF2_PREPARACION_DE_CONSERVAS_DE_FRUTAS_Y_VERDURAS/)
 
 #
 
@@ -38,4 +38,6 @@ npm run build
 
 ### Linteo y arreglo de sintaxis de archivos
 
+```
+npm run lint
 ```

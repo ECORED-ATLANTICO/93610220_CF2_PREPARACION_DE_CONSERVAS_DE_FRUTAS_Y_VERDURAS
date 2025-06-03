@@ -1,32 +1,85 @@
+@media (min-width: 1023px)
+  .banner-principal .tarjeta
+    background-image: url('../assets/curso/portada/fondo-banner-contenido.png') !important
+@media (min-width: 769px)
+  .banner-principal .tarjeta
+    padding-right: 0
+    overflow: hidden
+.banner-interno__fondo 
+  background-image: url('../assets/curso/portada/fondo-banner-principal.png') !important
+@keyframes click-automatico
+  0%, 100%
+    transform: translateY(0) scale(1)
+  30%, 70%
+    transform: translateY(8px) scale(0.9)
+  50%
+    transform: translateY(10px) scale(0.85)
+
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 7%
+    left: 15%
+    width: 70px
+    animation: click-automatico 2s ease-in-out infinite
+    transform-origin: center 30%
+    cursor: default
+    
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 40%
+    left: 3%
+    width: 70px
+    animation: click-automatico 2s ease-in-out infinite
+    transform-origin: center 30%
+    cursor: default
+    
+  &-3
+    position: absolute
+    top: 79%
+    left: 3%
+    width: 70px
+    animation: click-automatico 2s ease-in-out infinite
+    transform-origin: center 30%
+    cursor: default
 
-@keyframes float1
-  0%
-    transform: translateY(20px)
-  100%
-    transform: translateY(0px)
-  
-.banner-principal .tarjeta
-  background-position: left 50% !important
+  &-4
+    position: absolute
+    top: 23%
+    left: 80%
+    width: 70px
+    animation: click-automatico 2s ease-in-out infinite
+    transform-origin: center 30%
+    cursor: default
 
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
+  &-5
+    position: absolute
+    top: 55%
+    left: 80%
+    width: 70px
+    animation: click-automatico 2s ease-in-out infinite
+    transform-origin: center 30%
+    cursor: default
+
+.banner-principal__row 
+  .banner-principal__img
+    width: 405px
+    padding-bottom: 0 !important
+    padding-top: 20px !important
+
+@media (min-width: 1025px)
+  .banner-principal__row .banner-principal__img
+    width: 500px
+
+.titulo-principal__numero
+  min-width: 50px
+  height: 50px
+  margin-right: 10px
+  position: relative
+  background-color: $color-acento-contenido !important
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: white !important
 
 .banner-interno__titulo__icono i
   color: $color-primario
-
-figcaption
-  font-weight: normal
