@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.bg_img_1
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
@@ -70,41 +70,59 @@
               | usar tratamientos térmicos suaves para mantener la vitamina C.
       
       .tarjeta.color-adicional-1(x="73.1%" y="26.4%" numero="")
-        .h5.mb-2 Inhibición microbiana
+        .h5.mb-2 Inocuidad alimentaria
         .d-flex.flex-md-row.flex-column
           .flex-shrink-0.mb-md-0.mb-3.d-flex.align-items-center.justify-content-center
             img(src="@/assets/curso/temas/tema_1/img_8.png", class="img-fluid")
           
           .flex-grow-1.ms-md-3.ms-0
-            p.mb-3 Detiene el crecimiento de levaduras, mohos y bacterias usando calor, frío, sal, azúcar o vinagre.
+            p.mb-3 Eliminar microorganismos como Clostridium <I>botulinum</I>.
             p 
               strong Ejemplo: 
-              | escaldar espinacas y encurtir posteriormente.
+              | esterilizar alimentos a alta temperatura para evitar intoxicaciones.
       
       .tarjeta.color-adicional-1(x="69.2%" y="51.2%" numero="")
-        .h5.mb-2 Inactivación enzimática
+        .h5.mb-2 Calidad sensorial
         .d-flex.flex-md-row.flex-column
           .flex-shrink-0.mb-md-0.mb-3.d-flex.align-items-center.justify-content-center
             img(src="@/assets/curso/temas/tema_1/img_9.png", class="img-fluid")
           
           .flex-grow-1.ms-md-3.ms-
-            p.mb-3 Detiene la acción de enzimas que provocan pardeamiento o cambios de sabor.
+            p.mb-3 Conserva características organolépticas como olor, color, sabor, textura y aroma.
             p 
               strong Ejemplo: 
-              | escaldar espinacas antes del enlatado para preservar el color.
+              | usar azúcar en jaleas no solo para conservar, sino para mantener el sabor.
       
       .tarjeta.color-adicional-1.pulso-invertido(x="60.7%" y="78%" numero="")
-        .h5.mb-2 Preservación de nutrientes
+        .h5.mb-2 Sostenibilidad
         .d-flex.flex-md-row.flex-column
           .flex-shrink-0.mb-md-0.mb-3.d-flex.align-items-center.justify-content-center
             img(src="@/assets/curso/temas/tema_1/img_10.png", class="img-fluid")
           .flex-grow-1.ms-md-3.ms- 
-            p.mb-3 Reduce la pérdida de vitaminas sensibles para minimizar el deterioro nutricional.
+            p.mb-3 Evitar el desperdicio, extendiendo la vida útil de excedentes agrícolas.
             p 
               strong Ejemplo: 
-              | usar tratamientos térmicos suaves para mantener la vitamina C.
+              | transformar frutas maduras en productos de valor agregado como mermeladas.
 
-    img(src="@/assets/curso/temas/tema_1/img_11.png", class="img-fluid")
+    .tarjeta_1_1
+      p.mb-3 Entre los objetivos principales de la conservación se encuentran:
+      ul.ps-4
+        li
+          i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
+          |   Prolongar la vida útil del producto.
+        li
+          i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
+          |   Prevenir el desarrollo de microorganismos patógenos o alterantes.
+        li
+          i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
+          |   Mantener la calidad nutricional y organoléptica.
+        li
+          i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
+          |   Facilitar el transporte y almacenamiento.
+        li
+          i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
+          |   Disminuir pérdidas poscosecha y aprovechar excedentes productivos.
+      p.mb-0 Estos principios se aplican bajo diferentes técnicas, como la reducción de la actividad de agua, el control de temperatura, la modificación de la atmósfera interna del envase, la acidificación y la incorporación de sustancias conservantes.
 
     separador
 
@@ -114,10 +132,39 @@
 
     p.mb-3 Existen diversos factores que influyen en la eficacia y selección del método de conservación de frutas y verduras. Su adecuada evaluación permite elegir el proceso más efectivo para garantizar productos seguros, estables y de calidad:
     
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-lg-7.mb-0.order-2.order-lg-1.p-0
+        .custom-slider.p-5.p-sm-3
+          SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-2.rounded-3
+            .tarjeta.color-adicional-2
+              .tarjeta--1
+              .tarjeta--slider__title.mb-3 Tipo de producto
+              .tarjeta--slider__content Cada fruta o verdura presenta características diferentes en cuanto a pH, contenido de agua, firmeza, carga microbiana, y respiración poscosecha.
+            .tarjeta.color-adicional-2
+              .tarjeta--2
+              .tarjeta--slider__title.mb-3  Condición inicial
+              .tarjeta--slider__content El estado de madurez, integridad, y limpieza del producto antes del procesamiento influye directamente en la calidad de la conserva.
+            .tarjeta.color-adicional-2
+              .tarjeta--3
+              .tarjeta--slider__title.mb-3 Técnica de conservación
+                .tarjeta--slider__content La selección del método adecuado (frío, calor, sal, azúcar y vinagre) depende de las propiedades fisicoquímicas del producto y del resultado deseado.
+            .tarjeta.color-adicional-2
+              .tarjeta--4
+              .tarjeta--slider__title.mb-3 Material de empaque
+              .tarjeta--slider__content Establece El envase debe ser apto para contacto con alimentos, hermético, resistente al calor (en caso de tratamientos térmicos), y libre de defectos.
+            .tarjeta.color-adicional-2
+              .tarjeta--5
+              .tarjeta--slider__title.mb-3 Condiciones de almacenamiento
+              .tarjeta--slider__content Establece Factores como temperatura, humedad, exposición a la luz y manipulación posterior inciden en la duración efectiva del alimento conservado.
+        
+      .col-5.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
+        figure
+          img(src="@/assets/curso/temas/tema_1/img_18.png", class="img-fluid")           
+    
     .bloque-texto-t.justify-content-center.align-items-center.mb-0
       .bloque-texto-t__img.mb-0
-        img(src='@/assets/curso/temas/tema_1/img_18.png')
-      .bloque-texto-t__texto.color-acento-contenido-10.col-10.mb-0
+        img(src='@/assets/curso/temas/tema_1/img_19.png')
+      .bloque-texto-t__texto.color-secundario-10.col-10.mb-0
         p.mb-0 Estos factores son evaluados para cada línea de producción de conservas, permitiendo establecer protocolos que aseguren productos seguros, estables y de calidad.
  
 </template>

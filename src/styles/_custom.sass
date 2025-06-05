@@ -145,3 +145,150 @@
   
   p
     margin-bottom: 0
+
+//tarjeta personalizadas
+
+.tarjeta_1_1
+  background-image: url('../assets/curso/temas/tema_1/img_11.png')
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  border-radius: 10px
+  padding: 30px
+  padding-left: 25%
+
+.tarjeta_1_2
+  background-image: url('../assets/curso/temas/tema_1/img_12.png')
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  border-radius: 10px
+  padding: 30px
+
+// factores-slider custom-slider
+.factores-slider, .custom-slider
+  &__icon 
+    max-height: 93px
+  
+  &__title-wrapper
+    text-align: center
+
+  &__title
+    margin-top: -150px
+    position: relative
+    font-size: 1.07rem
+    font-weight: 700
+    &.color-secundario-20
+      background-color: $color-secundario-20
+      padding: 10px 15px
+      margin-bottom: 10px
+      color: $color-sistema-texto
+  
+  &__content
+    display: inline-block
+    padding: 5px 5px
+  
+  &__tema__6
+    background-image: url('../assets/curso/temas/tema_1/img_9.png')
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover
+    min-height: 300px
+    min-width: 300px
+    border-radius: 10px
+    padding: 26px 20px 26px 20px !important
+    position: relative
+    display: flex
+    flex-direction: column
+    .slyder-f__btn
+      height: 42px
+      width: 42px
+      min-width: 42px
+      background-color: $color-acento-botones
+      color: $black
+      border-radius: 50%
+      padding: 0 !important
+      transition: transform 0.3s
+      &:hover
+        transform: scale(1.1)
+      .fa-chevron-left, .fa-chevron-right
+        font-size: 1.5rem
+      &.ps-3
+        margin-left: 7px
+      &.pe-3
+        margin-right: 7px
+    .slyder-f
+      align-items: center
+      justify-content: center
+      gap: 0.7rem
+
+  .slyder-f
+    align-items: center
+    justify-content: center
+    gap: 0
+
+  .slyder-f__main
+    width: 100%
+    height: 100%
+
+  .slyder-f__btn
+    height: 42px
+    width: 42px
+    min-width: 42px
+    background-color: $color-acento-contenido
+    color: $white
+    border-radius: 50%
+    padding: 0 !important
+    transition: transform 0.3s
+    &:hover
+      transform: scale(1.1)
+    .fa-chevron-left, .fa-chevron-right
+      font-size: 1.5rem
+    &.ps-3
+      margin-left: 7px
+      @media (max-width: 1024px)
+        margin-left: 7px
+    &.pe-3
+      margin-right: 7px
+      @media (max-width: 1024px)
+        margin-right: 7px
+
+.custom-slider
+  &__tarjeta
+    min-height: 38rem
+    min-width: 17.13rem
+    border-radius: 20px
+    padding: 19rem 0.7rem 0.7rem 0.7rem !important
+    margin: 0.7rem 0.5rem 0.7rem 0.5rem
+    position: relative
+    display: flex
+    flex-direction: column
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1)
+    
+  @media (max-width: 1024px)
+    &__tarjeta
+      min-height: 25rem
+      min-width: 12.5rem
+      padding: 18rem 0.7rem 0.7rem 0.7rem !important
+      margin: 0
+
+// Fondos
+.bg_img 
+  &_1
+    background-image: url('../assets/curso/temas/tema_1/img_12.png') !important
+    background-size: contain
+    background-position-y: 123rem
+    background-repeat: no-repeat
+    @media (max-width: 768px)
+      background-position-y: 144rem
+      height: 44rem
+  &_2
+    background-image: url('../assets/curso/temas/tema_2/img_10.png') !important
+    background-size: contain
+    background-position-y: 49rem
+    background-repeat: no-repeat
+  &_3
+    background-image: url('../assets/curso/temas/tema_2/img_11.png') !important
+    background-size: contain
+    background-position-y: 134.9rem
+    background-repeat: no-repeat
