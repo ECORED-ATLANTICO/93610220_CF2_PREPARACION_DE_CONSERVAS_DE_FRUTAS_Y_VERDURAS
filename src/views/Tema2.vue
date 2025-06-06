@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.bg_img_2.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.bg_img_3
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.bg_img_2.bg_img_3
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
