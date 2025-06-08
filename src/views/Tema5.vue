@@ -122,7 +122,13 @@
         figure.p-2.pt-0.ps-0.pb-4 
           img(src="@/assets/curso/temas/tema_5/img_9.png", class="img-fluid")
       .col-12.col-lg-8
-
+        .lista-ul--color.lista-ul--separador
+          li 1 Selección de vegetales frescos y sanos: zanahoria, coliflor, habichuela, arvejas y maíz tierno son los más utilizados.
+          li 2 Lavado y corte: los vegetales se lavan cuidadosamente, se pelan (si aplica) y se cortan de forma uniforme (cubos, bastones, rodajas). 
+          li 3 Escaldado: se someten a una cocción breve en agua hirviendo (2 a 5 minutos) y luego se enfrían rápidamente para mantener el color y textura.
+          li 4 Preparación de salmuera: se disuelve sal al 5-10% en agua potable. Opcionalmente se puede agregar ácido ascórbico para mejorar la estabilidad.
+          li 5 Llenado de frascos: los vegetales escaldados se introducen en frascos de vidrio esterilizados y se cubren completamente con la salmuera caliente.
+          li 6 Pasteurización: se realiza un tratamiento térmico suave para garantizar seguridad microbiológica sin alterar la textura.
     p.mb-3 Resultado esperado: vegetales crujientes, salados y estables por varios meses en condiciones adecuadas.
     
     h3(data-aos='zoom-in-right').mb-4
@@ -130,12 +136,47 @@
 
     p.mb-3 El encurtido consiste en la conservación de vegetales en vinagre, un ácido natural que actúa como barrera contra bacterias y hongos. Además de prolongar la vida útil, esta técnica proporciona un sabor ácido característico y permite la incorporación de especias para personalizar el perfil aromático del producto.
     p.mb-3 Pasos para la elaboración:
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-lg-8.mb-0.order-2.order-lg-1.p-0
+        .custom-slider.p-4.p-sm-3
+          SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-3.rounded-3
+            .tarjeta.color-adicional-2
+              .tarjeta--13
+              .tarjeta--slider__content Elección de vegetales: pepino cohombro, cebolla, zanahoria, coliflor y jalapeños son comunes.
+            .tarjeta.color-adicional-2
+              .tarjeta--14
+              .tarjeta--slider__content Escaldado opcional: algunos vegetales (como zanahoria o coliflor) pueden requerir escaldado previo para ablandar ligeramente
+            .tarjeta.color-adicional-2
+              .tarjeta--15
+              .tarjeta--slider__content Preparación del líquido de encurtido: se mezcla vinagre blanco o de manzana (acidez mínima del 5 %) con agua (en proporciones variables), sal, azúcar y especias al gusto (ajo, laurel, mostaza, clavos o pimienta).
+            .tarjeta.color-adicional-2
+              .tarjeta--16
+              .tarjeta--slider__content Envasado: se agregan los vegetales en frascos esterilizados y se cubren con la solución aún caliente.
+            .tarjeta.color-adicional-2
+              .tarjeta--17
+              .tarjeta--slider__content Pasteurización breve: se realiza un calentamiento leve (baño maría de 10-15 minutos) para garantizar la conservación.
+            
+      .col-4.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3.ps-3
+        figure
+          img(src="@/assets/curso/temas/tema_5/img_15.png", class="img-fluid")           
 
     h3(data-aos='zoom-in-right').mb-4
       span.label-title.label-title--1 VEGETALES AGRIDULCES
 
     p.mb-3 Las conservas agridulces combinan azúcar, sal y vinagre para lograr un balance de sabores que resulta agradable al paladar. Este método es muy apreciado en cocina gourmet y platos étnicos por su perfil aromático y su versatilidad.
     p.mb-3 Pasos para la elaboración:
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12.col-lg-8
+        .lista-ul--color.lista-ul--separador
+          li 1 Selección de vegetales: pimientos rojos y amarillos, cebollitas perla, berenjenas y zanahorias son comunes.
+          li 2 Escaldado y choque térmico: igual que en los otros métodos, para estabilizar color y textura
+          li 3 Preparación del líquido agridulce: en una olla se mezclan partes iguales de agua y vinagre, se añade azúcar, sal, aceite y especias como canela, jengibre o clavos. Se lleva a ebullición.
+          li 4 Envasado en caliente: los vegetales se colocan en frascos y se cubren con la solución agridulce aún caliente
+          li 5 Pasteurización y enfriado controlado.
+      .col-6.col-lg-4
+        figure.p-2.pt-0.ps-0.pb-4 
+          img(src="@/assets/curso/temas/tema_5/img_16.png", class="img-fluid")
+    p.mb-0 Resultado esperado: productos con sabor contrastante, aptos para acompañar platos salados o servir como aperitivos.
 
     separador
 
@@ -146,7 +187,7 @@
     .row.justify-content-center.align-items-center.mb-3
       .col-6.col-lg-4
         figure.p-2.pt-0.ps-0.pb-4 
-          img(src="@/assets/curso/temas/tema_5/img_16.png", class="img-fluid")
+          img(src="@/assets/curso/temas/tema_5/img_17.png", class="img-fluid")
       .col-12.col-lg-8
         p.mb-3 Los líquidos de cobertura desempeñan un papel fundamental en la conservación de frutas y verduras procesadas. Estas soluciones líquidas no solo cumplen una función técnica al proteger el alimento del deterioro, sino que también aportan cualidades organolépticas (sabor, aroma y textura) que enriquecen la experiencia del consumidor final. 
         p Son aplicados inmediatamente después del llenado del envase, en estado caliente, para facilitar la expulsión del oxígeno, garantizar un sellado hermético y permitir una adecuada distribución del líquido entre los sólidos. Entre sus funciones principales:
