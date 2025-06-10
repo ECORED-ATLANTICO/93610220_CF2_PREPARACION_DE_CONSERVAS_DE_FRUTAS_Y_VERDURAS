@@ -10,8 +10,6 @@
       &:last-child
         border-top-right-radius: 20px
         border-bottom-right-radius: 20px
-    &.color-secundario-20 
-      background-color: $color-secundario-20 
 
   &--blanca
     background-color: $white
@@ -106,6 +104,14 @@
       background-color: lighten($color-secundario-10, 50%)
       color: textColor(lighten($color-secundario-10, 50%))
       border: solid 4px $color-secundario-10
+  &.color-secundario-20
+    background-color: $color-secundario-20
+    *
+      color: textColor($color-secundario-20)
+    &--borde
+      background-color: lighten($color-secundario-20, 50%)
+      color: textColor(lighten($color-secundario-20, 50%))
+      border: solid 4px $color-secundario-20
   &.color-acento-contenido
     background-color: $color-acento-contenido
     *
@@ -308,6 +314,22 @@
     text-align: center 
   &--slider__content
     padding: 0.5rem 
+
+  &.color-acento-contenido-10-b
+    background-color: $color-acento-contenido-10
+    border-radius: 20px
+    padding: 8rem 1rem 1rem 1rem 
+    position: relative
+    display: flex
+    flex-direction: column
+    @media (max-width: 1024px)
+      max-height: 20rem 
+    *
+      color: textColor($color-acento-contenido-10)
+    &--borde
+      background-color: lighten($color-acento-contenido-10, 50%)
+      color: textColor(lighten($color-acento-contenido-10, 50%))
+      border: solid 4px $color-acento-contenido-10
 // TARJETAS CON AVATAR
 .tarjeta-avatar
   height: 100%

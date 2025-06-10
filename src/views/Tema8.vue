@@ -31,19 +31,19 @@
         .col-12.col-lg-8.p-0
           .custom-slider.p-4.p-sm-3
             SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-3.rounded-3
-              .tarjeta.color-adicional-2
+              .tarjeta.color-acento-contenido-10-b
                 .tarjeta--18
                 .tarjeta--slider__title.mb-3 Incorporación  de frutas autóctonas o exóticas
                 .tarjeta--slider__content Utilizar variedades locales o poco comunes aporta exclusividad y autenticidad, además de promover el desarrollo regional y la biodiversidad.
-              .tarjeta.color-adicional-2
+              .tarjeta.color-acento-contenido-10-b
                 .tarjeta--19
                 .tarjeta--slider__title.mb-3 Embalajes ecoamigables
                 .tarjeta--slider__content Optar por envases biodegradables, compostables o reutilizables no solo reduce el impacto ambiental, sino que también conecta con el consumidor consciente, mejorando la imagen de marca.
-              .tarjeta.color-adicional-2
+              .tarjeta.color-acento-contenido-10-b
                 .tarjeta--20
                 .tarjeta--slider__title.mb-3 Atributos funcionales añadidos
                 .tarjeta--slider__content La inclusión de componentes beneficiosos para la salud, como antioxidantes naturales, versiones sin azúcar o con ingredientes bajos en sodio, amplía el público objetivo, especialmente entre quienes buscan opciones saludables.
-              .tarjeta.color-adicional-2
+              .tarjeta.color-acento-contenido-10-b
                 .tarjeta--21
                 .tarjeta--slider__title.mb-3 Presentaciones diferenciadas
                 .tarjeta--slider__content Formatos gourmet, porciones listas para consumir o empaques con diseños atractivos y prácticos aumentan la conveniencia y la percepción de calidad.
@@ -57,7 +57,7 @@
     p.mb-3 La innovación es un motor clave para mantenerse competitivo y relevante en el mercado. Algunas propuestas aplicables incluyen:
 
     .tarjeta--container.row.mb-5
-      .col-md.color-secundario-20.p-5
+      .col-md.tarjeta.color-secundario-20.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
@@ -65,7 +65,7 @@
           
         h2.text-center Conservas sin azúcar añadido
         p Diseñadas para personas con restricciones dietéticas, diabéticos o quienes prefieren reducir su ingesta calórica, estas opciones amplían la accesibilidad del producto.
-      .col-md.color-adicional-2.p-5
+      .col-md.tarjeta.color-secundario-10.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
@@ -73,7 +73,7 @@
           
         h2.text-center Combinaciones creativas de sabores 
         p La mezcla de frutas con especias o ingredientes aromáticos, como piña con jengibre o mango con ají, aporta perfiles sensoriales únicos que pueden diferenciar la oferta.
-      .col-md.color-secundario-20.p-5
+      .col-md.tarjeta.color-secundario-20.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
