@@ -47,99 +47,100 @@
     .mb-3
 
     p.mb-3 El escaldado puede aplicarse mediante dos técnicas principales, cada una con particularidades que influyen en la calidad final del producto:
-    
-    .row.justify-content-center.align-items-center.mb-3
-      .col-12.col-lg-5.mb-3
-        .tarjeta.color-adicional-3
-          figure
-            img(src="@/assets/curso/temas/tema_3/img_4.png", class="img-fluid")
-          h5.mb-3.p-3.pb-0 ESCALDADO EN AGUA CALIENTE
-          p.p-3.pt-2 Consiste en sumergir los vegetales en agua a temperaturas entre 95°C y 100°C durante un tiempo determinado. Es un método común y efectivo, aunque puede generar cierta pérdida de nutrientes solubles en agua.
+    .bg_img_4.mb-3
+      .row.justify-content-center.align-items-center.mb-3
+        .col-12.col-lg-5.mb-3
+          .tarjeta.color-adicional-3.text-center
+            figure
+              img(src="@/assets/curso/temas/tema_3/img_4.png", class="img-fluid")
+            h5.mb-3.p-3.pb-0 ESCALDADO EN AGUA CALIENTE
+            p.p-3.pt-2 Consiste en sumergir los vegetales en agua a temperaturas entre 95°C y 100°C durante un tiempo determinado. Es un método común y efectivo, aunque puede generar cierta pérdida de nutrientes solubles en agua.
 
-      .col-12.col-lg-5.mb-3
-        .tarjeta.color-secundario-10
-          figure
-            img(src="@/assets/curso/temas/tema_3/img_5.png", class="img-fluid")
-          h5.mb-3.p-3.pb-0 ESCALDADO POR VAPOR
-          p.p-3.pt-2 Expone los alimentos a vapor de agua, a presión atmosférica o en autoclave. Esta alternativa conserva mejor el color, la textura y los compuestos nutritivos del vegetal, al reducir el contacto directo con el líquido.
-      .col-12.col-lg-10.mb-3
-        .cajon.color-adicional-4-Mix-secundario.p-4.mb-3
-          p La duración del escaldado debe ajustarse según el tipo de vegetal, su tamaño, nivel de madurez y forma de corte. Un tratamiento insuficiente puede dejar enzimas activas, mientras que un exceso de calor deteriora la textura y el valor nutricional.
-      .col-12.col-lg-7
-        .titulo-sexto.color-acento-contenido
-          h5 Tabla 1.
-          I(style="font-weight: normal;") Tiempos de referencia para escaldado
-        .tabla-a.mb-5
-          table
-            caption 
-              p p <b>Fuente.</b>  SENA, 2025
-            thead
-              tr
-                th Vegetal
-                th Agua hirviendo
-                th Vapor
-            tbody
-              tr
-                td Zanahoria (cubos)
-                td 2 minutos
-                td 3 minutos
-              tr
-                td Brócoli
-                td 3 minutos
-                td 5 minutos
-              tr
-                td Espinaca
-                td 2 minutos
-                td 3 minutos
-              tr
-                td Pimiento (tiras)
-                td 2 minutos
-                td 3 minutos
-              tr
-                td Arvejas
-                td 2-3 minutos
-                td 4 minutos
+        .col-12.col-lg-5.mb-3
+          .tarjeta.color-secundario-10.text-center
+            figure
+              img(src="@/assets/curso/temas/tema_3/img_5.png", class="img-fluid")
+            h5.mb-3.p-3.pb-0 ESCALDADO POR VAPOR
+            p.p-3.pt-2 Expone los alimentos a vapor de agua, a presión atmosférica o en autoclave. Esta alternativa conserva mejor el color, la textura y los compuestos nutritivos del vegetal, al reducir el contacto directo con el líquido.
+        .col-12.col-lg-10.mb-3
+          .cajon.color-adicional-4-Mix-secundario.p-4.mb-3
+            p La duración del escaldado debe ajustarse según el tipo de vegetal, su tamaño, nivel de madurez y forma de corte. Un tratamiento insuficiente puede dejar enzimas activas, mientras que un exceso de calor deteriora la textura y el valor nutricional.
+        .col-12.col-lg-7
+          .titulo-sexto.color-acento-contenido
+            h5 Tabla 1.
+            I(style="font-weight: normal;") Tiempos de referencia para escaldado
+          .tabla-a.mb-5
+            table
+              caption 
+                p <b>Fuente.</b>  SENA, 2025
+              thead.text-white
+                tr
+                  th Vegetal
+                  th Agua hirviendo
+                  th Vapor
+              tbody.b
+                tr
+                  td.bg-table-01 Zanahoria (cubos)
+                  td.bg-table-01 2 minutos
+                  td.bg-table-01 3 minutos
+                tr
+                  td.bg-table-02 Brócoli
+                  td.bg-table-02 3 minutos
+                  td.bg-table-02 5 minutos
+                tr
+                  td.bg-table-01 Espinaca
+                  td.bg-table-01 2 minutos
+                  td.bg-table-01 3 minutos
+                tr
+                  td.bg-table-02 Pimiento (tiras)
+                  td.bg-table-02 2 minutos
+                  td.bg-table-02 3 minutos
+                tr
+                  td.bg-table-01 Arvejas
+                  td.bg-table-01 2-3 minutos
+                  td.bg-table-01 4 minutos
 
     separador
 
-    #t_3_3.titulo-segundo.color-acento-contenido
-      .h2(data-aos="fade-right") 3.3 Efectos sobre textura, color y carga microbiana
-    .mb-3
+    .bg_img_5.mb-3
+      #t_3_3.titulo-segundo.color-acento-contenido
+        .h2(data-aos="fade-right") 3.3 Efectos sobre textura, color y carga microbiana
+      .mb-3
 
-    .bloque-texto-t.justify-content-center.align-items-center.mb-5
-      .bloque-texto-t__img.mb-0
-        img(src='@/assets/curso/temas/tema_3/img_6.png')
-      .bloque-texto-t__texto.color-acento-contenido-10.col-10.mb-0
-        p.mb-0 El escaldado, cuando se ejecuta con precisión, genera una serie de efectos determinantes en la calidad del alimento que será conservado. Esta intervención térmica no solo mejora la apariencia visual y la textura del producto, sino que también contribuye a reducir su carga microbiana superficial, facilitando así la efectividad de los tratamientos posteriores. 
-    
-    .row.justify-content-center.align-items-center.mb-0
-      .col-12.col-lg-10
-        ImagenInfografica.time-line-info.pulso-invertido.mb-5
-          template(v-slot:imagen)
-            figure
-              img(src='@/assets/curso/temas/tema_3/img_7.svg')
+      .bloque-texto-t.justify-content-center.align-items-center.mb-5
+        .bloque-texto-t__img.mb-0
+          img(src='@/assets/curso/temas/tema_3/img_6.png')
+        .bloque-texto-t__texto.color-secundario-10.col-10.mb-0
+          p.mb-0 El escaldado, cuando se ejecuta con precisión, genera una serie de efectos determinantes en la calidad del alimento que será conservado. Esta intervención térmica no solo mejora la apariencia visual y la textura del producto, sino que también contribuye a reducir su carga microbiana superficial, facilitando así la efectividad de los tratamientos posteriores. 
 
-          .tarjeta.color-adicional-1(x="47.26%" y="37.49%" numero="")
-            .h5.mb-3 Textura
-            .d-flex.flex-md-row.flex-column
-              .flex-shrink-0.mb-md-0.mb-3.d-flex.align-items-center.justify-content-center
-                img(src="@/assets/curso/temas/tema_3/img_8.png", class="img-fluid")
-              .flex-grow-1.ms-md-3.ms-0
-                p.mb-3 En verduras como el brócoli o las arvejas, el escaldado permite conservar una textura firme y crujiente. No obstante, si el tiempo de exposición es excesivo, puede provocar ablandamiento indeseado y pérdida de estructura.
-          .tarjeta.color-adicional-1(x="73.1%" y="56.1%" numero="")
-            .h5.mb-3 Color
-            .d-flex.flex-md-row.flex-column
-              .flex-shrink-0.mb-md-0.mb-3.d-flex.align-items-center.justify-content-center
-                img(src="@/assets/curso/temas/tema_3/img_9.png", class="img-fluid")
-              .flex-grow-1.ms-md-3.ms-0
-                p.mb-3 Las hortalizas de hoja verde intensifican su color al escaldarse, debido a la inactivación de enzimas como la peroxidasa y la polifenoloxidasa. Este efecto mejora notablemente la apariencia visual de productos como espinaca, acelga y brócoli.
-          .tarjeta.color-adicional-1(x="57.45%" y="75.9%" numero="")
-            .h5.mb-3 Carga microbiana
-            .d-flex.flex-md-row.flex-column
-              .flex-shrink-0.mb-md-0.mb-3.d-flex.align-items-center.justify-content-center
-                img(src="@/assets/curso/temas/tema_3/img_10.png", class="img-fluid")
-              .flex-grow-1.ms-md-3.ms-0
-                p.mb-3 Aunque no es un proceso de esterilización, el escaldado reduce significativamente la presencia de microorganismos en la superficie del alimento. Esta disminución facilita y complementa etapas posteriores como la pasteurización o el envasado al vacío, reforzando la inocuidad del producto final.
+      .row.justify-content-center.align-items-center.mb-0
+        .col-12.col-lg-10
+          ImagenInfografica.time-line-info.pulso-invertido.mb-5
+            template(v-slot:imagen)
+              figure
+                img(src='@/assets/curso/temas/tema_3/img_7.svg')
+
+            .tarjeta.color-adicional-1(x="47.26%" y="37.49%" numero="")
+              .h5.mb-3 Textura
+              .d-flex.flex-md-row.flex-column
+                .flex-shrink-0.mb-md-0.mb-3.d-flex.align-items-center.justify-content-center
+                  img(src="@/assets/curso/temas/tema_3/img_8.png", class="img-fluid")
+                .flex-grow-1.ms-md-3.ms-0
+                  p.mb-3 En verduras como el brócoli o las arvejas, el escaldado permite conservar una textura firme y crujiente. No obstante, si el tiempo de exposición es excesivo, puede provocar ablandamiento indeseado y pérdida de estructura.
+            .tarjeta.color-adicional-1(x="73.1%" y="56.1%" numero="")
+              .h5.mb-3 Color
+              .d-flex.flex-md-row.flex-column
+                .flex-shrink-0.mb-md-0.mb-3.d-flex.align-items-center.justify-content-center
+                  img(src="@/assets/curso/temas/tema_3/img_9.png", class="img-fluid")
+                .flex-grow-1.ms-md-3.ms-0
+                  p.mb-3 Las hortalizas de hoja verde intensifican su color al escaldarse, debido a la inactivación de enzimas como la peroxidasa y la polifenoloxidasa. Este efecto mejora notablemente la apariencia visual de productos como espinaca, acelga y brócoli.
+            .tarjeta.color-adicional-1(x="57.45%" y="75.9%" numero="")
+              .h5.mb-3 Carga microbiana
+              .d-flex.flex-md-row.flex-column
+                .flex-shrink-0.mb-md-0.mb-3.d-flex.align-items-center.justify-content-center
+                  img(src="@/assets/curso/temas/tema_3/img_10.png", class="img-fluid")
+                .flex-grow-1.ms-md-3.ms-0
+                  p.mb-3 Aunque no es un proceso de esterilización, el escaldado reduce significativamente la presencia de microorganismos en la superficie del alimento. Esta disminución facilita y complementa etapas posteriores como la pasteurización o el envasado al vacío, reforzando la inocuidad del producto final.
 </template>
 
 <script>

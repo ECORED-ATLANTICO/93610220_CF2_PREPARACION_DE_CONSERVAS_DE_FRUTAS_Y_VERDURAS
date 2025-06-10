@@ -6,11 +6,12 @@
       .titulo-principal__numero
         span 5
       h1 Elaboración de conservas
-    .bloque-texto-t.justify-content-center.align-items-center.mb-0
-      .bloque-texto-t__img.mb-0
-        img(src='@/assets/curso/temas/tema_5/img_1.png')
-      .bloque-texto-t__texto.color-acento-contenido-10.col-10.mb-0
-        p.mb-0 La elaboración de conservas a partir de frutas y verduras combina técnicas tradicionales y avances tecnológicos para garantizar productos seguros, estables y con alta aceptación por el consumidor. El éxito de este proceso depende de la correcta selección de ingredientes, la aplicación de técnicas térmicas adecuadas y el control de las condiciones sanitarias. A continuación, se describen los principales tipos de conservas y sus características.
+    .bg_img_9.mb-3
+      .bloque-texto-t.justify-content-center.align-items-center.mb-0
+        .bloque-texto-t__img.mb-0
+          img(src='@/assets/curso/temas/tema_5/img_1.png')
+        .bloque-texto-t__texto.color-secundario-10.col-10.mb-0
+          p.mb-0 La elaboración de conservas a partir de frutas y verduras combina técnicas tradicionales y avances tecnológicos para garantizar productos seguros, estables y con alta aceptación por el consumidor. El éxito de este proceso depende de la correcta selección de ingredientes, la aplicación de técnicas térmicas adecuadas y el control de las condiciones sanitarias. A continuación, se describen los principales tipos de conservas y sus características.
 
     separador
 
@@ -122,13 +123,26 @@
         figure.p-2.pt-0.ps-0.pb-4 
           img(src="@/assets/curso/temas/tema_5/img_9.png", class="img-fluid")
       .col-12.col-lg-8
-        .lista-ul--color.lista-ul--separador
-          li 1 Selección de vegetales frescos y sanos: zanahoria, coliflor, habichuela, arvejas y maíz tierno son los más utilizados.
-          li 2 Lavado y corte: los vegetales se lavan cuidadosamente, se pelan (si aplica) y se cortan de forma uniforme (cubos, bastones, rodajas). 
-          li 3 Escaldado: se someten a una cocción breve en agua hirviendo (2 a 5 minutos) y luego se enfrían rápidamente para mantener el color y textura.
-          li 4 Preparación de salmuera: se disuelve sal al 5-10% en agua potable. Opcionalmente se puede agregar ácido ascórbico para mejorar la estabilidad.
-          li 5 Llenado de frascos: los vegetales escaldados se introducen en frascos de vidrio esterilizados y se cubren completamente con la salmuera caliente.
-          li 6 Pasteurización: se realiza un tratamiento térmico suave para garantizar seguridad microbiológica sin alterar la textura.
+        ul.lista-ul--numerada
+          li
+            span.numero 1
+            |  Selección de vegetales frescos y sanos: zanahoria, coliflor, habichuela, arvejas y maíz tierno son los más utilizados.
+          li
+            span.numero 2 
+            |  Lavado y corte: los vegetales se lavan cuidadosamente, se pelan (si aplica) y se cortan de forma uniforme (cubos, bastones, rodajas). 
+          li
+            span.numero 3 
+            |  Escaldado: se someten a una cocción breve en agua hirviendo (2 a 5 minutos) y luego se enfrían rápidamente para mantener el color y textura.
+          li
+            span.numero 4 
+            |  Preparación de salmuera: se disuelve sal al 5-10% en agua potable. Opcionalmente se puede agregar ácido ascórbico para mejorar la estabilidad.
+          li
+            span.numero 5  
+            |  Llenado de frascos: los vegetales escaldados se introducen en frascos de vidrio esterilizados y se cubren completamente con la salmuera caliente.
+          li
+            span.numero 6  
+            |  Pasteurización: se realiza un tratamiento térmico suave para garantizar seguridad microbiológica sin alterar la textura.
+    
     p.mb-3 Resultado esperado: vegetales crujientes, salados y estables por varios meses en condiciones adecuadas.
     
     h3(data-aos='zoom-in-right').mb-4
@@ -136,29 +150,31 @@
 
     p.mb-3 El encurtido consiste en la conservación de vegetales en vinagre, un ácido natural que actúa como barrera contra bacterias y hongos. Además de prolongar la vida útil, esta técnica proporciona un sabor ácido característico y permite la incorporación de especias para personalizar el perfil aromático del producto.
     p.mb-3 Pasos para la elaboración:
-    .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-lg-8.mb-0.order-2.order-lg-1.p-0
-        .custom-slider.p-4.p-sm-3
-          SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-3.rounded-3
-            .tarjeta.color-adicional-2
-              .tarjeta--13
-              .tarjeta--slider__content Elección de vegetales: pepino cohombro, cebolla, zanahoria, coliflor y jalapeños son comunes.
-            .tarjeta.color-adicional-2
-              .tarjeta--14
-              .tarjeta--slider__content Escaldado opcional: algunos vegetales (como zanahoria o coliflor) pueden requerir escaldado previo para ablandar ligeramente
-            .tarjeta.color-adicional-2
-              .tarjeta--15
-              .tarjeta--slider__content Preparación del líquido de encurtido: se mezcla vinagre blanco o de manzana (acidez mínima del 5 %) con agua (en proporciones variables), sal, azúcar y especias al gusto (ajo, laurel, mostaza, clavos o pimienta).
-            .tarjeta.color-adicional-2
-              .tarjeta--16
-              .tarjeta--slider__content Envasado: se agregan los vegetales en frascos esterilizados y se cubren con la solución aún caliente.
-            .tarjeta.color-adicional-2
-              .tarjeta--17
-              .tarjeta--slider__content Pasteurización breve: se realiza un calentamiento leve (baño maría de 10-15 minutos) para garantizar la conservación.
-            
-      .col-4.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3.ps-3
-        figure
-          img(src="@/assets/curso/temas/tema_5/img_15.png", class="img-fluid")           
+    
+    .bg_img_10.mb-3
+      .row.justify-content-center.align-items-center.mb-5
+        .col-12.col-lg-8.mb-0.order-2.order-lg-1.p-0
+          .custom-slider.p-4.p-sm-3
+            SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-3.rounded-3
+              .tarjeta.color-adicional-2
+                .tarjeta--13
+                .tarjeta--slider__content Elección de vegetales: pepino cohombro, cebolla, zanahoria, coliflor y jalapeños son comunes.
+              .tarjeta.color-adicional-2
+                .tarjeta--14
+                .tarjeta--slider__content Escaldado opcional: algunos vegetales (como zanahoria o coliflor) pueden requerir escaldado previo para ablandar ligeramente
+              .tarjeta.color-adicional-2
+                .tarjeta--15
+                .tarjeta--slider__content Preparación del líquido de encurtido: se mezcla vinagre blanco o de manzana (acidez mínima del 5 %) con agua (en proporciones variables), sal, azúcar y especias al gusto (ajo, laurel, mostaza, clavos o pimienta).
+              .tarjeta.color-adicional-2
+                .tarjeta--16
+                .tarjeta--slider__content Envasado: se agregan los vegetales en frascos esterilizados y se cubren con la solución aún caliente.
+              .tarjeta.color-adicional-2
+                .tarjeta--17
+                .tarjeta--slider__content Pasteurización breve: se realiza un calentamiento leve (baño maría de 10-15 minutos) para garantizar la conservación.
+
+        .col-4.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3.ps-3
+          figure
+            img(src="@/assets/curso/temas/tema_5/img_15.png", class="img-fluid")           
 
     h3(data-aos='zoom-in-right').mb-4
       span.label-title.label-title--1 VEGETALES AGRIDULCES
@@ -167,15 +183,26 @@
     p.mb-3 Pasos para la elaboración:
     .row.justify-content-center.align-items-center.mb-3
       .col-12.col-lg-8
-        .lista-ul--color.lista-ul--separador
-          li 1 Selección de vegetales: pimientos rojos y amarillos, cebollitas perla, berenjenas y zanahorias son comunes.
-          li 2 Escaldado y choque térmico: igual que en los otros métodos, para estabilizar color y textura
-          li 3 Preparación del líquido agridulce: en una olla se mezclan partes iguales de agua y vinagre, se añade azúcar, sal, aceite y especias como canela, jengibre o clavos. Se lleva a ebullición.
-          li 4 Envasado en caliente: los vegetales se colocan en frascos y se cubren con la solución agridulce aún caliente
-          li 5 Pasteurización y enfriado controlado.
+        ul.lista-ul--numerada
+          li
+            span.numero 1
+            |  Selección de vegetales: pimientos rojos y amarillos, cebollitas perla, berenjenas y zanahorias son comunes.
+          li
+            span.numero 2 
+            |  Escaldado y choque térmico: igual que en los otros métodos, para estabilizar color y textura
+          li
+            span.numero 3 
+            |  Preparación del líquido agridulce: en una olla se mezclan partes iguales de agua y vinagre, se añade azúcar, sal, aceite y especias como canela, jengibre o clavos. Se lleva a ebullición.
+          li
+            span.numero 4 
+            |  Envasado en caliente: los vegetales se colocan en frascos y se cubren con la solución agridulce aún caliente
+          li
+            span.numero 5  
+            |  Pasteurización y enfriado controlado.
       .col-6.col-lg-4
         figure.p-2.pt-0.ps-0.pb-4 
           img(src="@/assets/curso/temas/tema_5/img_16.png", class="img-fluid")
+    
     p.mb-0 Resultado esperado: productos con sabor contrastante, aptos para acompañar platos salados o servir como aperitivos.
 
     separador
@@ -195,13 +222,35 @@
       .col-12.col-lg-8
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-adicional-5-6")
           div(titulo="Desplazar el oxígeno del envase")
-            p.mb-0
+            ul
+              li.mb-3
+                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
+                |  	La presencia de oxígeno puede provocar la oxidación de pigmentos y nutrientes, y favorecer el desarrollo de mohos o bacterias aeróbicas.
+              li.mb-0
+                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
+                | 	El líquido caliente permite eliminar el aire atrapado y genera un entorno anaeróbico más seguro para el alimento.
           div(titulo="Transferir sabor y aroma")
-            p.mb-0
+            ul
+              li.mb-3
+                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
+                |  	Los líquidos actúan como vehículo para especias, sales, azúcares y ácidos.
+              li.mb-0
+                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
+                | 	Esto permite personalizar el perfil de sabor del producto, adaptarlo a diferentes mercados o resaltar características típicas (agridulce, picante, aromático, herbal, entre otros.).
           div(titulo="Mejorar la textura y apariencia del producto")
             p.mb-0
+            ul.mb-3
+              li.mb-3
+                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
+                |  	Ayudan a mantener los alimentos sumergidos y protegidos, evitando su deshidratación o contacto con el oxígeno.
+              li.mb-0
+                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
+                | 	Realzan el brillo, color y apariencia del producto en exhibición (especialmente en frascos de vidrio).
           div(titulo="Favorecer la estabilidad microbiológica")
-            p.mb-0
+            ul.mb-3
+              li.mb-0
+                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
+                |  	Según el tipo de líquido utilizado, se crea un ambiente ácido, salino o con baja actividad de agua, que limita la proliferación de microorganismos patógenos y alteradores.
 
       .col-5.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
         figure
@@ -213,35 +262,38 @@
       .col-12.col-lg-11
         p.mb-3 Existen diferentes tipos de líquidos de cobertura, cada uno diseñado para responder a las necesidades específicas del alimento a conservar. Su composición, acidez, dulzor o contenido de sal varía según el producto (frutas o vegetales), el método de conservación y el resultado deseado en sabor, textura y estabilidad.
         p A continuación, se presenta una tabla comparativa con los líquidos de cobertura más utilizados en la elaboración de conservas:
-    .titulo-sexto.color-acento-contenido
-      h5 Tabla 2.
-      I(style="font-weight: normal;") Tipos de líquidos de cobertura
-    .tabla-a.mb-5
-      table
-        caption 
-          p <b>Fuente.</b>  SENA, 2025
-        thead
-          tr
-            th Tipo
-            th Composición básica
-            th Usos típicos
-            th Observaciones
-        tbody
-          tr
-            td <b>Almíbar</b>
-            td Agua + azúcar (30-50%)
-            td Conservas de frutas (piña, durazno, pera, entre otros)
-            td Puede incluir canela, clavos, limón, entre otros. Mejora sabor y apariencia.
-          tr
-            td <b>Salmuera</b>
-            td Agua + sal (5-10%)
-            td Verduras escaldadas (zanahoria y arveja)
-            td Aporta firmeza. Puede llevar ácido ascórbico para mayor estabilidad.
-          tr
-            td <b>Vinagre</b>
-            td Ácido acético al 5 % + agua
-            td Encurtidos y vegetales agridulces
-            td Se puede mezclar con especias y azúcar para crear perfiles agridulces.
+    
+    .bg_img_11.mb-3
+      .titulo-sexto.color-acento-contenido
+        h5 Tabla 2.
+        I(style="font-weight: normal;") Tipos de líquidos de cobertura
+      .tabla-a.mb-5
+        table
+          caption 
+            p <b>Fuente.</b>  SENA, 2025
+          thead
+            tr.text-white
+              th Tipo
+              th Composición básica
+              th Usos típicos
+              th Observaciones
+          tbody
+            tr
+              td.bg-table-01 <b>Almíbar</b>
+              td.bg-table-01 Agua + azúcar (30-50%)
+              td.bg-table-01 Conservas de frutas (piña, durazno, pera, entre otros)
+              td.bg-table-01 Puede incluir canela, clavos, limón, entre otros. Mejora sabor y apariencia.
+            tr
+              td.bg-table-02 <b>Salmuera</b>
+              td.bg-table-02 Agua + sal (5-10%)
+              td.bg-table-02 Verduras escaldadas (zanahoria y arveja)
+              td.bg-table-02 Aporta firmeza. Puede llevar ácido ascórbico para mayor estabilidad.
+            tr
+              td.bg-table-01  <b>Vinagre</b>
+              td.bg-table-01  Ácido acético al 5 % + agua
+              td.bg-table-01  Encurtidos y vegetales agridulces
+              td.bg-table-01  Se puede mezclar con especias y azúcar para crear perfiles agridulces.
+    
     .row.justify-content-center.align-items-center.mb-3
       .col-12.col-lg-10
         .cajon.color-acento-contenido-10-Mix-secundario.p-4

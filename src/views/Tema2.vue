@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.bg_img_2.bg_img_3
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
@@ -20,35 +20,36 @@
     .mb-3
     
     p.mb-3 La refrigeración y la congelación son métodos físicos que conservan frutas y verduras al mantenerlas a bajas temperaturas. La refrigeración (0–4 °C) disminuye la velocidad de crecimiento microbiano, mientras que la congelación (−18 °C o menos) detiene su actividad casi por completo. Ambos métodos ayudan a preservar el valor nutricional y las características sensoriales de los alimentos.
-
-    .row.justify-content-center.align-items-center.mb-3
-      .col-12.col-lg-4
-        .tarjeta.color-adicional-3
-          figure
-            img(src="@/assets/curso/temas/tema_2/img_2.png", class="img-fluid")
-          h5.mb-3.p-3.pb-0 VENTAJAS
-          ul.p-3.pt-2
-            li.mb-3
-              i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-              |   Mantienen frescura, textura y sabor natural.
-            li.mb-3
-              i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-              |  	No requieren aditivos químicos.
-            li.mb-3
-              i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-              |   Son útiles para productos como frutas escaldadas (fresas, moras entre otras) o vegetales pretratados (zanahorias y brócoli).
-      .col-12.col-lg-4
-        .tarjeta.color-secundario-10
-          figure
-            img(src="@/assets/curso/temas/tema_2/img_3.png", class="img-fluid")
-          h5.mb-3.p-3.pb-0 LIMITACIONES
-          ul.p-3.pt-2
-            li.mb-5
-              i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-              |   Requieren cadena de frío constante y suministro eléctrico estable.
-            li.mb-4
-              i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-              |  	La descongelación puede afectar la textura, especialmente en frutas blandas.
+    
+    .bg_img_2.mb-3
+      .row.justify-content-center.align-items-center.mb-3
+        .col-12.col-lg-4
+          .tarjeta.color-adicional-3
+            figure
+              img(src="@/assets/curso/temas/tema_2/img_2.png", class="img-fluid")
+            h5.mb-3.p-3.pb-0 VENTAJAS
+            ul.p-3.pt-2
+              li.mb-3
+                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
+                |   Mantienen frescura, textura y sabor natural.
+              li.mb-3
+                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
+                |  	No requieren aditivos químicos.
+              li.mb-3
+                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
+                |   Son útiles para productos como frutas escaldadas (fresas, moras entre otras) o vegetales pretratados (zanahorias y brócoli).
+        .col-12.col-lg-4
+          .tarjeta.color-secundario-10
+            figure
+              img(src="@/assets/curso/temas/tema_2/img_3.png", class="img-fluid")
+            h5.mb-3.p-3.pb-0 LIMITACIONES
+            ul.p-3.pt-2
+              li.mb-5
+                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
+                |   Requieren cadena de frío constante y suministro eléctrico estable.
+              li.mb-4
+                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
+                |  	La descongelación puede afectar la textura, especialmente en frutas blandas.
 
     separador
 
@@ -63,10 +64,10 @@
         figure
           img(src="@/assets/curso/temas/tema_2/img_4.png", class="img-fluid")
       .col-12.col-lg-8
-        .tarjeta.color-adicional-3
+        .tarjeta.color-adicional-4
           h5(style="background-color: #C7D5B6;").mb-3.p-4.pb-3.rounded-top-3 Deshidratación
           p.p-3.pb-4 Se puede realizar mediante el uso de energía solar directa, corrientes de aire caliente o tecnología de liofilización (congelación seguida de sublimación). Es ideal para frutas como mango, banano o piña. Además de conservar, facilita el almacenamiento y transporte por la reducción de peso y volumen.
-        .tarjeta.color-adicional-3
+        .tarjeta.color-adicional-4
           h5(style="background-color: #C7D5B6; ").mb-3.p-4.pb-3.rounded-top-3 Salazón
           p.p-3.pb-4 Consiste en aplicar sal seca o preparar una salmuera (agua con sal) donde se sumergen los alimentos. Este método es común en hortalizas y como tratamiento previo a fermentaciones.
     
@@ -80,36 +81,37 @@
 
     p.mb-3 Las conservas en azúcar y vinagre se basan en el principio de modificación del medio mediante solutos, lo que genera una presión osmótica o un pH desfavorable para los microorganismos.
     
-    .row.justify-content-center.align-items-center.mb-3
-      .col-12.col-lg-5
-        .tarjeta.color-secundario-10
-          h5(style="background-color: #FFCE79;").mb-3.p-4.pb-3.rounded-top-3 Conservas en azúcar
-          .row.justify-content-center.align-items-center.mb-3
-            .col-3.col-lg-3
-              figure.p-2.pb-4 
-                img(src="@/assets/curso/temas/tema_2/img_5.svg", class="img-fluid")
-            .col-12.col-lg-9
-              p.p-3.ps-0.pb-4 Se elaboran productos como mermeladas, jaleas y frutas en almíbar, mediante la cocción de frutas con azúcar hasta alcanzar una concentración superior al 60 %, lo que reduce la actividad del agua y aporta sabor, brillo y textura.
-      .col-12.col-lg-5
-        .tarjeta.color-secundario-10
-          h5(style="background-color: #FFCE79; ").mb-3.p-4.pb-3.rounded-top-3 Conservas en vinagre
-          .row.justify-content-center.align-items-center.mb-3
-            .col-3.col-lg-3
-              figure.p-2.pb-4 
-                img(src="@/assets/curso/temas/tema_2/img_6.svg", class="img-fluid")
-            .col-12.col-lg-9
-              p.p-3.ps-0.pb-4 Utilizan ácido acético (vinagre) en combinación con agua, sal, azúcar y especias para sumergir verduras como zanahoria, cebolla, pepino o coliflor. El pH final debe ser menor a 4.5 para garantizar la conservación.
+    .bg_img_3.mb-3
+      .row.justify-content-center.align-items-center.mb-3
+        .col-12.col-lg-5
+          .tarjeta.color-secundario-10
+            h5(style="background-color: #FFCE79;").mb-3.p-4.pb-3.rounded-top-3 Conservas en azúcar
+            .row.justify-content-center.align-items-center.mb-3
+              .col-3.col-lg-3
+                figure.p-2.pb-4 
+                  img(src="@/assets/curso/temas/tema_2/img_5.svg", class="img-fluid")
+              .col-12.col-lg-9
+                p.p-3.ps-0.pb-4 Se elaboran productos como mermeladas, jaleas y frutas en almíbar, mediante la cocción de frutas con azúcar hasta alcanzar una concentración superior al 60 %, lo que reduce la actividad del agua y aporta sabor, brillo y textura.
+        .col-12.col-lg-5
+          .tarjeta.color-secundario-10
+            h5(style="background-color: #FFCE79; ").mb-3.p-4.pb-3.rounded-top-3 Conservas en vinagre
+            .row.justify-content-center.align-items-center.mb-3
+              .col-3.col-lg-3
+                figure.p-2.pb-4 
+                  img(src="@/assets/curso/temas/tema_2/img_6.svg", class="img-fluid")
+              .col-12.col-lg-9
+                p.p-3.ps-0.pb-4 Utilizan ácido acético (vinagre) en combinación con agua, sal, azúcar y especias para sumergir verduras como zanahoria, cebolla, pepino o coliflor. El pH final debe ser menor a 4.5 para garantizar la conservación.
 
-      .col-12.col-lg-10
-        .cajon.color-acento-contenido-10-Mix-secundario.p-4
-          p En ambos casos, se recomienda realizar tratamiento térmico (pasteurización) posterior para asegurar la inocuidad microbiológica. Este método combina sabor, conservación y presentación atractiva del producto.
+        .col-12.col-lg-10
+          .cajon.color-acento-contenido-10-Mix-secundario.p-4
+            p En ambos casos, se recomienda realizar tratamiento térmico (pasteurización) posterior para asegurar la inocuidad microbiológica. Este método combina sabor, conservación y presentación atractiva del producto.
     
     separador
 
     #t_2_4.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 2.4 Esterilización térmica y uso de alcohol
     .mb-3
-
+    
     p.mb-3 Estos métodos se enfocan en la eliminación total de microorganismos o su inhibición prolongada mediante el uso de temperaturas elevadas o la incorporación de alcohol comestible.
     
     .row.justify-content-center.align-items-center.mb-3

@@ -6,45 +6,46 @@
       .titulo-principal__numero
         span 6
       h1 Preparación específica
-    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-3
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema_6/img_1.png')})`}"
-      )
-      .bloque-texto-g__texto.p-4
-        p.mb-0 La calidad de una conserva se logra cuando cada etapa del proceso, desde la selección de los ingredientes hasta su almacenamiento, se realiza de manera ordenada, higiénica y siguiendo criterios técnicos. Aplicar correctamente estos pasos garantiza un producto seguro, duradero y con buena aceptación. La preparación eficaz de conservas garantiza:
+    .bg_img_12.mb-3
+      .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require('@/assets/curso/temas/tema_6/img_1.png')})`}"
+        )
+        .bloque-texto-g__texto.p-4
+          p.mb-0 La calidad de una conserva se logra cuando cada etapa del proceso, desde la selección de los ingredientes hasta su almacenamiento, se realiza de manera ordenada, higiénica y siguiendo criterios técnicos. Aplicar correctamente estos pasos garantiza un producto seguro, duradero y con buena aceptación. La preparación eficaz de conservas garantiza:
+    
+      .row.justify-content-center.mb-3
+        .col-sm-6.col-lg-3.mb-4.mb-lg-0.h-100
+          .tarjeta--boton.color-acento-contenido-10-hover-cs-10.p-4.h-100.d-flex.flex-column
+            .row.justify-content-center.mb-3
+              .col-7
+                figure
+                  img(src='@/assets/curso/temas/tema_6/img_2.svg')
+            h3.text-center Seguridad microbiológica.
 
-    .row
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-acento-contenido.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/temas/tema_6/img_2.svg')
-          h3.text-center Seguridad microbiológica.
+        .col-sm-6.col-lg-3.mb-4.mb-lg-0.h-100
+          .tarjeta--boton.color-acento-contenido-10-hover-cs-10.p-4.h-100.d-flex.flex-column
+            .row.justify-content-center.mb-3
+              .col-7
+                figure
+                  img(src='@/assets/curso/temas/tema_6/img_3.svg')
+            h3.text-center Textura, color y sabor adecuados.
 
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-acento-contenido.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/temas/tema_6/img_3.svg')
-          h3.text-center Textura, color y sabor adecuados.
+        .col-sm-6.col-lg-3.mb-4.mb-sm-0.h-100
+          .tarjeta--boton.color-acento-contenido-10-hover-cs-10.p-4.h-100.d-flex.flex-column
+            .row.justify-content-center.mb-3
+              .col-7
+                figure
+                  img(src='@/assets/curso/temas/tema_6/img_4.svg')
+            h3.text-center Mayor vida útil.
 
-      .col-sm-6.col-lg-3.mb-4.mb-sm-0
-        .tarjeta--boton.color-acento-contenido.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/temas/tema_6/img_4.svg')
-          h3.text-center Mayor vida útil.
-
-      .col-sm-6.col-lg-3
-        .tarjeta--boton.color-acento-contenido.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/temas/tema_6/img_5.svg')
-          h3.text-center Aceptación por parte del consumidor o el mercado.
+        .col-sm-6.col-lg-3.h-100
+          .tarjeta--boton.color-acento-contenido-10-hover-cs-10.p-3.h-100.d-flex.flex-column
+            .row.justify-content-center.mb-3
+              .col-7
+                figure
+                  img(src='@/assets/curso/temas/tema_6/img_5.svg')
+            h3.text-center.mt-auto.flex.items-center.justify-center Aceptación por parte del consumidor o el mercado.
 
     separador
 
@@ -54,7 +55,7 @@
     figure.mb-3
       img(src='@/assets/curso/temas/tema_6/img_6.png')
     p.mb-3 Una conserva de calidad comienza con la elección adecuada de sus componentes. Estos ingredientes no solo aportan sabor y textura, sino que cumplen funciones específicas para asegurar la estabilidad y la inocuidad del producto. Entre los ingredientes claves se encuentran:   
-    .tarjeta.tarjeta--fondo__slider.p-4
+    .tarjeta.tarjeta--fondo__slider.p-4.mb-5
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center
           .col-12.col-lg-6.order-2.order-lg-1.mb-0
@@ -109,7 +110,8 @@
           .col-7.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_6/img_9.png', class="img-fluid")
-    .row.justify-content-center.align-items-center.mb-3
+    
+    .row.justify-content-center.align-items-center.mb-5
       .col-6.col-lg-1.order-2.order-lg-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/temas/tema_6/img_10.svg', class="img-fluid")
@@ -168,7 +170,7 @@
     .mb-3
 
     .row.justify-content-center.align-items-center.mb-3
-      .col-12.col-lg-7.order-2.order-lg-1.mb-lg-0.mb-3
+      .col-12.col-lg-8.order-2.order-lg-1.mb-lg-0.mb-3
         p La tecnología de conservación combinada, también conocida como <b>tecnología de obstáculos múltiples</b> <i>(Hurdle Technology)</i>, consiste en la aplicación de varias técnicas complementarias que, al actuar en conjunto, logran inhibir el desarrollo microbiano sin afectar las propiedades del alimento.
         .tarjeta.color-acento-contenido-10.p-3.justify-content-center.align-items-center.mb-0
           .row.justify-content-center.align-items-center.mb-0
@@ -177,17 +179,19 @@
                 img(src="@/assets/curso/temas/tema_6/img_11.svg", class="img-fluid")
             .col-12.col-lg-10
               p Este enfoque permite reducir la intensidad de los tratamientos individuales (por ejemplo, menor cocción, menos ácido, o menos azúcar), manteniendo o incluso mejorando:
-      .col-6.col-lg-5.order-1.order-lg-2
+      .col-6.col-lg-4.order-1.order-lg-2
         figure
           img(src='@/assets/curso/temas/tema_6/img_12.png', class="img-fluid")
-    .row.justify-content-center.align-items-center.mb-3
-      .col-12.col-lg-10.mb-3
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 1.
-          I(style="font-weight: normal;") Beneficios de la conservación de conservas
-        figure
-          img(src='@/assets/curso/temas/tema_6/img_13.svg')
-          figcaption <b>Fuente.</b> SENA, 2025
+    
+    .bg_img_13.mb-3
+      .row.justify-content-center.align-items-center.mb-3
+        .col-12.col-lg-10.mb-3
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 1.
+            I(style="font-weight: normal;") Beneficios de la conservación de conservas
+          figure
+            img(src='@/assets/curso/temas/tema_6/img_13.svg')
+            figcaption <b>Fuente.</b> SENA, 2025
     
     .row.justify-content-center.align-items-center.mb-5
       .col-6.col-lg-5
@@ -200,7 +204,7 @@
     
     .row.justify-content-center.align-items-center.mb-3
       .col-12.col-lg-7.order-2.order-lg-1.mb-lg-0.mb-3
-        LineaTiempoD.color-primario
+        LineaTiempoD.color-adicional-3
           .row(numero="1" titulo="Escaldado + salmuera + pasteurización")
             .col-md-6.mb-4.mb-md-0
               p.text-small Ideal para vegetales (zanahoria, coliflor, entre otros) que requieren firmeza y larga vida útil sin refrigeración.
@@ -220,7 +224,7 @@
       .col-12.col-lg-7.mb-lg-0.mb-3
         .row.justify-content-center.align-items-center.mb-0
           .col-lg-12.mb-3
-            .tarjeta.color-acento-contenido-10.p-3
+            .tarjeta.color-secundario-10.p-3
               .row.justify-content-center.align-items-center.mb-0
                 .col-4.col-lg-2.mb-lg-0.mb-3
                   figure
@@ -228,7 +232,7 @@
                 .col-12.col-lg-10
                   p Permite personalizar conservas según el mercado objetivo (gourmet, dietético o artesanal). 
           .col-lg-12.mb-3
-            .tarjeta.color-acento-contenido-10.p-3
+            .tarjeta.color-acento-contenido-20.p-3
               .row.justify-content-center.align-items-center.mb-0
                 .col-4.col-lg-2.mb-lg-0.mb-3
                   figure
@@ -236,7 +240,7 @@
                 .col-12.col-lg-10
                   p Reduce el uso de aditivos químicos sintéticos, siendo una opción más natural. 
           .col-lg-12.mb-3
-            .tarjeta.color-acento-contenido-10.p-3
+            .tarjeta.color-secundario-10.p-3
               .row.justify-content-center.align-items-center.mb-0
                 .col-4.col-lg-2.mb-lg-0.mb-3
                   figure

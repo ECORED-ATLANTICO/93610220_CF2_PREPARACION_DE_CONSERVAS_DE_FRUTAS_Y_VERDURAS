@@ -10,6 +10,8 @@
       &:last-child
         border-top-right-radius: 20px
         border-bottom-right-radius: 20px
+    &.color-secundario-20 
+      background-color: $color-secundario-20 
 
   &--blanca
     background-color: $white
@@ -24,6 +26,10 @@
     background-color: $color-adicional-5
     &:hover
       background-color: $color-adicional-6
+
+  &--fondo__slider
+    background-image: url('../assets/curso/temas/tema_4/img_29.png')
+    background-repeat: no-repeat
 
   &--boton
     border-radius: 20px
@@ -46,6 +52,13 @@
         background-color: $color-acento-contenido
         *
           color: textColor($color-acento-contenido)
+
+    &.color-acento-contenido-10-hover-cs-10
+      background-color: $color-acento-contenido-10
+      &:active, &:focus, &:hover
+        background-color: $color-secundario-10
+        *
+          color: textColor($color-secundario-10)
     &.color-acento-botones
       &:active, &:focus, &:hover
         background-color: $color-acento-botones
@@ -77,6 +90,14 @@
       background-color: lighten($color-secundario, 50%)
       color: textColor(lighten($color-secundario, 50%))
       border: solid 4px $color-secundario
+  &.color-secundario-5
+    background-color: $color-secundario-5
+    *
+      color: textColor($color-secundario-5)
+    &--borde
+      background-color: lighten($color-secundario-5, 50%)
+      color: textColor(lighten($color-secundario-5, 50%))
+      border: solid 4px $color-secundario-5
   &.color-secundario-10
     background-color: $color-secundario-10
     *
@@ -102,6 +123,14 @@
       background-color: lighten($color-acento-contenido-10, 50%)
       color: textColor(lighten($color-acento-contenido-10, 50%))
       border: solid 4px $color-acento-contenido-10
+  &.color-acento-contenido-20
+    background-color: $color-acento-contenido-20
+    *
+      color: textColor($color-acento-contenido-20)
+    &--borde
+      background-color: lighten($color-acento-contenido-20, 50%)
+      color: textColor(lighten($color-acento-contenido-20, 50%))
+      border: solid 4px $color-acento-contenido-20
   &.color-acento-botones
     background-color: $color-acento-botones
     *
@@ -118,6 +147,14 @@
       background-color: lighten($color-adicional-3, 50%)
       color: textColor(lighten($color-adicional-3, 50%))
       border: solid 4px $color-adicional-3
+  &.color-adicional-4
+    background-color: $color-adicional-4
+    *
+      color: textColor($color-adicional-4)
+    &--borde
+      background-color: lighten($color-adicional-4, 50%)
+      color: textColor(lighten($color-adicional-4, 50%))
+      border: solid 4px $color-adicional-4
   &.color-adicional-1
     background-color: $color-adicional-1
     *

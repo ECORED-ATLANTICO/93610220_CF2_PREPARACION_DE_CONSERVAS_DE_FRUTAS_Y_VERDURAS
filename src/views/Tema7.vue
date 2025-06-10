@@ -18,17 +18,18 @@
       .h2(data-aos="fade-right") 7.1 Buenas prácticas de manufactura (BPM)
     .mb-3
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-6.col-lg-4
-        figure
-          img(src='@/assets/curso/temas/tema_7/img_2.png', class="img-fluid")
-      .col-12.col-lg-8
-        .cajon.color-acento-contenido-10-Mix-secundario.p-4
-          p Las BPM son el conjunto de condiciones, normas y procedimientos que aseguran la higiene y el control del proceso de elaboración. Son el pilar de cualquier sistema de gestión de calidad en alimentos, y su cumplimiento es obligatorio según normativas como el Decreto 3075 de 1997 en Colombia y las directrices del Codex Alimentarius (FAO/OMS). Los aspectos clave que deben aplicarse en la producción de conservas son:
+    .bg_img_14.mb-3
+      .row.justify-content-center.align-items-center.mb-5
+        .col-6.col-lg-4
+          figure
+            img(src='@/assets/curso/temas/tema_7/img_2.png', class="img-fluid")
+        .col-12.col-lg-8
+          .cajon.color-secundario-b.p-4
+            p Las BPM son el conjunto de condiciones, normas y procedimientos que aseguran la higiene y el control del proceso de elaboración. Son el pilar de cualquier sistema de gestión de calidad en alimentos, y su cumplimiento es obligatorio según normativas como el Decreto 3075 de 1997 en Colombia y las directrices del Codex Alimentarius (FAO/OMS). Los aspectos clave que deben aplicarse en la producción de conservas son:
       
     .row.justify-content-center.align-items-center.mb-3
       .col-12.col-lg-7.order-2.order-lg-1.mb-lg-0.mb-3
-        LineaTiempoD.color-primario
+        LineaTiempoD.color-adicional-3
           .row(numero="1" titulo="Higiene personal")
             .col-md-6.mb-4.mb-md-0
               p.text-small Uso de uniforme limpio, lavado frecuente de manos, protección del cabello y uñas cortas. El manipulador es un factor crítico en la contaminación cruzada.
@@ -56,7 +57,7 @@
 
     p.mb-3 El sistema HACCP (Análisis de Peligros y Puntos Críticos de Control) permite identificar, evaluar y controlar los riesgos que afectan la inocuidad del alimento. Su enfoque preventivo es uno de los más utilizados en plantas de procesamiento de alimentos, tanto a nivel artesanal como industrial. El sistema HACCP identifica y monitorea etapas que presentan riesgos para la inocuidad del alimento:
     
-    .row.justify-content-center.mb-3
+    .row.justify-content-center.mb-5
       .col-xl-4.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
@@ -83,48 +84,48 @@
           .crd_hover_txt--body
             h4.mb-3.text-center Esterilización/ pasteurización
             p.mb-1.text-small Temperaturas demasiado bajas o tiempos cortos pueden no eliminar esporas o bacterias resiste
-
-    .tarjeta.color-acento-contenido-10.p-3.justify-content-center.align-items-center.mb-0
-      .row.justify-content-center.align-items-center.mb-0
-        .col-3.col-lg-1.mb-lg-0.mb-3
-          figure
-            img(src="@/assets/curso/temas/tema_7/img_7.svg", class="img-fluid")
-        .col-12.col-lg-11
-          p El sistema HACCP no solo identifica los riesgos que pueden afectar la inocuidad de los alimentos, sino que también establece acciones sistemáticas para prevenir, controlar y corregir cualquier desviación que pueda comprometer la seguridad del producto. Estas acciones se implementan de forma organizada a lo largo del proceso de producción y permiten garantizar que las conservas elaboradas cumplan con los estándares sanitarios exigidos. A continuación, se describen las principales actividades que forman parte de este sistema de control preventivo:
-    
-    .tarjeta.tarjeta--fondo__slider.p-4
-      SlyderA(tipo="b")
-        .row.justify-content-center.align-items-center
-          .col-12.col-lg-6.order-2.order-lg-1.mb-0
-            h2 Establecimiento de límites críticos por etapa
-            p Se definen los valores mínimos o máximos aceptables para cada variable del proceso (como temperatura, pH o tiempo de cocción) que aseguran que el peligro identificado esté bajo control. Estos límites son específicos y medibles, y si se sobrepasan, se considera que existe un riesgo para la inocuidad del alimento.
-          .col-7.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
+    .bg_img_15.mb-3
+      .tarjeta.color-secundario-5.p-3.justify-content-center.align-items-center.mb-5
+        .row.justify-content-center.align-items-center.mb-0
+          .col-3.col-lg-1.mb-lg-0.mb-3
             figure
-              img(src='@/assets/curso/temas/tema_7/img_8.png', class="img-fluid")
+              img(src="@/assets/curso/temas/tema_7/img_7.svg", class="img-fluid")
+          .col-12.col-lg-11
+            p El sistema HACCP no solo identifica los riesgos que pueden afectar la inocuidad de los alimentos, sino que también establece acciones sistemáticas para prevenir, controlar y corregir cualquier desviación que pueda comprometer la seguridad del producto. Estas acciones se implementan de forma organizada a lo largo del proceso de producción y permiten garantizar que las conservas elaboradas cumplan con los estándares sanitarios exigidos. A continuación, se describen las principales actividades que forman parte de este sistema de control preventivo:
 
-        .row.justify-content-center.align-items-center
-          .col-12.col-lg-6.order-2.order-lg-1.mb-0
-            h2 Monitoreo de variables (temperatura, pH y tiempos)
-            p Consiste en la observación o medición constante de los parámetros críticos durante el proceso, para asegurarse de que se mantengan dentro de los límites establecidos. El monitoreo puede ser manual o automatizado, y debe realizarse con frecuencia suficiente para detectar cualquier falla a tiempo. 
-          .col-7.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
-            figure
-              img(src='@/assets/curso/temas/tema_7/img_9.png', class="img-fluid")
+      .tarjeta.tarjeta--fondo__slider.p-4
+        SlyderA(tipo="b")
+          .row.justify-content-center.align-items-center
+            .col-12.col-lg-6.order-2.order-lg-1.mb-0
+              h2 Establecimiento de límites críticos por etapa
+              p Se definen los valores mínimos o máximos aceptables para cada variable del proceso (como temperatura, pH o tiempo de cocción) que aseguran que el peligro identificado esté bajo control. Estos límites son específicos y medibles, y si se sobrepasan, se considera que existe un riesgo para la inocuidad del alimento.
+            .col-7.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
+              figure
+                img(src='@/assets/curso/temas/tema_7/img_8.png', class="img-fluid")
 
-        .row.justify-content-center.align-items-center
-          .col-12.col-lg-6.order-2.order-lg-1.mb-0
-            h2 Registro de datos para trazabilidad
-            p Implica documentar los resultados del monitoreo y todas las acciones realizadas en cada etapa del proceso. Estos registros permiten hacer seguimiento al historial del producto, identificar su origen, comprobar el cumplimiento de las condiciones establecidas y responder rápidamente en caso de reclamos o retiros del mercado.
-          .col-7.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
-            figure
-              img(src='@/assets/curso/temas/tema_7/img_10.png', class="img-fluid")
+          .row.justify-content-center.align-items-center
+            .col-12.col-lg-6.order-2.order-lg-1.mb-0
+              h2 Monitoreo de variables (temperatura, pH y tiempos)
+              p Consiste en la observación o medición constante de los parámetros críticos durante el proceso, para asegurarse de que se mantengan dentro de los límites establecidos. El monitoreo puede ser manual o automatizado, y debe realizarse con frecuencia suficiente para detectar cualquier falla a tiempo. 
+            .col-7.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
+              figure
+                img(src='@/assets/curso/temas/tema_7/img_9.png', class="img-fluid")
 
-        .row.justify-content-center.align-items-center
-          .col-12.col-lg-6.order-2.order-lg-1.mb-0
-            h2 Aplicación de acciones correctivas en caso de desviaciones
-            p Cuando se detecta que un parámetro crítico ha salido de su límite, se deben aplicar medidas inmediatas para corregir el problema. Estas acciones pueden incluir la repetición del proceso, el aislamiento del lote afectado o su eliminación, según el caso. Además, se debe investigar la causa para evitar que vuelva a ocurrir.
-          .col-7.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
-            figure
-              img(src='@/assets/curso/temas/tema_7/img_11.png', class="img-fluid")
+          .row.justify-content-center.align-items-center
+            .col-12.col-lg-6.order-2.order-lg-1.mb-0
+              h2 Registro de datos para trazabilidad
+              p Implica documentar los resultados del monitoreo y todas las acciones realizadas en cada etapa del proceso. Estos registros permiten hacer seguimiento al historial del producto, identificar su origen, comprobar el cumplimiento de las condiciones establecidas y responder rápidamente en caso de reclamos o retiros del mercado.
+            .col-7.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
+              figure
+                img(src='@/assets/curso/temas/tema_7/img_10.png', class="img-fluid")
+
+          .row.justify-content-center.align-items-center
+            .col-12.col-lg-6.order-2.order-lg-1.mb-0
+              h2 Aplicación de acciones correctivas en caso de desviaciones
+              p Cuando se detecta que un parámetro crítico ha salido de su límite, se deben aplicar medidas inmediatas para corregir el problema. Estas acciones pueden incluir la repetición del proceso, el aislamiento del lote afectado o su eliminación, según el caso. Además, se debe investigar la causa para evitar que vuelva a ocurrir.
+            .col-7.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
+              figure
+                img(src='@/assets/curso/temas/tema_7/img_11.png', class="img-fluid")
 
     separador
 

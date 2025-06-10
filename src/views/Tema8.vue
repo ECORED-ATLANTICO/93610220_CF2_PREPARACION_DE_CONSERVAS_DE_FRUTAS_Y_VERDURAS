@@ -9,7 +9,7 @@
       
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-8
-        .cajon.color-acento-contenido-10-Mix-secundario.p-4
+        .cajon.color-secundario-b.p-4
           p Incorporar valor añadido a los productos en conserva es una estrategia fundamental para destacarlos en mercados especializados y lograr una mayor rentabilidad. Esta valorización no solo responde a las exigencias del consumidor moderno, que busca calidad, salud y sostenibilidad, sino que también abre la puerta a nuevas oportunidades comerciales. El valor agregado puede manifestarse a través de la implementación de tecnologías avanzadas, la utilización de ingredientes únicos o la creación de empaques ecológicos y funcionales.
       .col-6.col-lg-4
         figure
@@ -21,31 +21,32 @@
       .h2(data-aos="fade-right") 8.1 Aportes de valor al producto de conserva
     .mb-3
     
-    p.mb-3 Existen diversas vías para enriquecer el atractivo y la calidad de las conservas:
+    .bg_img_16.mb-3
+      p.mb-3 Existen diversas vías para enriquecer el atractivo y la calidad de las conservas:
 
-    .row.justify-content-center.align-items-center.mb-5  
-      .col-4.col-lg-4.mb-lg-0.mb-3.ps-3
-        figure
-          img(src="@/assets/curso/temas/tema_8/img_2.png", class="img-fluid")           
-      .col-12.col-lg-8.p-0
-        .custom-slider.p-4.p-sm-3
-          SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-3.rounded-3
-            .tarjeta.color-adicional-2
-              .tarjeta--18
-              .tarjeta--slider__title.mb-3 Incorporación  de frutas autóctonas o exóticas
-              .tarjeta--slider__content Utilizar variedades locales o poco comunes aporta exclusividad y autenticidad, además de promover el desarrollo regional y la biodiversidad.
-            .tarjeta.color-adicional-2
-              .tarjeta--19
-              .tarjeta--slider__title.mb-3 Embalajes ecoamigables
-              .tarjeta--slider__content Optar por envases biodegradables, compostables o reutilizables no solo reduce el impacto ambiental, sino que también conecta con el consumidor consciente, mejorando la imagen de marca.
-            .tarjeta.color-adicional-2
-              .tarjeta--20
-              .tarjeta--slider__title.mb-3 Atributos funcionales añadidos
-              .tarjeta--slider__content La inclusión de componentes beneficiosos para la salud, como antioxidantes naturales, versiones sin azúcar o con ingredientes bajos en sodio, amplía el público objetivo, especialmente entre quienes buscan opciones saludables.
-            .tarjeta.color-adicional-2
-              .tarjeta--21
-              .tarjeta--slider__title.mb-3 Presentaciones diferenciadas
-              .tarjeta--slider__content Formatos gourmet, porciones listas para consumir o empaques con diseños atractivos y prácticos aumentan la conveniencia y la percepción de calidad.
+      .row.justify-content-center.align-items-center.mb-5  
+        .col-4.col-lg-4.mb-lg-0.mb-3.ps-3
+          figure
+            img(src="@/assets/curso/temas/tema_8/img_2.png", class="img-fluid")           
+        .col-12.col-lg-8.p-0
+          .custom-slider.p-4.p-sm-3
+            SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-3.rounded-3
+              .tarjeta.color-adicional-2
+                .tarjeta--18
+                .tarjeta--slider__title.mb-3 Incorporación  de frutas autóctonas o exóticas
+                .tarjeta--slider__content Utilizar variedades locales o poco comunes aporta exclusividad y autenticidad, además de promover el desarrollo regional y la biodiversidad.
+              .tarjeta.color-adicional-2
+                .tarjeta--19
+                .tarjeta--slider__title.mb-3 Embalajes ecoamigables
+                .tarjeta--slider__content Optar por envases biodegradables, compostables o reutilizables no solo reduce el impacto ambiental, sino que también conecta con el consumidor consciente, mejorando la imagen de marca.
+              .tarjeta.color-adicional-2
+                .tarjeta--20
+                .tarjeta--slider__title.mb-3 Atributos funcionales añadidos
+                .tarjeta--slider__content La inclusión de componentes beneficiosos para la salud, como antioxidantes naturales, versiones sin azúcar o con ingredientes bajos en sodio, amplía el público objetivo, especialmente entre quienes buscan opciones saludables.
+              .tarjeta.color-adicional-2
+                .tarjeta--21
+                .tarjeta--slider__title.mb-3 Presentaciones diferenciadas
+                .tarjeta--slider__content Formatos gourmet, porciones listas para consumir o empaques con diseños atractivos y prácticos aumentan la conveniencia y la percepción de calidad.
 
     separador
 
@@ -56,7 +57,7 @@
     p.mb-3 La innovación es un motor clave para mantenerse competitivo y relevante en el mercado. Algunas propuestas aplicables incluyen:
 
     .tarjeta--container.row.mb-5
-      .col-md.color-acento-contenido.p-5
+      .col-md.color-secundario-20.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
@@ -72,7 +73,7 @@
           
         h2.text-center Combinaciones creativas de sabores 
         p La mezcla de frutas con especias o ingredientes aromáticos, como piña con jengibre o mango con ají, aporta perfiles sensoriales únicos que pueden diferenciar la oferta.
-      .col-md.color-acento-contenido.p-5
+      .col-md.color-secundario-20.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
@@ -93,7 +94,7 @@
      
     .row.justify-content-center.align-items-center.mb-3
       .col-12.col-lg-7.order-2.order-lg-1.mb-lg-0.mb-3
-        LineaTiempoD.color-primario
+        LineaTiempoD.color-adicional-3
           .row(numero="1" titulo="Nombre comercial del producto")
             .col-md-6.mb-4.mb-md-0
               p.text-small El nombre del producto debe ser claramente visible, legible y representar fielmente el contenido. Es fundamental que sea atractivo y fácil de identificar para el consumidor. Un buen nombre facilita el reconocimiento de marca y puede incluir descriptores que indiquen la variedad o características especiales, como “Conserva de mango orgánico” o “Mermelada gourmet sin azúcar”.

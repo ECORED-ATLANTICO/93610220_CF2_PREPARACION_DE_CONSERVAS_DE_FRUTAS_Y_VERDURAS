@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.bg_img_1
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
@@ -15,7 +15,7 @@
     separador
 
     #t_1_1.titulo-segundo.color-acento-contenido
-      .h2(data-aos="fade-right") 1.1.	Principios básicos y objetivos
+      .h2(data-aos="fade-right") 1.1 Principios básicos y objetivos
     .mb-3
     .row.justify-content-center.align-items-center.mb-3
       .col-12.col-lg-8.mb-3.order-2.order-lg-1
@@ -132,34 +132,35 @@
 
     p.mb-3 Existen diversos factores que influyen en la eficacia y selección del método de conservación de frutas y verduras. Su adecuada evaluación permite elegir el proceso más efectivo para garantizar productos seguros, estables y de calidad:
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-lg-7.mb-0.order-2.order-lg-1.p-0
-        .custom-slider.p-5.p-sm-3
-          SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-2.rounded-3
-            .tarjeta.color-adicional-2
-              .tarjeta--1
-              .tarjeta--slider__title.mb-3 Tipo de producto
-              .tarjeta--slider__content Cada fruta o verdura presenta características diferentes en cuanto a pH, contenido de agua, firmeza, carga microbiana, y respiración poscosecha.
-            .tarjeta.color-adicional-2
-              .tarjeta--2
-              .tarjeta--slider__title.mb-3  Condición inicial
-              .tarjeta--slider__content El estado de madurez, integridad, y limpieza del producto antes del procesamiento influye directamente en la calidad de la conserva.
-            .tarjeta.color-adicional-2
-              .tarjeta--3
-              .tarjeta--slider__title.mb-3 Técnica de conservación
-                .tarjeta--slider__content La selección del método adecuado (frío, calor, sal, azúcar y vinagre) depende de las propiedades fisicoquímicas del producto y del resultado deseado.
-            .tarjeta.color-adicional-2
-              .tarjeta--4
-              .tarjeta--slider__title.mb-3 Material de empaque
-              .tarjeta--slider__content Establece El envase debe ser apto para contacto con alimentos, hermético, resistente al calor (en caso de tratamientos térmicos), y libre de defectos.
-            .tarjeta.color-adicional-2
-              .tarjeta--5
-              .tarjeta--slider__title.mb-3 Condiciones de almacenamiento
-              .tarjeta--slider__content Establece Factores como temperatura, humedad, exposición a la luz y manipulación posterior inciden en la duración efectiva del alimento conservado.
+    .bg_img_1.mb-3
+      .row.justify-content-center.align-items-center.mb-5
+        .col-12.col-lg-7.mb-0.order-2.order-lg-1.p-0
+          .custom-slider.p-5.p-sm-3
+            SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-2.rounded-3
+              .tarjeta.color-adicional-2
+                .tarjeta--1
+                .tarjeta--slider__title.mb-3 Tipo de producto
+                .tarjeta--slider__content Cada fruta o verdura presenta características diferentes en cuanto a pH, contenido de agua, firmeza, carga microbiana, y respiración poscosecha.
+              .tarjeta.color-adicional-2
+                .tarjeta--2
+                .tarjeta--slider__title.mb-3  Condición inicial
+                .tarjeta--slider__content El estado de madurez, integridad, y limpieza del producto antes del procesamiento influye directamente en la calidad de la conserva.
+              .tarjeta.color-adicional-2
+                .tarjeta--3
+                .tarjeta--slider__title.mb-3 Técnica de conservación
+                  .tarjeta--slider__content La selección del método adecuado (frío, calor, sal, azúcar y vinagre) depende de las propiedades fisicoquímicas del producto y del resultado deseado.
+              .tarjeta.color-adicional-2
+                .tarjeta--4
+                .tarjeta--slider__title.mb-3 Material de empaque
+                .tarjeta--slider__content Establece El envase debe ser apto para contacto con alimentos, hermético, resistente al calor (en caso de tratamientos térmicos), y libre de defectos.
+              .tarjeta.color-adicional-2
+                .tarjeta--5
+                .tarjeta--slider__title.mb-3 Condiciones de almacenamiento
+                .tarjeta--slider__content Establece Factores como temperatura, humedad, exposición a la luz y manipulación posterior inciden en la duración efectiva del alimento conservado.
         
-      .col-5.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
-        figure
-          img(src="@/assets/curso/temas/tema_1/img_18.png", class="img-fluid")           
+        .col-5.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
+          figure
+            img(src="@/assets/curso/temas/tema_1/img_18.png", class="img-fluid")           
     
     .bloque-texto-t.justify-content-center.align-items-center.mb-0
       .bloque-texto-t__img.mb-0

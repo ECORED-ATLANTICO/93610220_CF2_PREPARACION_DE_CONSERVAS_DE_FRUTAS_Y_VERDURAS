@@ -5,12 +5,13 @@
       width: 50px
       height: 50px
       background-color: $white
+      color: white
       border-radius: 50%
       background-image: url('../assets/bullets/arrow.svg')
       background-repeat: no-repeat
       background-size: 16px 24px
       background-position: center
-      border: 1px solid $color-sistema-e
+      border: 1px solid $white
       top: 50%
       z-index: 10000
       opacity: 0.7
@@ -35,11 +36,11 @@
       cursor: pointer
       opacity: 0.7
       transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out
-      border: 1px solid $color-sistema-e
+      border: 1px solid $color-adicional-7
 
       &--active
-        background-color: $color-sistema-b
-        border-color: $color-sistema-b
+        background-color: $color-adicional-7
+        border-color: $color-adicional-7
         opacity: 1
 
       &:hover
@@ -78,12 +79,16 @@
     .slyder-a
       &__btn
         &--sigt
+          background-color: $color-acento-botones
+          color: white
           transform: rotate(-90deg)
           right: 15px
           .indicador__container
             transform: rotate(90deg)
 
         &--atrs
+          background-color: $color-acento-botones
+          color: white
           transform: rotate(90deg)
           left: 15px
 

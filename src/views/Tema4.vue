@@ -23,75 +23,78 @@
     .bloque-texto-t.justify-content-center.align-items-center.mb-5
       .bloque-texto-t__img.mb-0
         img(src='@/assets/curso/temas/tema_4/img_2.png')
-      .bloque-texto-t__texto.color-acento-contenido-10.col-10.mb-0
+      .bloque-texto-t__texto.color-secundario-10.col-10.mb-0
         p.mb-0 La pasteurización consiste en someter los alimentos a temperaturas moderadas, generalmente entre 60 y 95°C, durante un tiempo controlado, con el fin de destruir microorganismos patógenos y reducir la carga microbiana sin comprometer las propiedades nutricionales y sensoriales del producto (Holdsworth & Simpson, 2008).
-    .row.justify-content-center.align-items-center.mb-3
-      .col-12.col-lg-8
-        p En el caso de frutas en almíbar, por ejemplo, se emplea una temperatura de 85°C durante 20 minutos, mientras que para mermeladas o jaleas el tiempo es menor, gracias a su alta concentración de azúcar. Este proceso se realiza comúnmente mediante baño María, hornos o túneles térmicos, y debe ejecutarse justo después del envasado para evitar la recontaminación. Un control riguroso de la temperatura interna del alimento es indispensable para asegurar la efectividad del tratamiento. 
-      .col-12.col-lg-4
-        figure
-          img(src="@/assets/curso/temas/tema_4/img_3.png", class="img-fluid")
+    .bg_img_6.mb-3
+      .row.justify-content-center.align-items-center.mb-3
+        .col-12.col-lg-8
+          p.mb-0 En el caso de frutas en almíbar, por ejemplo, se emplea una temperatura de 85°C durante 20 minutos, mientras que para mermeladas o jaleas el tiempo es menor, gracias a su alta concentración de azúcar. Este proceso se realiza comúnmente mediante baño María, hornos o túneles térmicos, y debe ejecutarse justo después del envasado para evitar la recontaminación. Un control riguroso de la temperatura interna del alimento es indispensable para asegurar la efectividad del tratamiento. 
+        .col-12.col-lg-4
+          figure
+            img(src="@/assets/curso/temas/tema_4/img_3.png", class="img-fluid")
     
     h5.mb-3 ETAPAS DE LA PASTEURIZACIÓN EN CONSERVAS
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-lg-8.mb-0.order-2.order-lg-1.p-0
-        .custom-slider.p-4.p-sm-3
-          SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-3.rounded-3
-            .tarjeta.color-adicional-2
-              .tarjeta--6
-              .tarjeta--slider__title.mb-3 <b>Preparación del alimento</b>
-              .tarjeta--slider__content Seleccionar frutas o verduras limpias, maduras y sanas. Pelar, trocear o procesar según la receta.
-            .tarjeta.color-adicional-2
-              .tarjeta--7
-              .tarjeta--slider__title.mb-3 <b>Llenado del envase</b>
-              .tarjeta--slider__content Colocar el alimento en frascos de vidrio o envases adecuados, añadiendo el líquido de cobertura caliente (almíbar ó salmuera).
-            .tarjeta.color-adicional-2
-              .tarjeta--8
-              .tarjeta--slider__title.mb-3  <b>Cierre hermético</b>
-              .tarjeta--slider__content Sellar con tapa metálica de seguridad o sistema de cierre compatible. Verificar que no haya fugas.
-            .tarjeta.color-adicional-2
-              .tarjeta--9
-              .tarjeta--slider__title.mb-3 <b>Pasteurización</b>
-              .tarjeta--slider__content Colocar los frascos en baño María o túnel térmico.
-              ul.ps-3
-                li
-                  i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                  | 	Frutas en almíbar: 85°C x 20 min
-                li
-                  i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                  | 	Jaleas: 80°C x 10 min
-                li
-                  i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                  | 	Encurtidos: 90°C x 15 min
-            .tarjeta.color-adicional-2
-              .tarjeta--10
-              .tarjeta--slider__title.mb-3 <b>Enfriamiento gradual</b>
-              .tarjeta--slider__content Retirar los frascos y dejar enfriar sobre superficie limpia. Evitar corrientes de aire frío para prevenir choques térmicos.
-            .tarjeta.color-adicional-2
-              .tarjeta--11
-              .tarjeta--slider__title.mb-3 <b>Revisión del vacío</b>
-              .tarjeta--slider__content Verificar que la tapa se haya hundido correctamente (indicador de vacío). No debe hacer clic al presionar.
-            .tarjeta.color-adicional-2
-              .tarjeta--12
-              .tarjeta--slider__title.mb-3 <b>Etiquetado y almacenamiento</b>
-              .tarjeta--slider__content Colocar etiquetas con fecha, lote y nombre del producto. Almacenar en un lugar fresco, seco y oscuro.
-        
-      .col-4.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3.ps-3
-        figure
-          img(src="@/assets/curso/temas/tema_4/img_11.png", class="img-fluid")           
+    .bg_img_7.mb-3
+      .row.justify-content-center.align-items-center.mb-5
+        .col-12.col-lg-8.mb-0.order-2.order-lg-1.p-0
+          .custom-slider.p-4.p-sm-3
+            SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-3.rounded-3
+              .tarjeta.color-adicional-2
+                .tarjeta--6
+                .tarjeta--slider__title.mb-3 <b>Preparación del alimento</b>
+                .tarjeta--slider__content Seleccionar frutas o verduras limpias, maduras y sanas. Pelar, trocear o procesar según la receta.
+              .tarjeta.color-adicional-2
+                .tarjeta--7
+                .tarjeta--slider__title.mb-3 <b>Llenado del envase</b>
+                .tarjeta--slider__content Colocar el alimento en frascos de vidrio o envases adecuados, añadiendo el líquido de cobertura caliente (almíbar ó salmuera).
+              .tarjeta.color-adicional-2
+                .tarjeta--8
+                .tarjeta--slider__title.mb-3  <b>Cierre hermético</b>
+                .tarjeta--slider__content Sellar con tapa metálica de seguridad o sistema de cierre compatible. Verificar que no haya fugas.
+              .tarjeta.color-adicional-2
+                .tarjeta--9
+                .tarjeta--slider__title.mb-3 <b>Pasteurización</b>
+                .tarjeta--slider__content Colocar los frascos en baño María o túnel térmico.
+                ul.ps-3
+                  li
+                    i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
+                    | 	Frutas en almíbar: 85°C x 20 min
+                  li
+                    i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
+                    | 	Jaleas: 80°C x 10 min
+                  li
+                    i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
+                    | 	Encurtidos: 90°C x 15 min
+              .tarjeta.color-adicional-2
+                .tarjeta--10
+                .tarjeta--slider__title.mb-3 <b>Enfriamiento gradual</b>
+                .tarjeta--slider__content Retirar los frascos y dejar enfriar sobre superficie limpia. Evitar corrientes de aire frío para prevenir choques térmicos.
+              .tarjeta.color-adicional-2
+                .tarjeta--11
+                .tarjeta--slider__title.mb-3 <b>Revisión del vacío</b>
+                .tarjeta--slider__content Verificar que la tapa se haya hundido correctamente (indicador de vacío). No debe hacer clic al presionar.
+              .tarjeta.color-adicional-2
+                .tarjeta--12
+                .tarjeta--slider__title.mb-3 <b>Etiquetado y almacenamiento</b>
+                .tarjeta--slider__content Colocar etiquetas con fecha, lote y nombre del producto. Almacenar en un lugar fresco, seco y oscuro.
+
+        .col-4.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3.ps-3
+          figure
+            img(src="@/assets/curso/temas/tema_4/img_11.png", class="img-fluid")           
 
     separador
 
     #t_4_2.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 4.2 Esterilización y control microbiológico
     .mb-3  
+
+    .bg_img_8.mb-3
+      img.mb-3(src="@/assets/curso/temas/tema_4/img_12.png", class="img-fluid")
     
-    img.mb-3(src="@/assets/curso/temas/tema_4/img_12.png", class="img-fluid")
-    
-    p.mb-3 La esterilización térmica es un proceso de conservación que aplica temperaturas superiores a 115°C con el objetivo de destruir microorganismos altamente resistentes al calor, incluidas sus formas esporuladas. Este tratamiento es especialmente crucial para alimentos de baja acidez (pH mayor a 4.5), donde existe riesgo de proliferación de patógenos peligrosos como Clostridium botulinum, responsable del botulismo, una intoxicación severa de origen alimentario (López-Malo et al., 2021).
-    p.mb-3 Entre los aspectos técnicos de la esterilización térmica se encuentran:
-    .tarjeta.tarjeta--fondo__slider.p-4
+      p.mb-3 La esterilización térmica es un proceso de conservación que aplica temperaturas superiores a 115°C con el objetivo de destruir microorganismos altamente resistentes al calor, incluidas sus formas esporuladas. Este tratamiento es especialmente crucial para alimentos de baja acidez (pH mayor a 4.5), donde existe riesgo de proliferación de patógenos peligrosos como Clostridium botulinum, responsable del botulismo, una intoxicación severa de origen alimentario (López-Malo et al., 2021).
+      p.mb-3 Entre los aspectos técnicos de la esterilización térmica se encuentran:
+    .tarjeta.tarjeta--fondo__slider
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center
           .col-12.col-lg-6.order-2.order-lg-1.mb-0
@@ -157,7 +160,7 @@
     
     p.mb-3 La limpieza y desinfección de los envases son pasos esenciales para garantizar la inocuidad del producto en conserva. El uso de frascos de vidrio, tapas metálicas o plásticas exige un procedimiento riguroso para evitar contaminación cruzada. Pasos sugeridos para higienización:
     
-    TabsB.color-acento-contenido.mb-5
+    TabsB.color-secundario-60.mb-5
       .py-4.py-md-5(
         titulo="Lavado inicial" 
         :icono="require('@/assets/curso/temas/tema_4/img_16.svg')"
@@ -166,16 +169,16 @@
             .col-12.col-lg-6.order-2.order-lg-1.mb-3.mb-lg-0
               h5.mb-3 Lavado inicial
               ul
-                li
+                li.mb-3
                   i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
                   |  	Utiliza agua potable caliente para remover residuos visibles.
-                li
+                li.mb-3
                   i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
                   |  	Aplica detergente neutro, preferiblemente sin fragancia ni colorante, para evitar contaminaciones químicas.
-                li
+                li.mb-3
                   i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
                   |  	Usa esponjas suaves o cepillos exclusivos para utensilios de cocina.
-                li
+                li.mb-0
                   i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
                   |  	Asegúrate de alcanzar todas las superficies del frasco: boca, rosca, fondo y paredes.
             .col-6.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0
@@ -189,10 +192,10 @@
             .col-12.col-lg-6.order-2.order-lg-1.mb-3.mb-lg-0
               h5.mb-3 Enjuague y revisión
               ul
-                li
+                li.mb-3
                   i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
                   | 	Enjuaga varias veces con agua potable para eliminar por completo el detergente.
-                li
+                li.mb-0
                   i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
                   | 	Revisa cada envase: no deben tener fisuras, grietas o abolladuras. Las tapas deben cerrar de forma hermética y sin deformaciones.
             .col-6.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0
@@ -206,13 +209,13 @@
             .col-12.col-lg-6.order-2.order-lg-1.mb-3.mb-lg-0
               h5.mb-3 Esterilización
               ul
-                li
+                li.mb-3
                   i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
                   | 	Opción 1: inmersión en agua hirviendo durante 15-30 minutos. Utiliza una olla con rejilla para evitar el contacto directo con la base.
-                li
+                li.mb-3
                   i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
                   | 	Opción 2: horno seco a 120°C por 10-15 minutos. Evita el sobrecalentamiento para no dañar los frascos o tapas plásticas.
-                li
+                li.mb-0
                   i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
                   | 	Usa pinzas desinfectadas para manipular los envases calientes.
             .col-6.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0
@@ -226,13 +229,13 @@
             .col-12.col-lg-6.order-2.order-lg-1.mb-3.mb-lg-0
               h5.mb-3 Secado
               ul
-                li
+                li.mb-3
                   i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
                   | 	Coloca los envases sobre una superficie limpia y desinfectada, preferiblemente una rejilla de acero inoxidable o bandeja de vidrio.
-                li
+                li.mb-3
                   i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
                   | 	Deja que se sequen al aire completamente. No uses paños, ya que pueden reintroducir microorganismos.
-                li
+                li.mb-0
                   i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
                   | 	No manipules los envases una vez secos hasta el momento del llenado.
             .col-6.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0
