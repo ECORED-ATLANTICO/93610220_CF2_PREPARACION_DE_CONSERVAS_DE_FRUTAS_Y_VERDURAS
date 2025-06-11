@@ -96,7 +96,7 @@
       p.mb-3 La esterilización térmica es un proceso de conservación que aplica temperaturas superiores a 115°C con el objetivo de destruir microorganismos altamente resistentes al calor, incluidas sus formas esporuladas. Este tratamiento es especialmente crucial para alimentos de baja acidez (pH mayor a 4.5), donde existe riesgo de proliferación de patógenos peligrosos como Clostridium botulinum, responsable del botulismo, una intoxicación severa de origen alimentario (López-Malo et al., 2021).
       p.mb-3 Entre los aspectos técnicos de la esterilización térmica se encuentran:
     
-    .tarjeta.tarjeta--fondo__slider.p-4.mb-0.pb-0
+    .tarjeta.tarjeta--fondo__slider.p-4.mb-0
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center
           .col-12.col-lg-6.order-2.order-lg-1.mb-0
