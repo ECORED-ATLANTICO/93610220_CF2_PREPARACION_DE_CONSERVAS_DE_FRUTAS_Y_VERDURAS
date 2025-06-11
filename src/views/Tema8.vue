@@ -7,13 +7,13 @@
         span 8
       h1 Valor agregado, mejora e innovación
       
-    .row.justify-content-center.align-items-center.mb-5
+    .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-8
         .cajon.color-secundario-b.p-4
           p Incorporar valor añadido a los productos en conserva es una estrategia fundamental para destacarlos en mercados especializados y lograr una mayor rentabilidad. Esta valorización no solo responde a las exigencias del consumidor moderno, que busca calidad, salud y sostenibilidad, sino que también abre la puerta a nuevas oportunidades comerciales. El valor agregado puede manifestarse a través de la implementación de tecnologías avanzadas, la utilización de ingredientes únicos o la creación de empaques ecológicos y funcionales.
-      .col-6.col-lg-4
-        figure
-          img(src='@/assets/curso/temas/tema_8/img_1.png', class="img-fluid")
+      .col-6.col-lg-4.d-flex
+        figure.w-100.d-flex.flex-column
+          img(src='@/assets/curso/temas/tema_8/img_1.png', class="img-fluid").height-100
 
     separador
 
@@ -92,7 +92,7 @@
     p.mb-3  Para garantizar la seguridad y confianza del consumidor, los productos en conserva deben cumplir con las normativas vigentes, tanto nacionales como internacionales. En Colombia, la Resolución 2674 de 2013 del INVIMA establece los requisitos obligatorios para estos productos, alineados con los lineamientos del Codex Alimentarius.
     p.mb-3 Los elementos esenciales del etiquetado incluyen:
      
-    .row.justify-content-center.align-items-center.mb-3
+    .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
       .col-12.col-lg-7.order-2.order-lg-1.mb-lg-0.mb-3
         LineaTiempoD.color-adicional-3
           .row(numero="1" titulo="Nombre comercial del producto")
@@ -110,9 +110,9 @@
           .row(numero="5" titulo="Fecha de vencimiento o consumo preferente")
             .col-md-6.mb-4.mb-md-0
               p.text-small Esta fecha indica el periodo durante el cual el producto mantiene sus características óptimas de calidad y seguridad para el consumo. Es fundamental para evitar riesgos alimentarios y garantizar una experiencia satisfactoria al consumidor.
-      .col-7.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
-        figure
-         img(src='@/assets/curso/temas/tema_8/img_10.png', class="img-fluid")
+      .col-7.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
+        figure.w-100.d-flex.flex-column
+         img(src='@/assets/curso/temas/tema_8/img_10.png', class="img-fluid").height-100
 </template>
 
 <script>

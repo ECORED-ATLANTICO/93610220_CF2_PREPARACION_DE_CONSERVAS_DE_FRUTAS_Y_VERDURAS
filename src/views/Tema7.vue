@@ -19,15 +19,15 @@
     .mb-3
 
     .bg_img_14.mb-3
-      .row.justify-content-center.align-items-center.mb-5
-        .col-6.col-lg-4.mb-lg-0.mb-3
-          figure
-            img(src='@/assets/curso/temas/tema_7/img_2.png', class="img-fluid")
+      .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-5
+        .col-6.col-lg-4.mb-lg-0.mb-3.d-flex
+          figure.w-100.d-flex.flex-column
+            img(src='@/assets/curso/temas/tema_7/img_2.png', class="img-fluid").height-100
         .col-12.col-lg-8
           .cajon.color-secundario-b.p-4
             p Las BPM son el conjunto de condiciones, normas y procedimientos que aseguran la higiene y el control del proceso de elaboración. Son el pilar de cualquier sistema de gestión de calidad en alimentos, y su cumplimiento es obligatorio según normativas como el Decreto 3075 de 1997 en Colombia y las directrices del Codex Alimentarius (FAO/OMS). Los aspectos clave que deben aplicarse en la producción de conservas son:
       
-    .row.justify-content-center.align-items-center.mb-3
+    .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
       .col-12.col-lg-7.order-2.order-lg-1.mb-lg-0.mb-3
         LineaTiempoD.color-adicional-3
           .row(numero="1" titulo="Higiene personal")
@@ -45,9 +45,9 @@
           .row(numero="5" titulo="Capacitación continua del personal")
             .col-md-6.mb-4.mb-md-0
               p.text-small El equipo debe conocer las prácticas de higiene, control de calidad y manipulación segura para garantizar un entorno productivo confiable.
-      .col-7.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
-        figure
-         img(src='@/assets/curso/temas/tema_7/img_3.png', class="img-fluid")
+      .col-7.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
+        figure.w-100.d-flex.flex-column
+         img(src='@/assets/curso/temas/tema_7/img_3.png', class="img-fluid").height-100
 
     separador
 
@@ -137,21 +137,21 @@
     
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-adicional-5-6")
       div(titulo="Análisis  fisicoquímico del producto").p-5.pb-0.pt-0
-        p.mb-3 <b>pH (acidez): </b> indica el nivel de acidez del alimento. Es un parámetro clave para definir si se requiere pasteurización (productos ácidos) o esterilización (productos de baja acidez), ya que afecta directamente la seguridad microbiológica.
-        .row.justify-content-center.align-items-center.mb-3
-          .col-3.col-lg-5
-            figure
-              img(src="@/assets/curso/temas/tema_7/img_12.png", class="img-fluid")
+        .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
+          .col-3.col-lg-5.d-flex
+            figure.w-100.d-flex.flex-column
+              img(src="@/assets/curso/temas/tema_7/img_12.png", class="img-fluid").height-100
           .col-12.col-lg-7
+            p.mb-3 <b>pH (acidez): </b> indica el nivel de acidez del alimento. Es un parámetro clave para definir si se requiere pasteurización (productos ácidos) o esterilización (productos de baja acidez), ya que afecta directamente la seguridad microbiológica.
             p.mb-3 <b>Brix (azúcares solubles):</b> mide la cantidad de sólidos solubles presentes, especialmente azúcares. Se controla en productos dulces como mermeladas, jaleas y almíbares, lo que permite verificar la concentración deseada.
             p.mb-3 <b>Aw (actividad de agua):</b> refleja cuánta agua disponible existe en el alimento para el crecimiento microbiano. Cuanto más bajo sea el valor de Aw, mayor será la estabilidad y vida útil del producto.
             p.mb-3 <b>Viscosidad:</b> se refiere a la consistencia o espesor del producto. Es especialmente importante en jaleas y mermeladas, ya que influye tanto en su textura como en la percepción de calidad por parte del consumidor.
       div(titulo="Evaluación sensorial del producto").p-5.pb-0.pt-0
         p.mb-3 Esta prueba se realiza con <b>paneles entrenados o consumidores</b>, según el objetivo (control de calidad o validación de mercado).
-        .row.justify-content-center.align-items-center.mb-3
-          .col-3.col-lg-5
-            figure.p-2.pt-0.ps-0.pb-4 
-              img(src="@/assets/curso/temas/tema_7/img_13.png", class="img-fluid")
+        .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
+          .col-3.col-lg-5.d-flex
+            figure.w-100.d-flex.flex-column.p-2.pt-0.ps-0.pb-4 
+              img(src="@/assets/curso/temas/tema_7/img_13.png", class="img-fluid").height-100
           .col-12.col-lg-7
             p.mb-3 <b>Aspectos evaluados:</b>
             ul.mb-3
