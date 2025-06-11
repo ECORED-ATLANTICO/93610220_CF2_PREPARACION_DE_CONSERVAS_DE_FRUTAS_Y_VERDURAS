@@ -6,11 +6,11 @@
       .titulo-principal__numero
         span 7
       h1 Calidad e inocuidad
-    figure.mb-3
+    figure.mb-4
       img(src="@/assets/curso/temas/tema_7/img_1.png", class="img-fluid")
 
-    p En la elaboración de conservas, la calidad se alcanza cuando el producto final cumple con los requisitos de inocuidad, mantiene su estabilidad durante el almacenamiento, conserva sus características sensoriales (como sabor, color y textura) y se ajusta a las normas legales vigentes.
-    p Para lograrlo, es necesario aplicar buenas prácticas de manufactura, controles preventivos en puntos críticos del proceso y evaluaciones fisicoquímicas y sensoriales, que aseguren la calidad desde la materia prima hasta el producto terminado.
+    p.mb-3 En la elaboración de conservas, la calidad se alcanza cuando el producto final cumple con los requisitos de inocuidad, mantiene su estabilidad durante el almacenamiento, conserva sus características sensoriales (como sabor, color y textura) y se ajusta a las normas legales vigentes.
+    p.mb-0 Para lograrlo, es necesario aplicar buenas prácticas de manufactura, controles preventivos en puntos críticos del proceso y evaluaciones fisicoquímicas y sensoriales, que aseguren la calidad desde la materia prima hasta el producto terminado.
 
     separador
 
@@ -20,7 +20,7 @@
 
     .bg_img_14.mb-3
       .row.justify-content-center.align-items-center.mb-5
-        .col-6.col-lg-4
+        .col-6.col-lg-4.mb-lg-0.mb-3
           figure
             img(src='@/assets/curso/temas/tema_7/img_2.png', class="img-fluid")
         .col-12.col-lg-8

@@ -30,16 +30,16 @@
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-adicional-5-6")
       div(titulo="FRUTAS EN ALMÍBAR").p-5.pb-0.pt-0
         p.mb-3 Este tipo de conserva se caracteriza por mantener trozos enteros o fraccionados de fruta suspendidos en un jarabe dulce. Se busca conservar la estructura de la fruta y mejorar su sabor y aspecto. Pasos para la elaboración:
-        .row.justify-content-center.align-items-center.mb-3
-          .col-3.col-lg-5
-            figure
-              img(src="@/assets/curso/temas/tema_5/img_3.png", class="img-fluid")
+        .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-4
+          .col-7.col-lg-5.mb-lg-0.mb-3.d-flex
+            figure.w-100.d-flex.flex-column
+              img(src="@/assets/curso/temas/tema_5/img_3.png", class="img-fluid").height-100
           .col-12.col-lg-7
             p.mb-3 <b>1. Selección de materia prima:</b> frutas como duraznos, peras, piña o mango deben estar maduras pero firmes, sin golpes ni signos de deterioro.
             p.mb-3 <b>2. Lavado y troceado:</b> las frutas se lavan con agua potable y se cortan en mitades, rodajas o cubos según la presentación deseada.
-            p.mb-3 <b>3. Escaldado:</b> tratamiento térmico breve (1-5 minutos) en agua caliente para ablandar ligeramente la fruta, intensificar el color y reducir microorganismos.
-        .row.justify-content-center.align-items-center.mb-3
-          .col-12.col-lg-7
+            p.mb-0 <b>3. Escaldado:</b> tratamiento térmico breve (1-5 minutos) en agua caliente para ablandar ligeramente la fruta, intensificar el color y reducir microorganismos.
+        .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-0
+          .col-12.col-lg-7.order-2.order-lg-1
             p.mb-3 <b>4. Preparación del almíbar: </b> el jarabe se elabora disolviendo azúcar en agua caliente. Su concentración varía según el tipo de producto final:
             ul.mb-3
               li
@@ -52,15 +52,15 @@
                 i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
                 | 	<b>Espeso:</b> 50% o más
             p.mb-3 <b>5.	Llenado y tratamiento térmico:</b> se introducen las frutas en frascos de vidrio esterilizados, se cubren con almíbar caliente y se sellan. Finalmente, se realiza pasteurización al baño maría para asegurar la conservación.
-          .col-3.col-lg-5
-            figure.p-2.pt-0.ps-0.pb-4 
-              img(src="@/assets/curso/temas/tema_5/img_4.png", class="img-fluid")
+          .col-7.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
+            figure.w-100.d-flex.flex-column.p-2.pt-0.ps-0.pb-4 
+              img(src="@/assets/curso/temas/tema_5/img_4.png", class="img-fluid").height-100
       div(titulo="MERMELADAS").p-5.pb-0.pt-0
         p.mb-3 La mermelada es una mezcla semisólida de frutas troceadas y cocidas con azúcar hasta lograr una textura untable. Su preparación implica concentración, lo que reduce el contenido de agua y estabiliza el producto. Pasos clave:
-        .row.justify-content-center.align-items-center.mb-3
-          .col-3.col-lg-5
-            figure.p-2.pt-0.ps-0.pb-4 
-              img(src="@/assets/curso/temas/tema_5/img_5.png", class="img-fluid")
+        .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-4
+          .col-7.col-lg-5.mb-lg-0.mb-3.d-flex
+            figure.w-100.d-flex.flex-column.p-2.pt-0.ps-0.pb-4 
+              img(src="@/assets/curso/temas/tema_5/img_5.png", class="img-fluid").height-100
           .col-12.col-lg-7
             p.mb-3 <b>1. Preparación de la fruta:</b> lavar, pelar y picar frutas como fresa, mora, guayaba, o mango. Algunas pueden requerir eliminación de semillas.
             p.mb-3 <b>2. Adición de azúcar y cocción:</b> se añade azúcar en una proporción del 60-65% respecto al peso de la fruta. La mezcla se cocina a fuego medio con agitación constante.
@@ -72,8 +72,8 @@
               li
                 i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
                 | 	El ácido cítrico (limón) mejora la gelificación y conservación.
-        .row.justify-content-center.align-items-center.mb-3
-          .col-12.col-lg-7
+        .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-0
+          .col-12.col-lg-7.order-2.order-lg-1
             p.mb-3 <b>4. Control del punto de mermelada:</b>
             p.mb-3 se verifica con pruebas tradicionales:
             ul.mb-3
@@ -84,15 +84,15 @@
                 i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
                 | 	Gota en agua fría (forma una bola y no se desintegra)
             p.mb-3 <b>5. Envasado y pasteurización:</b> se llena en caliente en envases esterilizados, se sella y se pasteuriza para prolongar la vida útil.
-          .col-3.col-lg-5
-            figure.p-2.pt-0.ps-0.pb-4 
-              img(src="@/assets/curso/temas/tema_5/img_6.png", class="img-fluid")
+          .col-7.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
+            figure.w-100.d-flex.flex-column.p-2.pt-0.ps-0.pb-4 
+              img(src="@/assets/curso/temas/tema_5/img_6.png", class="img-fluid").height-100
       div(titulo="JALEAS").p-5.pb-0.pt-0
         p.mb-3 La jalea es una conserva transparente y gelatinosa, elaborada a partir del jugo filtrado de frutas ricas en pectina. Su consistencia y apariencia cristalina la diferencian de las mermeladas. Pasos del proceso:
-        .row.justify-content-center.align-items-center.mb-3
-          .col-3.col-lg-5
-            figure.p-2.pt-0.ps-0.pb-4 
-              img(src="@/assets/curso/temas/tema_5/img_7.png", class="img-fluid")
+        .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
+          .col-7.col-lg-5.mb-lg-0.mb-3.d-flex
+            figure.w-100.d-flex.flex-column.p-2.pt-0.ps-0.pb-4 
+              img(src="@/assets/curso/temas/tema_5/img_7.png", class="img-fluid").height-100
           .col-12.col-lg-7
             p.mb-3 <b>1. Obtención del jugo:</b> las frutas (manzana, guayaba, uva, membrillo, entre otras) se cocinan con poca agua y luego se filtra el jugo con un paño de muselina sin presionar, para evitar turbidez.
             p.mb-3 <b>2. Formulación:</b> se mezcla el jugo con azúcar (proporción 1:1) y ácido cítrico si es necesario para mejorar la gelificación.
@@ -105,23 +105,23 @@
       .h2(data-aos="fade-right") 5.2 Vegetales en salmuera, encurtidos y agridulces
     .mb-3
 
-    .row.justify-content-center.align-items-center.mb-3
-      .col-12.col-lg-7
+    .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
+      .col-12.col-lg-7.order-2.order-lg-1
         p.mb-3 La conservación de vegetales mediante soluciones ácidas o salinas es una práctica ancestral que, con el paso del tiempo, ha evolucionado incorporando criterios de inocuidad, valor nutricional y presentación comercial. Este tipo de conservas permite preservar la textura, el color y el sabor característico de los vegetales, además de prolongar su vida útil sin necesidad de refrigeración constante.
         p Dependiendo del líquido de cobertura y los ingredientes adicionales, se distinguen tres métodos principales: salmuera, encurtido y agridulce. Cada uno responde a un perfil de sabor y una aplicación diferente en la gastronomía y el mercado.
-      .col-3.col-lg-5
-        figure.p-2.pt-0.ps-0.pb-4 
-          img(src="@/assets/curso/temas/tema_5/img_8.png", class="img-fluid")
+      .col-7.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
+        figure.w-100.d-flex.flex-column
+          img(src="@/assets/curso/temas/tema_5/img_8.png", class="img-fluid").height-100
     
     h3(data-aos='zoom-in-right').mb-4
       span.label-title.label-title--1 VEGETALES EN SALMUERA
     
     p.mb-3 La salmuera es una solución acuosa de sal común (cloruro de sodio) que inhibe el desarrollo de microorganismos mediante la reducción de la actividad del agua. Este método conserva la frescura de los vegetales y mejora su textura gracias al efecto osmótico de la sal. 
     p.mb-3 Pasos para la elaboración:
-    .row.justify-content-center.align-items-center.mb-3
-      .col-6.col-lg-4
-        figure.p-2.pt-0.ps-0.pb-4 
-          img(src="@/assets/curso/temas/tema_5/img_9.png", class="img-fluid")
+    .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
+      .col-6.col-lg-4.mb-lg-0.mb-3.d-flex
+        figure.w-100.d-flex.flex-column
+          img(src="@/assets/curso/temas/tema_5/img_9.png", class="img-fluid").height-100
       .col-12.col-lg-8
         ul.lista-ul--numerada
           li
@@ -149,7 +149,7 @@
       span.label-title.label-title--1 ENCURTIDOS
 
     p.mb-3 El encurtido consiste en la conservación de vegetales en vinagre, un ácido natural que actúa como barrera contra bacterias y hongos. Además de prolongar la vida útil, esta técnica proporciona un sabor ácido característico y permite la incorporación de especias para personalizar el perfil aromático del producto.
-    p.mb-3 Pasos para la elaboración:
+    p.mb-5 Pasos para la elaboración:
     
     .bg_img_10.mb-3
       .row.justify-content-center.align-items-center.mb-5
@@ -174,15 +174,15 @@
 
         .col-4.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3.ps-3
           figure
-            img(src="@/assets/curso/temas/tema_5/img_15.png", class="img-fluid")           
+            img(src="@/assets/curso/temas/tema_5/img_15.png", class="img-fluid").height-100          
 
     h3(data-aos='zoom-in-right').mb-4
       span.label-title.label-title--1 VEGETALES AGRIDULCES
 
     p.mb-3 Las conservas agridulces combinan azúcar, sal y vinagre para lograr un balance de sabores que resulta agradable al paladar. Este método es muy apreciado en cocina gourmet y platos étnicos por su perfil aromático y su versatilidad.
     p.mb-3 Pasos para la elaboración:
-    .row.justify-content-center.align-items-center.mb-3
-      .col-12.col-lg-8
+    .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
+      .col-12.col-lg-8.mb-lg-3.mb-0.order-2.order-lg-1
         ul.lista-ul--numerada
           li
             span.numero 1
@@ -199,9 +199,9 @@
           li
             span.numero 5  
             |  Pasteurización y enfriado controlado.
-      .col-6.col-lg-4
-        figure.p-2.pt-0.ps-0.pb-4 
-          img(src="@/assets/curso/temas/tema_5/img_16.png", class="img-fluid")
+      .col-6.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
+        figure.w-100.d-flex.flex-column
+          img(src="@/assets/curso/temas/tema_5/img_16.png", class="img-fluid").height-100
     
     p.mb-0 Resultado esperado: productos con sabor contrastante, aptos para acompañar platos salados o servir como aperitivos.
 
@@ -211,15 +211,15 @@
       .h2(data-aos="fade-right") 5.3 Líquidos de cobertura
     .mb-3
     
-    .row.justify-content-center.align-items-center.mb-3
-      .col-6.col-lg-4
-        figure.p-2.pt-0.ps-0.pb-4 
-          img(src="@/assets/curso/temas/tema_5/img_17.png", class="img-fluid")
+    .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-5
+      .col-6.col-lg-4.mb-lg-0.mb-3.d-flex
+        figure.w-100.d-flex.flex-column
+          img(src="@/assets/curso/temas/tema_5/img_17.png", class="img-fluid").height-100
       .col-12.col-lg-8
         p.mb-3 Los líquidos de cobertura desempeñan un papel fundamental en la conservación de frutas y verduras procesadas. Estas soluciones líquidas no solo cumplen una función técnica al proteger el alimento del deterioro, sino que también aportan cualidades organolépticas (sabor, aroma y textura) que enriquecen la experiencia del consumidor final. 
         p Son aplicados inmediatamente después del llenado del envase, en estado caliente, para facilitar la expulsión del oxígeno, garantizar un sellado hermético y permitir una adecuada distribución del líquido entre los sólidos. Entre sus funciones principales:
-    .row.justify-content-center.align-items-center.mb-3
-      .col-12.col-lg-8
+    .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
+      .col-12.col-lg-8.order-2.order-lg-1
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-adicional-5-6")
           div(titulo="Desplazar el oxígeno del envase")
             ul
@@ -252,11 +252,11 @@
                 i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
                 |  	Según el tipo de líquido utilizado, se crea un ambiente ácido, salino o con baja actividad de agua, que limita la proliferación de microorganismos patógenos y alteradores.
 
-      .col-5.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
-        figure
-          img(src="@/assets/curso/temas/tema_5/img_18.png", class="img-fluid")           
+      .col-5.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
+        figure.w-100.d-flex.flex-column
+          img(src="@/assets/curso/temas/tema_5/img_18.png", class="img-fluid").height-100  
     .row.justify-content-center.align-items-center.mb-3
-      .col-4.col-lg-1
+      .col-4.col-lg-1.mb-lg-0.mb-3
         figure
           img(src="@/assets/curso/temas/tema_5/img_19.svg", class="img-fluid")
       .col-12.col-lg-11

@@ -14,38 +14,42 @@
         .bloque-texto-g__texto.p-4
           p.mb-0 La calidad de una conserva se logra cuando cada etapa del proceso, desde la selección de los ingredientes hasta su almacenamiento, se realiza de manera ordenada, higiénica y siguiendo criterios técnicos. Aplicar correctamente estos pasos garantiza un producto seguro, duradero y con buena aceptación. La preparación eficaz de conservas garantiza:
 
-      .row.justify-content-center.mb-3
-        .col-sm-6.col-lg-3.mb-4.mb-lg-0.height-100
-          .tarjeta--boton.color-acento-contenido-10-hover-cs-10.p-4.height-100.d-flex.flex-column
-            .row.justify-content-center.mb-3
-              .col-7
-                figure
-                  img(src='@/assets/curso/temas/tema_6/img_2.svg')
-            h3.text-center Seguridad microbiológica.
+      .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
+        .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
+          .w-100.d-flex.flex-column
+            .tarjeta--boton.color-acento-contenido-10-hover-cs-10.p-4.height-100
+              .row.justify-content-center.mb-3
+                .col-7
+                  figure
+                    img(src='@/assets/curso/temas/tema_6/img_2.svg')
+              h3.text-center Seguridad microbiológica.
 
-        .col-sm-6.col-lg-3.mb-4.mb-lg-0.height-100
-          .tarjeta--boton.color-acento-contenido-10-hover-cs-10.p-4.height-100.d-flex.flex-column
-            .row.justify-content-center.mb-3
-              .col-7
-                figure
-                  img(src='@/assets/curso/temas/tema_6/img_3.svg')
-            h3.text-center Textura, color y sabor adecuados.
+        .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
+          .w-100.d-flex.flex-column
+            .tarjeta--boton.color-acento-contenido-10-hover-cs-10.p-4.height-100
+              .row.justify-content-center.mb-3
+                .col-7
+                  figure
+                    img(src='@/assets/curso/temas/tema_6/img_3.svg')
+              h3.text-center Textura, color y sabor adecuados.
 
-        .col-sm-6.col-lg-3.mb-4.mb-sm-0.height-100
-          .tarjeta--boton.color-acento-contenido-10-hover-cs-10.p-4.height-100.d-flex.flex-column
-            .row.justify-content-center.mb-3
-              .col-7
-                figure
-                  img(src='@/assets/curso/temas/tema_6/img_4.svg')
-            h3.text-center Mayor vida útil.
+        .col-sm-6.col-lg-3.mb-4.mb-sm-0.d-flex
+          .w-100.d-flex.flex-column
+            .tarjeta--boton.color-acento-contenido-10-hover-cs-10.p-4.height-100
+              .row.justify-content-center.mb-3
+                .col-7
+                  figure
+                    img(src='@/assets/curso/temas/tema_6/img_4.svg')
+              h3.text-center Mayor vida útil.
 
-        .col-sm-6.col-lg-3.height-100
-          .tarjeta--boton.color-acento-contenido-10-hover-cs-10.p-3.height-100.d-flex.flex-column
-            .row.justify-content-center.mb-3
-              .col-7
-                figure
-                  img(src='@/assets/curso/temas/tema_6/img_5.svg')
-            h3.text-center.mt-auto.flex.items-center.justify-center Aceptación por parte del consumidor o el mercado.
+        .col-sm-6.col-lg-3.d-flex
+          .w-100.d-flex.flex-column
+            .tarjeta--boton.color-acento-contenido-10-hover-cs-10.p-3.height-100
+              .row.justify-content-center.mb-3
+                .col-7
+                  figure
+                    img(src='@/assets/curso/temas/tema_6/img_5.svg')
+              h3.text-center.mt-auto.flex.items-center.justify-center Aceptación por parte del consumidor o el mercado.
 
     separador
 
@@ -113,10 +117,10 @@
               img(src='@/assets/curso/temas/tema_6/img_9.png', class="img-fluid")
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-6.col-lg-1.order-2.order-lg-1.mb-lg-0.mb-3
+      .col-3.col-lg-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/temas/tema_6/img_10.svg', class="img-fluid")
-      .col-12.col-lg-11.order-1.order-lg-2
+      .col-12.col-lg-11
         p Cada conserva de calidad es el resultado de una secuencia de técnicas aplicadas con precisión. Estas acciones, desde el lavado inicial hasta el almacenamiento final, permiten proteger el alimento, conservar sus propiedades y asegurar su inocuidad. A continuación, se presentan las etapas esenciales que conforman el proceso de elaboración, todas con un propósito específico en la estabilidad y seguridad del producto.
 
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-adicional-5-6")
@@ -175,12 +179,12 @@
         p La tecnología de conservación combinada, también conocida como <b>tecnología de obstáculos múltiples</b> <i>(Hurdle Technology)</i>, consiste en la aplicación de varias técnicas complementarias que, al actuar en conjunto, logran inhibir el desarrollo microbiano sin afectar las propiedades del alimento.
         .tarjeta.color-acento-contenido-10.p-3.justify-content-center.align-items-center.mb-0
           .row.justify-content-center.align-items-center.mb-0
-            .col-4.col-lg-2.mb-lg-0.mb-3
+            .col-3.col-lg-2.mb-lg-0.mb-3
               figure
                 img(src="@/assets/curso/temas/tema_6/img_11.svg", class="img-fluid")
             .col-12.col-lg-10
               p Este enfoque permite reducir la intensidad de los tratamientos individuales (por ejemplo, menor cocción, menos ácido, o menos azúcar), manteniendo o incluso mejorando:
-      .col-6.col-lg-4.order-1.order-lg-2
+      .col-6.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/temas/tema_6/img_12.png', class="img-fluid")
 
@@ -195,7 +199,7 @@
             figcaption <b>Fuente.</b> SENA, 2025
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-6.col-lg-5
+      .col-6.col-lg-5.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/temas/tema_6/img_14.png', class="img-fluid")
       .col-12.col-lg-7
@@ -222,7 +226,7 @@
     p.mb-3 El uso de técnicas combinadas no solo mejora la conservación, sino que también ofrece ventajas importantes en términos de calidad, adaptabilidad y seguridad. Entre sus principales beneficios se destacan:
 
     .row.justify-content-center.align-items-center.mb-0
-      .col-12.col-lg-7.mb-lg-0.mb-3
+      .col-12.col-lg-7.mb-lg-0.mb-3.order-2.order-lg-1
         .row.justify-content-center.align-items-center.mb-0
           .col-lg-12.mb-3
             .tarjeta.color-secundario-10.p-3
@@ -248,7 +252,7 @@
                     img(src="@/assets/curso/temas/tema_6/img_18.svg", class="img-fluid")
                 .col-12.col-lg-10
                   p Favorece el cumplimiento de estándares de calidad e inocuidad internacionales.
-      .col-6.col-lg-5.mb-lg-0.mb-3
+      .col-6.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
         figure
           img(src="@/assets/curso/temas/tema_6/img_19.png", class="img-fluid")
 
