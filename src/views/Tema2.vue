@@ -18,38 +18,40 @@
     #t_2_1.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 2.1 Refrigeración y congelación
     .mb-3
-    
+
     p.mb-3 La refrigeración y la congelación son métodos físicos que conservan frutas y verduras al mantenerlas a bajas temperaturas. La refrigeración (0–4 °C) disminuye la velocidad de crecimiento microbiano, mientras que la congelación (−18 °C o menos) detiene su actividad casi por completo. Ambos métodos ayudan a preservar el valor nutricional y las características sensoriales de los alimentos.
-    
+
     .bg_img_2.mb-3
-      .row.justify-content-center.align-items-center.mb-3
-        .col-12.col-lg-4
-          .tarjeta.color-adicional-3
-            figure
-              img(src="@/assets/curso/temas/tema_2/img_2.png", class="img-fluid")
-            h5.mb-3.p-3.pb-0 VENTAJAS
-            ul.p-3.pt-2
-              li.mb-3
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                |   Mantienen frescura, textura y sabor natural.
-              li.mb-3
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                |  	No requieren aditivos químicos.
-              li.mb-3
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                |   Son útiles para productos como frutas escaldadas (fresas, moras entre otras) o vegetales pretratados (zanahorias y brócoli).
-        .col-12.col-lg-4
-          .tarjeta.color-secundario-10
-            figure
-              img(src="@/assets/curso/temas/tema_2/img_3.png", class="img-fluid")
-            h5.mb-3.p-3.pb-0 LIMITACIONES
-            ul.p-3.pt-2
-              li.mb-5
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                |   Requieren cadena de frío constante y suministro eléctrico estable.
-              li.mb-4
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                |  	La descongelación puede afectar la textura, especialmente en frutas blandas.
+      .row.d-flex.align-items-stretch.justify-content-center.mb-3
+        .col-12.col-lg-4.mb-lg-0.mb-3.d-flex
+          .w-100.d-flex.flex-column
+            .tarjeta.color-adicional-3.mb-0.height-100
+              figure
+                img(src="@/assets/curso/temas/tema_2/img_2.png", class="img-fluid")
+              h5.mb-3.p-3.pb-0 VENTAJAS
+              ul.p-3.pt-2.mb-0
+                li.mb-3
+                  i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
+                  |   Mantienen frescura, textura y sabor natural.
+                li.mb-3
+                  i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
+                  |  	No requieren aditivos químicos.
+                li.mb-0
+                  i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
+                  |   Son útiles para productos como frutas escaldadas (fresas, moras entre otras) o vegetales pretratados (zanahorias y brócoli).
+        .col-12.col-lg-4.d-flex
+          .w-100.d-flex.flex-column
+            .tarjeta.color-secundario-10.mb-0.height-100
+              figure
+                img(src="@/assets/curso/temas/tema_2/img_3.png", class="img-fluid")
+              h5.mb-3.p-3.pb-0 LIMITACIONES
+              ul.p-3.pt-2.mb-0
+                li.mb-3
+                  i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
+                  |   Requieren cadena de frío constante y suministro eléctrico estable.
+                li.mb-0
+                  i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
+                  |  	La descongelación puede afectar la textura, especialmente en frutas blandas.
 
     separador
 
@@ -58,7 +60,7 @@
     .mb-3
 
     p.mb-3 La deshidratación y la salazón son métodos tradicionales que conservan los alimentos al reducir el contenido de agua, lo que impide el desarrollo de la mayoría de los microorganismos, ya que éstos requieren humedad para sobrevivir y reproducirse.
-    
+
     .row.justify-content-center.align-items-center.mb-3
       .col-6.col-lg-4
         figure
@@ -70,7 +72,7 @@
         .tarjeta.color-adicional-4
           h5(style="background-color: #C7D5B6; ").mb-3.p-4.pb-3.rounded-top-3 Salazón
           p.p-3.pb-4 Consiste en aplicar sal seca o preparar una salmuera (agua con sal) donde se sumergen los alimentos. Este método es común en hortalizas y como tratamiento previo a fermentaciones.
-    
+
     p.mb-0 Ambos métodos han sido usados desde la antigüedad y, aunque pueden reducir el contenido nutricional, son eficaces y accesibles.
 
     separador
@@ -80,7 +82,7 @@
     .mb-3
 
     p.mb-3 Las conservas en azúcar y vinagre se basan en el principio de modificación del medio mediante solutos, lo que genera una presión osmótica o un pH desfavorable para los microorganismos.
-    
+
     .bg_img_3.mb-3
       .row.justify-content-center.align-items-center.mb-3
         .col-12.col-lg-5
@@ -105,15 +107,15 @@
         .col-12.col-lg-10
           .cajon.color-acento-contenido-10-Mix-secundario.p-4
             p En ambos casos, se recomienda realizar tratamiento térmico (pasteurización) posterior para asegurar la inocuidad microbiológica. Este método combina sabor, conservación y presentación atractiva del producto.
-    
+
     separador
 
     #t_2_4.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 2.4 Esterilización térmica y uso de alcohol
     .mb-3
-    
+
     p.mb-3 Estos métodos se enfocan en la eliminación total de microorganismos o su inhibición prolongada mediante el uso de temperaturas elevadas o la incorporación de alcohol comestible.
-    
+
     .row.justify-content-center.align-items-center.mb-3
       .col-6.col-lg-4
         figure.p-2.pb-4 

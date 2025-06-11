@@ -17,29 +17,31 @@
     #t_1_1.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 1.1 Principios básicos y objetivos
     .mb-3
-    .row.justify-content-center.align-items-center.mb-3
-      .col-12.col-lg-8.mb-3.order-2.order-lg-1
+    .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
+      .col-12.col-lg-8.mb-lg-3.mb-0.order-2.order-lg-1
         p.mb-3 La conservación de alimentos, y en particular de frutas y verduras, se basa en principios fisicoquímicos y microbiológicos que buscan mantener las características nutricionales, sensoriales y de inocuidad del producto durante un tiempo determinado. 
         .tarjeta.color-acento-contenido-10
-          .row.justify-content-center.align-items-center.mb-0.p-0
-            .col-4.col-lg-1
-              img(src="@/assets/curso/temas/tema_1/img_2.svg", class="img-fluid")
+          .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-0.p-0
+            .col-3.col-lg-1.mb-lg-0.mb-3.d-flex
+              figure.w-100.d-flex.flex-column
+                img(src="@/assets/curso/temas/tema_1/img_2.svg", class="img-fluid").height-100
             .col-12.col-lg-11
-              p La finalidad de aplicar técnicas de conservación es ralentizar o detener el deterioro causado por microorganismos, enzimas propias del alimento, reacciones químicas (como la oxidación), o factores ambientales como temperatura, luz y humedad.
-      .col-6.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
-        figure.mb-0
-          img.mb-0(src="@/assets/curso/temas/tema_1/img_3.png", class="img-fluid")
-    
+              p.mb-0 La finalidad de aplicar técnicas de conservación es ralentizar o detener el deterioro causado por microorganismos, enzimas propias del alimento, reacciones químicas (como la oxidación), o factores ambientales como temperatura, luz y humedad.
+      .col-6.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
+        figure.w-100.d-flex.flex-column
+          img.mb-0(src="@/assets/curso/temas/tema_1/img_3.png", class="img-fluid").height-100
+
     ImagenInfografica.time-line-info.pulso-invertido.mb-5
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/tema_1/img_4.svg')
+          img(src='@/assets/curso/temas/tema_1/img_4.svg', class="img-fluid")
 
       .tarjeta.color-adicional-1(x="24.5%" y="26.4%" numero="")
         .h5.mb-3 Inhibición microbiana
-        .d-flex.flex-md-row.flex-column
-          .flex-shrink-0.mb-md-0.mb-3.d-flex.align-items-center.justify-content-center
-            img(src="@/assets/curso/temas/tema_1/img_5.png", class="img-fluid")
+        .d-flex.flex-md-row.flex-column.align-items-stretch.justify-content-center.align-items-center
+          .flex-shrink-0.mb-md-0.mb-3.d-flex
+            figure.w-100.d-flex.flex-column
+              img(src="@/assets/curso/temas/tema_1/img_5.png", class="img-fluid").height-100
           .flex-grow-1.ms-md-3.ms-0
             p.mb-3 Detiene el crecimiento de levaduras, mohos y bacterias usando calor, frío, sal, azúcar o vinagre.
             p 
@@ -48,9 +50,10 @@
 
       .tarjeta.color-adicional-1(x="30.9%" y="50%" numero="")
         .h5.mb-2 Inactivación enzimática
-        .d-flex.flex-md-row.flex-column
-          .flex-shrink-0.mb-md-0.mb-3.d-flex.align-items-center.justify-content-center
-            img(src="@/assets/curso/temas/tema_1/img_6.png", class="img-fluid")
+        .d-flex.flex-md-row.flex-column.align-items-stretch.justify-content-center.align-items-center
+          .flex-shrink-0.mb-md-0.mb-3.d-flex
+            figure.w-100.d-flex.flex-column
+              img(src="@/assets/curso/temas/tema_1/img_6.png", class="img-fluid").height-100
           .flex-grow-1.ms-md-3.ms-0
             p.mb-3 Detiene la acción de enzimas que provocan pardeamiento o cambios de sabor.
             p 
@@ -59,45 +62,49 @@
 
       .tarjeta.color-adicional-1(x="39.3%" y="78%" numero="")
         .h5.mb-2 Preservación de nutrientes
-        .d-flex.flex-md-row.flex-column
-          .flex-shrink-0.mb-md-0.mb-3.d-flex.align-items-center.justify-content-center
-            img(src="@/assets/curso/temas/tema_1/img_7.png", class="img-fluid")
-          
+        .d-flex.flex-md-row.flex-column.align-items-stretch.justify-content-center.align-items-center
+          .flex-shrink-0.mb-md-0.mb-3.d-flex
+            figure.w-100.d-flex.flex-column
+              img(src="@/assets/curso/temas/tema_1/img_7.png", class="img-fluid").height-100
+
           .flex-grow-1.ms-md-3.ms-0
             p.mb-3 Reduce la pérdida de vitaminas sensibles para minimizar el deterioro nutricional.
             p 
               strong Ejemplo: 
               | usar tratamientos térmicos suaves para mantener la vitamina C.
-      
+
       .tarjeta.color-adicional-1(x="73.1%" y="26.4%" numero="")
         .h5.mb-2 Inocuidad alimentaria
-        .d-flex.flex-md-row.flex-column
-          .flex-shrink-0.mb-md-0.mb-3.d-flex.align-items-center.justify-content-center
-            img(src="@/assets/curso/temas/tema_1/img_8.png", class="img-fluid")
-          
+        .d-flex.flex-md-row.flex-column.align-items-stretch.justify-content-center.align-items-center
+          .flex-shrink-0.mb-md-0.mb-3.d-flex
+            figure.w-100.d-flex.flex-column
+              img(src="@/assets/curso/temas/tema_1/img_8.png", class="img-fluid").height-100
+
           .flex-grow-1.ms-md-3.ms-0
             p.mb-3 Eliminar microorganismos como Clostridium <I>botulinum</I>.
             p 
               strong Ejemplo: 
               | esterilizar alimentos a alta temperatura para evitar intoxicaciones.
-      
+
       .tarjeta.color-adicional-1(x="69.2%" y="51.2%" numero="")
         .h5.mb-2 Calidad sensorial
-        .d-flex.flex-md-row.flex-column
-          .flex-shrink-0.mb-md-0.mb-3.d-flex.align-items-center.justify-content-center
-            img(src="@/assets/curso/temas/tema_1/img_9.png", class="img-fluid")
-          
+        .d-flex.flex-md-row.flex-column.align-items-stretch.justify-content-center.align-items-center
+          .flex-shrink-0.mb-md-0.mb-3.d-flex
+            figure.w-100.d-flex.flex-column
+              img(src="@/assets/curso/temas/tema_1/img_9.png", class="img-fluid").height-100
+
           .flex-grow-1.ms-md-3.ms-
             p.mb-3 Conserva características organolépticas como olor, color, sabor, textura y aroma.
             p 
               strong Ejemplo: 
               | usar azúcar en jaleas no solo para conservar, sino para mantener el sabor.
-      
+
       .tarjeta.color-adicional-1.pulso-invertido(x="60.7%" y="78%" numero="")
         .h5.mb-2 Sostenibilidad
-        .d-flex.flex-md-row.flex-column
-          .flex-shrink-0.mb-md-0.mb-3.d-flex.align-items-center.justify-content-center
-            img(src="@/assets/curso/temas/tema_1/img_10.png", class="img-fluid")
+        .d-flex.flex-md-row.flex-column.align-items-stretch.justify-content-center.align-items-center
+          .flex-shrink-0.mb-md-0.mb-3.d-flex
+            figure.w-100.d-flex.flex-column
+              img(src="@/assets/curso/temas/tema_1/img_10.png", class="img-fluid").height-100
           .flex-grow-1.ms-md-3.ms- 
             p.mb-3 Evitar el desperdicio, extendiendo la vida útil de excedentes agrícolas.
             p 
@@ -130,11 +137,11 @@
       .h2(data-aos="fade-right") 1.2 Factores
     .mb-3
 
-    p.mb-3 Existen diversos factores que influyen en la eficacia y selección del método de conservación de frutas y verduras. Su adecuada evaluación permite elegir el proceso más efectivo para garantizar productos seguros, estables y de calidad:
-    
-    .bg_img_1.mb-3
-      .row.justify-content-center.align-items-center.mb-5
-        .col-12.col-lg-7.mb-0.order-2.order-lg-1.p-0
+    p.mb-5 Existen diversos factores que influyen en la eficacia y selección del método de conservación de frutas y verduras. Su adecuada evaluación permite elegir el proceso más efectivo para garantizar productos seguros, estables y de calidad:
+
+    .bg_img_1.mb-3.height-100
+      .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-5
+        .col-12.col-lg-7.mb-0.order-2.order-lg-1.p-0.d-flex
           .custom-slider.p-5.p-sm-3
             SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-2.rounded-3
               .tarjeta.color-adicional-2
@@ -148,7 +155,7 @@
               .tarjeta.color-adicional-2
                 .tarjeta--3
                 .tarjeta--slider__title.mb-3 Técnica de conservación
-                  .tarjeta--slider__content La selección del método adecuado (frío, calor, sal, azúcar y vinagre) depende de las propiedades fisicoquímicas del producto y del resultado deseado.
+                .tarjeta--slider__content La selección del método adecuado (frío, calor, sal, azúcar y vinagre) depende de las propiedades fisicoquímicas del producto y del resultado deseado.
               .tarjeta.color-adicional-2
                 .tarjeta--4
                 .tarjeta--slider__title.mb-3 Material de empaque
@@ -157,14 +164,15 @@
                 .tarjeta--5
                 .tarjeta--slider__title.mb-3 Condiciones de almacenamiento
                 .tarjeta--slider__content Establece Factores como temperatura, humedad, exposición a la luz y manipulación posterior inciden en la duración efectiva del alimento conservado.
-        
-        .col-5.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
-          figure
-            img(src="@/assets/curso/temas/tema_1/img_18.png", class="img-fluid")           
-    
+
+        .col-5.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3.d-flex.ps-3
+          figure.w-100.d-flex.flex-column
+            img(src="@/assets/curso/temas/tema_1/img_18.png", class="img-fluid").height-100
+
     .bloque-texto-t.justify-content-center.align-items-center.mb-0
       .bloque-texto-t__img.mb-0
-        img(src='@/assets/curso/temas/tema_1/img_19.png')
+        figure.height-100 
+          img(src='@/assets/curso/temas/tema_1/img_19.png')
       .bloque-texto-t__texto.color-secundario-10.col-10.mb-0
         p.mb-0 Estos factores son evaluados para cada línea de producción de conservas, permitiendo establecer protocolos que aseguren productos seguros, estables y de calidad.
  

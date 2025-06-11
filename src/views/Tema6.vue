@@ -13,34 +13,34 @@
         )
         .bloque-texto-g__texto.p-4
           p.mb-0 La calidad de una conserva se logra cuando cada etapa del proceso, desde la selección de los ingredientes hasta su almacenamiento, se realiza de manera ordenada, higiénica y siguiendo criterios técnicos. Aplicar correctamente estos pasos garantiza un producto seguro, duradero y con buena aceptación. La preparación eficaz de conservas garantiza:
-    
+
       .row.justify-content-center.mb-3
-        .col-sm-6.col-lg-3.mb-4.mb-lg-0.h-100
-          .tarjeta--boton.color-acento-contenido-10-hover-cs-10.p-4.h-100.d-flex.flex-column
+        .col-sm-6.col-lg-3.mb-4.mb-lg-0.height-100
+          .tarjeta--boton.color-acento-contenido-10-hover-cs-10.p-4.height-100.d-flex.flex-column
             .row.justify-content-center.mb-3
               .col-7
                 figure
                   img(src='@/assets/curso/temas/tema_6/img_2.svg')
             h3.text-center Seguridad microbiológica.
 
-        .col-sm-6.col-lg-3.mb-4.mb-lg-0.h-100
-          .tarjeta--boton.color-acento-contenido-10-hover-cs-10.p-4.h-100.d-flex.flex-column
+        .col-sm-6.col-lg-3.mb-4.mb-lg-0.height-100
+          .tarjeta--boton.color-acento-contenido-10-hover-cs-10.p-4.height-100.d-flex.flex-column
             .row.justify-content-center.mb-3
               .col-7
                 figure
                   img(src='@/assets/curso/temas/tema_6/img_3.svg')
             h3.text-center Textura, color y sabor adecuados.
 
-        .col-sm-6.col-lg-3.mb-4.mb-sm-0.h-100
-          .tarjeta--boton.color-acento-contenido-10-hover-cs-10.p-4.h-100.d-flex.flex-column
+        .col-sm-6.col-lg-3.mb-4.mb-sm-0.height-100
+          .tarjeta--boton.color-acento-contenido-10-hover-cs-10.p-4.height-100.d-flex.flex-column
             .row.justify-content-center.mb-3
               .col-7
                 figure
                   img(src='@/assets/curso/temas/tema_6/img_4.svg')
             h3.text-center Mayor vida útil.
 
-        .col-sm-6.col-lg-3.h-100
-          .tarjeta--boton.color-acento-contenido-10-hover-cs-10.p-3.h-100.d-flex.flex-column
+        .col-sm-6.col-lg-3.height-100
+          .tarjeta--boton.color-acento-contenido-10-hover-cs-10.p-3.height-100.d-flex.flex-column
             .row.justify-content-center.mb-3
               .col-7
                 figure
@@ -110,14 +110,14 @@
           .col-7.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_6/img_9.png', class="img-fluid")
-    
+
     .row.justify-content-center.align-items-center.mb-5
       .col-6.col-lg-1.order-2.order-lg-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/temas/tema_6/img_10.svg', class="img-fluid")
       .col-12.col-lg-11.order-1.order-lg-2
         p Cada conserva de calidad es el resultado de una secuencia de técnicas aplicadas con precisión. Estas acciones, desde el lavado inicial hasta el almacenamiento final, permiten proteger el alimento, conservar sus propiedades y asegurar su inocuidad. A continuación, se presentan las etapas esenciales que conforman el proceso de elaboración, todas con un propósito específico en la estabilidad y seguridad del producto.
-        
+
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-adicional-5-6")
       div(titulo="Lavado y selección").p-5.pb-0.pt-0
         ul.mb-3
@@ -182,7 +182,7 @@
       .col-6.col-lg-4.order-1.order-lg-2
         figure
           img(src='@/assets/curso/temas/tema_6/img_12.png', class="img-fluid")
-    
+
     .bg_img_13.mb-3
       .row.justify-content-center.align-items-center.mb-3
         .col-12.col-lg-10.mb-3
@@ -192,7 +192,7 @@
           figure
             img(src='@/assets/curso/temas/tema_6/img_13.svg')
             figcaption <b>Fuente.</b> SENA, 2025
-    
+
     .row.justify-content-center.align-items-center.mb-5
       .col-6.col-lg-5
         figure
@@ -201,7 +201,7 @@
         .cajon.color-acento-contenido-10-Mix-secundario.p-4
           p La tecnología de conservación combinada permite aplicar varias técnicas que, juntas, mejoran la seguridad y estabilidad del alimento sin comprometer su calidad. Estas combinaciones no son al azar: cada una responde a las características del producto y a los resultados que se desean obtener.
           p A continuación, se presentan tres ejemplos comunes de cómo se pueden integrar métodos físicos, químicos y biológicos para lograr conservas más seguras y duraderas:
-    
+
     .row.justify-content-center.align-items-center.mb-3
       .col-12.col-lg-7.order-2.order-lg-1.mb-lg-0.mb-3
         LineaTiempoD.color-adicional-3
@@ -216,10 +216,10 @@
               p.text-small Conservas artesanales como chucrut, encurtidos caseros o kimchi. La fermentación acidifica, y la cadena de frío estabiliza.
       .col-7.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
         figure
-         img(src='@/assets/curso/temas/tema_6/img_15.png', class="img-fluid")
+          img(src='@/assets/curso/temas/tema_6/img_15.png', class="img-fluid")
 
     p.mb-3 El uso de técnicas combinadas no solo mejora la conservación, sino que también ofrece ventajas importantes en términos de calidad, adaptabilidad y seguridad. Entre sus principales beneficios se destacan:
-        
+
     .row.justify-content-center.align-items-center.mb-0
       .col-12.col-lg-7.mb-lg-0.mb-3
         .row.justify-content-center.align-items-center.mb-0
