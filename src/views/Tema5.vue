@@ -19,13 +19,13 @@
       .h2(data-aos="fade-right") 5.1 Conservas en almíbar, mermeladas y jaleas
     .mb-3
 
-    .row.justify-content-center.align-items-center.mb-3
-      .col-12.col-lg-8
+    .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
+      .col-12.col-lg-8.order-2.order-lg-1
         p.mb-3 Las conservas dulces representan una de las formas más antiguas y eficaces para preservar frutas. Gracias a la acción del azúcar como conservante natural, se logra disminuir la actividad del agua en el alimento, impidiendo el desarrollo de microorganismos. Además, estas conservas realzan el sabor, color y textura de las frutas, transformándolas en productos de alto valor agregado.
         p Se distinguen principalmente tres tipos: frutas en almíbar, mermeladas y jaleas, cada uno con características propias en cuanto a ingredientes, técnica de preparación, textura final y forma de presentación.
-      .col-12.col-lg-4
-        figure
-          img(src="@/assets/curso/temas/tema_5/img_2.png", class="img-fluid")
+      .col-6.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
+        figure.w-100.d-flex.flex-column
+          img(src="@/assets/curso/temas/tema_5/img_2.png", class="img-fluid").height-100
     
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-adicional-5-6")
       div(titulo="FRUTAS EN ALMÍBAR").p-5.pb-0.pt-0

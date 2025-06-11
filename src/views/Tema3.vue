@@ -17,28 +17,28 @@
       .h2(data-aos="fade-right") 3.1 Función del escaldado en conservas
     .mb-3
 
-    .row.justify-content-center.align-items-center.mb-3
-      .col-12.col-lg-4
-        figure.mb-3
-          img(src="@/assets/curso/temas/tema_3/img_2.png", class="img-fluid")
+    .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
+      .col-12.col-lg-4.d-flex
+        figure.w-100.d-flex.flex-column
+          img(src="@/assets/curso/temas/tema_3/img_2.png", class="img-fluid").height-100
       .col-12.col-lg-8
         p.mb-3 El escaldado es una técnica previa a la conservación de vegetales y frutas que consiste en aplicar calor mediante inmersión en agua caliente o exposición al vapor por un tiempo breve y controlado. Su propósito principal es inactivar enzimas responsables de reacciones que afectan color, sabor, textura y valor nutricional, además de reducir la carga microbiana superficial.
         p.mb-0 Esta técnica mejora la seguridad del alimento y, al mismo tiempo, optimiza diversas etapas del procesamiento gracias a beneficios funcionales como:
     
-    .row.justify-content-center.align-items-center.mb-3
-      .col-12.col-lg-8
+    .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
+      .col-12.col-lg-8.order-2.order-lg-1
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-adicional-5-6")
           div(titulo="Facilita el pelado y troceado")
-            p.mb-0 Al ablandar la superficie de frutas y verduras, permite retirar cáscaras o cortar con menor esfuerzo y mayor precisión.
+            p.ps-5.mb-0 Al ablandar la superficie de frutas y verduras, permite retirar cáscaras o cortar con menor esfuerzo y mayor precisión.
           div(titulo="Previene cambios no deseados")
-            p.mb-0 Reduce la acción de enzimas responsables de pardeamiento o degradación de sabor y textura.
+            p.ps-5.mb-0 Reduce la acción de enzimas responsables de pardeamiento o degradación de sabor y textura.
           div(titulo="Fija el color en vegetales verdes")
-            p.mb-0 Contribuye a conservar el tono brillante de hortalizas como espinaca o brócoli, mejorando su apariencia.
+            p.ps-5.mb-0 Contribuye a conservar el tono brillante de hortalizas como espinaca o brócoli, mejorando su apariencia.
           div(titulo="Mejora el llenado de envases")
-            p.mb-0 Reduce el volumen por contracción de tejidos, permitiendo un empaque más compacto y eficiente.
-      .col-12.col-lg-4
-        figure.mb-3
-          img(src="@/assets/curso/temas/tema_3/img_3.png", class="img-fluid")
+            p.ps-5.mb-0 Reduce el volumen por contracción de tejidos, permitiendo un empaque más compacto y eficiente.
+      .col-6.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
+        figure.w-100.d-flex.flex-column
+          img(src="@/assets/curso/temas/tema_3/img_3.png", class="img-fluid").height-100
 
     separador
 
@@ -47,6 +47,7 @@
     .mb-3
 
     p.mb-3 El escaldado puede aplicarse mediante dos técnicas principales, cada una con particularidades que influyen en la calidad final del producto:
+    
     .bg_img_4.mb-3
       .row.justify-content-center.align-items-center.mb-3
         .col-12.col-lg-5.mb-3

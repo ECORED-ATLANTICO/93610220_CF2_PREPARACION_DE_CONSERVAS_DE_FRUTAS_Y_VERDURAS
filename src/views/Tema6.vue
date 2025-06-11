@@ -55,6 +55,7 @@
     figure.mb-3
       img(src='@/assets/curso/temas/tema_6/img_6.png')
     p.mb-3 Una conserva de calidad comienza con la elección adecuada de sus componentes. Estos ingredientes no solo aportan sabor y textura, sino que cumplen funciones específicas para asegurar la estabilidad y la inocuidad del producto. Entre los ingredientes claves se encuentran:   
+    
     .tarjeta.tarjeta--fondo__slider.p-4.mb-5
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center

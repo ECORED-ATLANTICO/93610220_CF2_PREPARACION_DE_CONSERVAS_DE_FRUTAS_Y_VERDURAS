@@ -22,7 +22,7 @@
     p.mb-3 La refrigeración y la congelación son métodos físicos que conservan frutas y verduras al mantenerlas a bajas temperaturas. La refrigeración (0–4 °C) disminuye la velocidad de crecimiento microbiano, mientras que la congelación (−18 °C o menos) detiene su actividad casi por completo. Ambos métodos ayudan a preservar el valor nutricional y las características sensoriales de los alimentos.
 
     .bg_img_2.mb-3
-      .row.d-flex.align-items-stretch.justify-content-center.mb-3
+      .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
         .col-12.col-lg-4.mb-lg-0.mb-3.d-flex
           .w-100.d-flex.flex-column
             .tarjeta.color-adicional-3.mb-0.height-100
@@ -61,10 +61,10 @@
 
     p.mb-3 La deshidratación y la salazón son métodos tradicionales que conservan los alimentos al reducir el contenido de agua, lo que impide el desarrollo de la mayoría de los microorganismos, ya que éstos requieren humedad para sobrevivir y reproducirse.
 
-    .row.justify-content-center.align-items-center.mb-3
-      .col-6.col-lg-4
-        figure
-          img(src="@/assets/curso/temas/tema_2/img_4.png", class="img-fluid")
+    .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
+      .col-6.col-lg-4.mb-lg-3.mb-0.d-flex
+        figure.w-100.d-flex.flex-column
+          img(src="@/assets/curso/temas/tema_2/img_4.png", class="img-fluid").height-100
       .col-12.col-lg-8
         .tarjeta.color-adicional-4
           h5(style="background-color: #C7D5B6;").mb-3.p-4.pb-3.rounded-top-3 Deshidratación
@@ -84,25 +84,27 @@
     p.mb-3 Las conservas en azúcar y vinagre se basan en el principio de modificación del medio mediante solutos, lo que genera una presión osmótica o un pH desfavorable para los microorganismos.
 
     .bg_img_3.mb-3
-      .row.justify-content-center.align-items-center.mb-3
-        .col-12.col-lg-5
-          .tarjeta.color-secundario-10
-            h5(style="background-color: #FFCE79;").mb-3.p-4.pb-3.rounded-top-3 Conservas en azúcar
-            .row.justify-content-center.align-items-center.mb-3
-              .col-3.col-lg-3
-                figure.p-2.pb-4 
-                  img(src="@/assets/curso/temas/tema_2/img_5.svg", class="img-fluid")
-              .col-12.col-lg-9
-                p.p-3.ps-0.pb-4 Se elaboran productos como mermeladas, jaleas y frutas en almíbar, mediante la cocción de frutas con azúcar hasta alcanzar una concentración superior al 60 %, lo que reduce la actividad del agua y aporta sabor, brillo y textura.
-        .col-12.col-lg-5
-          .tarjeta.color-secundario-10
-            h5(style="background-color: #FFCE79; ").mb-3.p-4.pb-3.rounded-top-3 Conservas en vinagre
-            .row.justify-content-center.align-items-center.mb-3
-              .col-3.col-lg-3
-                figure.p-2.pb-4 
-                  img(src="@/assets/curso/temas/tema_2/img_6.svg", class="img-fluid")
-              .col-12.col-lg-9
-                p.p-3.ps-0.pb-4 Utilizan ácido acético (vinagre) en combinación con agua, sal, azúcar y especias para sumergir verduras como zanahoria, cebolla, pepino o coliflor. El pH final debe ser menor a 4.5 para garantizar la conservación.
+      .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
+        .col-12.col-lg-5.d-flex.mb-3
+          .w-100.d-flex.flex-column
+            .tarjeta.color-secundario-10.height-100
+              h5(style="background-color: #FFCE79;").mb-3.p-4.pb-3.rounded-top-3 Conservas en azúcar
+              .row.justify-content-center.align-items-center.mb-3
+                .col-3.col-lg-3
+                  figure.p-2.pb-4
+                    img(src="@/assets/curso/temas/tema_2/img_5.svg", class="img-fluid")
+                .col-12.col-lg-9
+                  p.p-3.ps-0.pb-4 Se elaboran productos como mermeladas, jaleas y frutas en almíbar, mediante la cocción de frutas con azúcar hasta alcanzar una concentración superior al 60 %, lo que reduce la actividad del agua y aporta sabor, brillo y textura.
+        .col-12.col-lg-5.d-flex.mb-3
+          .w-100.d-flex.flex-column
+            .tarjeta.color-secundario-10.height-100
+              h5(style="background-color: #FFCE79; ").mb-3.p-4.pb-3.rounded-top-3 Conservas en vinagre
+              .row.justify-content-center.align-items-center.mb-3
+                .col-3.col-lg-3
+                  figure.p-2.pb-4 
+                    img(src="@/assets/curso/temas/tema_2/img_6.svg", class="img-fluid")
+                .col-12.col-lg-9
+                  p.p-3.ps-0.pb-4 Utilizan ácido acético (vinagre) en combinación con agua, sal, azúcar y especias para sumergir verduras como zanahoria, cebolla, pepino o coliflor. El pH final debe ser menor a 4.5 para garantizar la conservación.
 
         .col-12.col-lg-10
           .cajon.color-acento-contenido-10-Mix-secundario.p-4
@@ -116,25 +118,25 @@
 
     p.mb-3 Estos métodos se enfocan en la eliminación total de microorganismos o su inhibición prolongada mediante el uso de temperaturas elevadas o la incorporación de alcohol comestible.
 
-    .row.justify-content-center.align-items-center.mb-3
-      .col-6.col-lg-4
-        figure.p-2.pb-4 
-          img(src="@/assets/curso/temas/tema_2/img_7.png", class="img-fluid")
+    .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
+      .col-6.col-lg-4.d-flex
+        figure.p-2.pb-4.w-100.d-flex.flex-column
+          img(src="@/assets/curso/temas/tema_2/img_7.png", class="img-fluid").height-100
       .col-12.col-lg-8
         .tarjeta.color-adicional-3
           h5.mb-3.p-3.pb-0.ps-5 Esterilización  térmica
           .row.justify-content-center.align-items-center.mb-3.p-0
-            .col-12.col-lg-9
+            .col-12.col-lg-9.order-2.order-lg-1
               p.pt-0.p-2.pb-0 Consiste en aplicar temperaturas entre 116 °C y 120 °C a los alimentos envasados herméticamente, por ejemplo, en frascos de vidrio. Se realiza en autoclaves o en ollas a presión y está indicada para alimentos con pH superior a 4.5, como legumbres y verduras, ya que son más susceptibles a la bacteria Clostridium botulinum.
-            .col-3.col-lg-2
+            .col-3.col-lg-2.order-1.order-lg-2.mb-lg-0.mb-3
               figure.p-2.pt-0.ps-0.pb-4 
                 img(src="@/assets/curso/temas/tema_2/img_8.svg", class="img-fluid")
         .tarjeta.color-secundario-10
           h5.mb-3.p-3.pb-0.ps-5 Conservación en alcohol
           .row.justify-content-center.align-items-center.mb-3.p-0
-            .col-12.col-lg-9
+            .col-12.col-lg-9.order-2.order-lg-1
               p.p-3.pt-0.pb-0 Es una técnica artesanal donde se emplea alcohol etílico (apto para consumo) para conservar frutas como cerezas, duraznos o guayabas. El alcohol penetra en el tejido vegetal y reemplaza parte de la humedad interna. A menudo se mezcla con azúcar para mejorar sabor y conservación.
-            .col-3.col-lg-2
+            .col-3.col-lg-2.order-1.order-lg-2.mb-lg-0.mb-3
               figure.p-2.pt-0.ps-0.pb-4 
                 img(src="@/assets/curso/temas/tema_2/img_9.svg", class="img-fluid")
       .col-12.col-lg-10

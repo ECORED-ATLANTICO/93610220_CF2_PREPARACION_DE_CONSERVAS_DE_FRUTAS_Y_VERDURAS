@@ -6,13 +6,13 @@
       .titulo-principal__numero
         span 4
       h1 Procesos térmicos
-    .row.justify-content-center.align-items-center.mb-0
-      .col-12.col-lg-8
+    .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-0
+      .col-12.col-lg-8.order-2.order-lg-1
         .tarjeta.color-acento-contenido-10.p-3.rounded-0(style="border-top-left-radius: 10px !important; border-bottom-right-radius: 10px !important;")
-          p La aplicación del calor en los procesos de conservación representa una de las estrategias más eficaces para garantizar la inocuidad y estabilidad microbiológica de frutas y verduras en conserva. Los tratamientos térmicos bien diseñados permiten inactivar microorganismos patógenos, reducir la carga microbiana total y preservar el alimento sin alterar significativamente su calidad sensorial. La elección entre procesos como la pasteurización o la esterilización depende de factores clave como el pH del alimento, su acidez, el tipo de envase y la vida útil esperada. A continuación, se detallan los principales procedimientos térmicos empleados en la industria de las conservas vegetales.
-      .col-6.col-lg-4
-        figure
-          img(src="@/assets/curso/temas/tema_4/img_1.png", class="img-fluid")
+          p.mb-0 La aplicación del calor en los procesos de conservación representa una de las estrategias más eficaces para garantizar la inocuidad y estabilidad microbiológica de frutas y verduras en conserva. Los tratamientos térmicos bien diseñados permiten inactivar microorganismos patógenos, reducir la carga microbiana total y preservar el alimento sin alterar significativamente su calidad sensorial. La elección entre procesos como la pasteurización o la esterilización depende de factores clave como el pH del alimento, su acidez, el tipo de envase y la vida útil esperada. A continuación, se detallan los principales procedimientos térmicos empleados en la industria de las conservas vegetales.
+      .col-6.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
+        figure.w-100.d-flex.flex-column
+          img(src="@/assets/curso/temas/tema_4/img_1.png", class="img-fluid").height-100
 
     separador
 
@@ -25,11 +25,12 @@
         img(src='@/assets/curso/temas/tema_4/img_2.png')
       .bloque-texto-t__texto.color-secundario-10.col-10.mb-0
         p.mb-0 La pasteurización consiste en someter los alimentos a temperaturas moderadas, generalmente entre 60 y 95°C, durante un tiempo controlado, con el fin de destruir microorganismos patógenos y reducir la carga microbiana sin comprometer las propiedades nutricionales y sensoriales del producto (Holdsworth & Simpson, 2008).
-    .bg_img_6.mb-3
+    
+    .bg_img_6.mb-3.height-100
       .row.justify-content-center.align-items-center.mb-3
-        .col-12.col-lg-8
+        .col-12.col-lg-8.order-2.order-lg-1
           p.mb-0 En el caso de frutas en almíbar, por ejemplo, se emplea una temperatura de 85°C durante 20 minutos, mientras que para mermeladas o jaleas el tiempo es menor, gracias a su alta concentración de azúcar. Este proceso se realiza comúnmente mediante baño María, hornos o túneles térmicos, y debe ejecutarse justo después del envasado para evitar la recontaminación. Un control riguroso de la temperatura interna del alimento es indispensable para asegurar la efectividad del tratamiento. 
-        .col-12.col-lg-4
+        .col-6.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
           figure
             img(src="@/assets/curso/temas/tema_4/img_3.png", class="img-fluid")
     
@@ -89,12 +90,13 @@
       .h2(data-aos="fade-right") 4.2 Esterilización y control microbiológico
     .mb-3  
 
-    .bg_img_8.mb-3
+    .bg_img_8
       img.mb-3(src="@/assets/curso/temas/tema_4/img_12.png", class="img-fluid")
     
       p.mb-3 La esterilización térmica es un proceso de conservación que aplica temperaturas superiores a 115°C con el objetivo de destruir microorganismos altamente resistentes al calor, incluidas sus formas esporuladas. Este tratamiento es especialmente crucial para alimentos de baja acidez (pH mayor a 4.5), donde existe riesgo de proliferación de patógenos peligrosos como Clostridium botulinum, responsable del botulismo, una intoxicación severa de origen alimentario (López-Malo et al., 2021).
       p.mb-3 Entre los aspectos técnicos de la esterilización térmica se encuentran:
-    .tarjeta.tarjeta--fondo__slider
+    
+    .tarjeta.tarjeta--fondo__slider.p-4.mb-0.pb-0
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center
           .col-12.col-lg-6.order-2.order-lg-1.mb-0
@@ -243,14 +245,14 @@
                 img(src='@/assets/curso/temas/tema_4/img_23.png', class="img-fluid")
 
     .row.justify-content-center.align-items-center.mb-3
-      .col-4.col-lg-1
+      .col-3.col-lg-1.mb-lg-0.mb-3
         figure
           img(src="@/assets/curso/temas/tema_4/img_24.png", class="img-fluid")
       .col-12.col-lg-11
         p Posterior al llenado en caliente, se aplica la técnica de vacío para extraer el aire del interior del envase, lo cual contribuye significativamente a mejorar la estabilidad, inocuidad y vida útil del alimento. Esta etapa es clave para prevenir el desarrollo de microorganismos y conservar las características sensoriales del producto. Entre sus beneficios más destacados se encuentran:
     
-    .row.justify-content-center.align-items-center.mb-3
-      .col-12.col-lg-8
+    .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
+      .col-12.col-lg-8.order-2.order-lg-1
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-adicional-5-6")
           div(titulo="Impide la oxidación y el oscurecimiento del producto")
             p.mb-0 Al eliminar el oxígeno del interior del frasco, se reduce drásticamente la posibilidad de que ocurran reacciones de oxidación que afectan el color, sabor y valor nutricional del alimento. Esto es especialmente importante en frutas y verduras, ya que la exposición al aire puede producir un tono marrón, pérdida de aroma y deterioro de la textura.
@@ -279,9 +281,9 @@
               li
                 i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
                 | 	Permite al consumidor comprobar que el envase está correctamente cerrado, por ejemplo, con el “click” de seguridad de la tapa metálica al abrirse por primera vez.
-      .col-12.col-lg-4
-        figure.mb-3
-          img(src="@/assets/curso/temas/tema_4/img_25.png", class="img-fluid")
+      .col-6.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
+        figure.w-100.d-flex.flex-column
+          img(src="@/assets/curso/temas/tema_4/img_25.png", class="img-fluid").height-100
 
 
 </template>
