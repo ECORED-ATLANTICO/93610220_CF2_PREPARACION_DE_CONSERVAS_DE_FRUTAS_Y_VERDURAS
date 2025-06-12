@@ -36,7 +36,7 @@
         figure
           img(src='@/assets/curso/temas/tema_1/img_4.png', class="img-fluid")
 
-      .tarjeta.color-adicional-1(x="24.5%" y="26.4%" numero="")
+      .tarjeta.color-adicional-1(x="24.5%" y="26.4%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
         .h5.mb-3 Inhibición microbiana
         .d-flex.flex-md-row.flex-column.align-items-stretch.justify-content-center.align-items-center
           .flex-shrink-0.mb-md-0.mb-3.d-flex
@@ -48,7 +48,7 @@
               strong Ejemplo: 
               | escaldar espinacas y encurtir posteriormente.
 
-      .tarjeta.color-adicional-1(x="30.9%" y="50%" numero="")
+      .tarjeta.color-adicional-1(x="30.9%" y="50%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
         .h5.mb-2 Inactivación enzimática
         .d-flex.flex-md-row.flex-column.align-items-stretch.justify-content-center.align-items-center
           .flex-shrink-0.mb-md-0.mb-3.d-flex
@@ -60,7 +60,7 @@
               strong Ejemplo: 
               | escaldar espinacas antes del enlatado para preservar el color.
 
-      .tarjeta.color-adicional-1(x="39.3%" y="78%" numero="")
+      .tarjeta.color-adicional-1(x="39.3%" y="78%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
         .h5.mb-2 Preservación de nutrientes
         .d-flex.flex-md-row.flex-column.align-items-stretch.justify-content-center.align-items-center
           .flex-shrink-0.mb-md-0.mb-3.d-flex
@@ -73,7 +73,7 @@
               strong Ejemplo: 
               | usar tratamientos térmicos suaves para mantener la vitamina C.
 
-      .tarjeta.color-adicional-1(x="73.1%" y="26.4%" numero="")
+      .tarjeta.color-adicional-1(x="73.1%" y="26.4%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
         .h5.mb-2 Inocuidad alimentaria
         .d-flex.flex-md-row.flex-column.align-items-stretch.justify-content-center.align-items-center
           .flex-shrink-0.mb-md-0.mb-3.d-flex
@@ -86,7 +86,7 @@
               strong Ejemplo: 
               | esterilizar alimentos a alta temperatura para evitar intoxicaciones.
 
-      .tarjeta.color-adicional-1(x="69.2%" y="51.2%" numero="")
+      .tarjeta.color-adicional-1(x="69.2%" y="51.2%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
         .h5.mb-2 Calidad sensorial
         .d-flex.flex-md-row.flex-column.align-items-stretch.justify-content-center.align-items-center
           .flex-shrink-0.mb-md-0.mb-3.d-flex
@@ -99,7 +99,7 @@
               strong Ejemplo: 
               | usar azúcar en jaleas no solo para conservar, sino para mantener el sabor.
 
-      .tarjeta.color-adicional-1.pulso-invertido(x="60.7%" y="78%" numero="")
+      .tarjeta.color-adicional-1.pulso-invertido(x="60.7%" y="78%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
         .h5.mb-2 Sostenibilidad
         .d-flex.flex-md-row.flex-column.align-items-stretch.justify-content-center.align-items-center
           .flex-shrink-0.mb-md-0.mb-3.d-flex
