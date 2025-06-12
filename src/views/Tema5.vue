@@ -22,7 +22,7 @@
     .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
       .col-12.col-lg-8.order-2.order-lg-1
         p.mb-3 Las conservas dulces representan una de las formas más antiguas y eficaces para preservar frutas. Gracias a la acción del azúcar como conservante natural, se logra disminuir la actividad del agua en el alimento, impidiendo el desarrollo de microorganismos. Además, estas conservas realzan el sabor, color y textura de las frutas, transformándolas en productos de alto valor agregado.
-        p Se distinguen principalmente tres tipos: frutas en almíbar, mermeladas y jaleas, cada uno con características propias en cuanto a ingredientes, técnica de preparación, textura final y forma de presentación.
+        p.mb-0 Se distinguen principalmente tres tipos: frutas en almíbar, mermeladas y jaleas, cada uno con características propias en cuanto a ingredientes, técnica de preparación, textura final y forma de presentación.
       .col-6.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
         figure.w-100.d-flex.flex-column
           img(src="@/assets/curso/temas/tema_5/img_2.png", class="img-fluid").height-100
@@ -42,15 +42,15 @@
           .col-12.col-lg-7.order-2.order-lg-1
             p.mb-3 <b>4. Preparación del almíbar: </b> el jarabe se elabora disolviendo azúcar en agua caliente. Su concentración varía según el tipo de producto final:
             ul.mb-3
-              li
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
-                | 	<b>Ligero:</b> 20-30% de azúcar
-              li
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
-                | 	<b>Medio:</b> 35-40%
-              li
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
-                | 	<b>Espeso:</b> 50% o más
+              li.mb-0.d-flex.align-items-start
+                i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	<b>Ligero:</b> 20-30% de azúcar
+              li.mb-0.d-flex.align-items-start
+                i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	<b>Medio:</b> 35-40%
+              li.mb-0.d-flex.align-items-start
+                i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	<b>Espeso:</b> 50% o más
             p.mb-3 <b>5.	Llenado y tratamiento térmico:</b> se introducen las frutas en frascos de vidrio esterilizados, se cubren con almíbar caliente y se sellan. Finalmente, se realiza pasteurización al baño maría para asegurar la conservación.
           .col-7.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
             figure.w-100.d-flex.flex-column.p-2.pt-0.ps-0.pb-4 
@@ -66,23 +66,23 @@
             p.mb-3 <b>2. Adición de azúcar y cocción:</b> se añade azúcar en una proporción del 60-65% respecto al peso de la fruta. La mezcla se cocina a fuego medio con agitación constante.
             p.mb-3 <b>3. Incorporación de pectina y ácido:</b>
             ul.mb-3
-              li
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
-                |  	La pectina, natural (de la misma fruta) o comercial, permite obtener una consistencia firme.
-              li
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
-                | 	El ácido cítrico (limón) mejora la gelificación y conservación.
+              li.mb-0.d-flex.align-items-start
+                i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	La pectina, natural (de la misma fruta) o comercial, permite obtener una consistencia firme.
+              li.mb-0.d-flex.align-items-start
+                i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	El ácido cítrico (limón) mejora la gelificación y conservación.
         .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-0
           .col-12.col-lg-7.order-2.order-lg-1
             p.mb-3 <b>4. Control del punto de mermelada:</b>
             p.mb-3 se verifica con pruebas tradicionales:
             ul.mb-3
-              li
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
-                |  	Gota sobre un plato frío (no debe deslizarse)
-              li
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
-                | 	Gota en agua fría (forma una bola y no se desintegra)
+              li.mb-0.d-flex.align-items-start
+                i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	Gota sobre un plato frío (no debe deslizarse)
+              li.mb-0.d-flex.align-items-start
+                i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	Gota en agua fría (forma una bola y no se desintegra)
             p.mb-3 <b>5. Envasado y pasteurización:</b> se llena en caliente en envases esterilizados, se sella y se pasteuriza para prolongar la vida útil.
           .col-7.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
             figure.w-100.d-flex.flex-column.p-2.pt-0.ps-0.pb-4 
@@ -223,34 +223,34 @@
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-adicional-5-6")
           div(titulo="Desplazar el oxígeno del envase")
             ul
-              li.mb-3
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
-                |  	La presencia de oxígeno puede provocar la oxidación de pigmentos y nutrientes, y favorecer el desarrollo de mohos o bacterias aeróbicas.
-              li.mb-0
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
-                | 	El líquido caliente permite eliminar el aire atrapado y genera un entorno anaeróbico más seguro para el alimento.
+              li.mb-3.d-flex.align-items-start
+                i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	La presencia de oxígeno puede provocar la oxidación de pigmentos y nutrientes, y favorecer el desarrollo de mohos o bacterias aeróbicas.
+              li.mb-0.d-flex.align-items-start
+                i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	El líquido caliente permite eliminar el aire atrapado y genera un entorno anaeróbico más seguro para el alimento.
           div(titulo="Transferir sabor y aroma")
             ul
-              li.mb-3
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
-                |  	Los líquidos actúan como vehículo para especias, sales, azúcares y ácidos.
-              li.mb-0
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
-                | 	Esto permite personalizar el perfil de sabor del producto, adaptarlo a diferentes mercados o resaltar características típicas (agridulce, picante, aromático, herbal, entre otros.).
+              li.mb-3.d-flex.align-items-start
+                i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	Los líquidos actúan como vehículo para especias, sales, azúcares y ácidos.
+              li.mb-0.d-flex.align-items-start
+                i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	Esto permite personalizar el perfil de sabor del producto, adaptarlo a diferentes mercados o resaltar características típicas (agridulce, picante, aromático, herbal, entre otros.).
           div(titulo="Mejorar la textura y apariencia del producto")
             p.mb-0
             ul.mb-3
-              li.mb-3
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
-                |  	Ayudan a mantener los alimentos sumergidos y protegidos, evitando su deshidratación o contacto con el oxígeno.
-              li.mb-0
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
-                | 	Realzan el brillo, color y apariencia del producto en exhibición (especialmente en frascos de vidrio).
+              li.mb-3.d-flex.align-items-start
+                i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	Ayudan a mantener los alimentos sumergidos y protegidos, evitando su deshidratación o contacto con el oxígeno.
+              li.mb-0.d-flex.align-items-start
+                i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	Realzan el brillo, color y apariencia del producto en exhibición (especialmente en frascos de vidrio).
           div(titulo="Favorecer la estabilidad microbiológica")
             ul.mb-3
-              li.mb-0
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
-                |  	Según el tipo de líquido utilizado, se crea un ambiente ácido, salino o con baja actividad de agua, que limita la proliferación de microorganismos patógenos y alteradores.
+              li.mb-0.d-flex.align-items-start
+                i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	Según el tipo de líquido utilizado, se crea un ambiente ácido, salino o con baja actividad de agua, que limita la proliferación de microorganismos patógenos y alteradores.
 
       .col-5.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
         figure.w-100.d-flex.flex-column

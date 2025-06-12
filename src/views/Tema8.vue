@@ -25,10 +25,10 @@
       p.mb-3 Existen diversas vías para enriquecer el atractivo y la calidad de las conservas:
 
       .row.justify-content-center.align-items-center.mb-5  
-        .col-4.col-lg-4.mb-lg-0.mb-3.ps-3
+        .col-4.col-lg-5.mb-lg-0.mb-3.ps-3
           figure
             img(src="@/assets/curso/temas/tema_8/img_2.png", class="img-fluid")           
-        .col-12.col-lg-8.p-0
+        .col-12.col-lg-7.p-0
           .custom-slider.p-4.p-sm-3
             SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-3.rounded-3
               .tarjeta.color-acento-contenido-10-b
@@ -91,28 +91,28 @@
 
     p.mb-3  Para garantizar la seguridad y confianza del consumidor, los productos en conserva deben cumplir con las normativas vigentes, tanto nacionales como internacionales. En Colombia, la Resolución 2674 de 2013 del INVIMA establece los requisitos obligatorios para estos productos, alineados con los lineamientos del Codex Alimentarius.
     p.mb-3 Los elementos esenciales del etiquetado incluyen:
-     
-    .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
-      .col-12.col-lg-7.order-2.order-lg-1.mb-lg-0.mb-3
-        LineaTiempoD.color-adicional-3
-          .row(numero="1" titulo="Nombre comercial del producto")
-            .col-md-6.mb-4.mb-md-0
-              p.text-small El nombre del producto debe ser claramente visible, legible y representar fielmente el contenido. Es fundamental que sea atractivo y fácil de identificar para el consumidor. Un buen nombre facilita el reconocimiento de marca y puede incluir descriptores que indiquen la variedad o características especiales, como “Conserva de mango orgánico” o “Mermelada gourmet sin azúcar”.
-          .row(numero="2" titulo="Lista completa de ingredientes")
-            .col-md-6.mb-4.mb-md-0
-              p.text-small Debe incluirse el detalle completo de todos los ingredientes usados en la elaboración, ordenados de mayor a menor proporción. Esto garantiza transparencia y permite a los consumidores conocer exactamente qué están consumiendo, útil especialmente para personas con alergias o restricciones dietarías. Además, puede incluir indicación de aditivos o conservantes usados.
-          .row(numero="3" titulo="Información nutricional")
-            .col-md-6.mb-4.mb-md-0
-              p.text-small Esta sección debe contener datos como valor energético (calorías), cantidad de macronutrientes (grasas, carbohidratos y proteínas), y otros nutrientes relevantes (fibra, sodio, azúcares, vitaminas, entre otros). Es esencial para que el consumidor pueda tomar decisiones informadas, especialmente aquellos que cuidan su salud o siguen dietas específicas.
-          .row(numero="4" titulo="Registro sanitario y número de lote")
-            .col-md-6.mb-4.mb-md-0
-              p.text-small El registro sanitario es un código que certifica que el producto cumple con los requisitos legales y sanitarios, otorgado por la autoridad competente (como INVIMA en Colombia). El número de lote permite identificar el grupo de producción, esencial para la trazabilidad en caso de reclamos o retiros del mercado.
-          .row(numero="5" titulo="Fecha de vencimiento o consumo preferente")
-            .col-md-6.mb-4.mb-md-0
-              p.text-small Esta fecha indica el periodo durante el cual el producto mantiene sus características óptimas de calidad y seguridad para el consumo. Es fundamental para evitar riesgos alimentarios y garantizar una experiencia satisfactoria al consumidor.
-      .col-7.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
-        figure.w-100.d-flex.flex-column
-         img(src='@/assets/curso/temas/tema_8/img_10.png', class="img-fluid").height-100
+    .bg_img_17.mb-3 
+      .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
+        .col-12.col-lg-8.order-2.order-lg-1.mb-lg-0.mb-3
+          LineaTiempoD.color-adicional-3
+            .row(numero="1" titulo="Nombre comercial del producto")
+              .col-md-6.mb-4.mb-md-0
+                p.text-small El nombre del producto debe ser claramente visible, legible y representar fielmente el contenido. Es fundamental que sea atractivo y fácil de identificar para el consumidor. Un buen nombre facilita el reconocimiento de marca y puede incluir descriptores que indiquen la variedad o características especiales, como “Conserva de mango orgánico” o “Mermelada gourmet sin azúcar”.
+            .row(numero="2" titulo="Lista completa de ingredientes")
+              .col-md-6.mb-4.mb-md-0
+                p.text-small Debe incluirse el detalle completo de todos los ingredientes usados en la elaboración, ordenados de mayor a menor proporción. Esto garantiza transparencia y permite a los consumidores conocer exactamente qué están consumiendo, útil especialmente para personas con alergias o restricciones dietarías. Además, puede incluir indicación de aditivos o conservantes usados.
+            .row(numero="3" titulo="Información nutricional")
+              .col-md-6.mb-4.mb-md-0
+                p.text-small Esta sección debe contener datos como valor energético (calorías), cantidad de macronutrientes (grasas, carbohidratos y proteínas), y otros nutrientes relevantes (fibra, sodio, azúcares, vitaminas, entre otros). Es esencial para que el consumidor pueda tomar decisiones informadas, especialmente aquellos que cuidan su salud o siguen dietas específicas.
+            .row(numero="4" titulo="Registro sanitario y número de lote")
+              .col-md-6.mb-4.mb-md-0
+                p.text-small El registro sanitario es un código que certifica que el producto cumple con los requisitos legales y sanitarios, otorgado por la autoridad competente (como INVIMA en Colombia). El número de lote permite identificar el grupo de producción, esencial para la trazabilidad en caso de reclamos o retiros del mercado.
+            .row(numero="5" titulo="Fecha de vencimiento o consumo preferente")
+              .col-md-6.mb-4.mb-md-0
+                p.text-small Esta fecha indica el periodo durante el cual el producto mantiene sus características óptimas de calidad y seguridad para el consumo. Es fundamental para evitar riesgos alimentarios y garantizar una experiencia satisfactoria al consumidor.
+        .col-7.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
+          figure.w-100.d-flex.flex-column
+           img(src='@/assets/curso/temas/tema_8/img_10.png', class="img-fluid").height-100
 </template>
 
 <script>

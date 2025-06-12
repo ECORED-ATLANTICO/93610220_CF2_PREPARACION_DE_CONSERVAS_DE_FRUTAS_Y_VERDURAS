@@ -34,7 +34,7 @@
     ImagenInfografica.time-line-info.pulso-invertido.mb-5
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/tema_1/img_4.svg', class="img-fluid")
+          img(src='@/assets/curso/temas/tema_1/img_4.png', class="img-fluid")
 
       .tarjeta.color-adicional-1(x="24.5%" y="26.4%" numero="")
         .h5.mb-3 Inhibición microbiana
@@ -114,21 +114,21 @@
     .tarjeta_1_1
       p.mb-3 Entre los objetivos principales de la conservación se encuentran:
       ul.ps-4
-        li
-          i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
-          |   Prolongar la vida útil del producto.
-        li
-          i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
-          |   Prevenir el desarrollo de microorganismos patógenos o alterantes.
-        li
-          i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
-          |   Mantener la calidad nutricional y organoléptica.
-        li
-          i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
-          |   Facilitar el transporte y almacenamiento.
-        li
-          i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
-          |   Disminuir pérdidas poscosecha y aprovechar excedentes productivos.
+        li.mb-0.d-flex.align-items-start
+          .fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+          span(style="line-height: 1.5") 	Prolongar la vida útil del producto.
+        li.mb-0.d-flex.align-items-start
+          .fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+          span(style="line-height: 1.5") 	Prevenir el desarrollo de microorganismos patógenos o alterantes.
+        li.mb-0.d-flex.align-items-start
+          .fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+          span(style="line-height: 1.5") 	Mantener la calidad nutricional y organoléptica.
+        li.mb-0.d-flex.align-items-start
+          .fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+          span(style="line-height: 1.5") 	Facilitar el transporte y almacenamiento.
+        li.mb-0.d-flex.align-items-start
+          .fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+          span(style="line-height: 1.5") 	Disminuir pérdidas poscosecha y aprovechar excedentes productivos.
       p.mb-0 Estos principios se aplican bajo diferentes técnicas, como la reducción de la actividad de agua, el control de temperatura, la modificación de la atmósfera interna del envase, la acidificación y la incorporación de sustancias conservantes.
 
     separador
@@ -140,8 +140,8 @@
     p.mb-5 Existen diversos factores que influyen en la eficacia y selección del método de conservación de frutas y verduras. Su adecuada evaluación permite elegir el proceso más efectivo para garantizar productos seguros, estables y de calidad:
 
     .bg_img_1.mb-3.height-100
-      .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-5
-        .col-12.col-lg-7.mb-0.order-2.order-lg-1.p-0.d-flex
+      .row.justify-content-center.align-items-center.mb-5
+        .col-12.col-lg-7.mb-0.order-2.order-lg-1.p-0
           .custom-slider.p-5.p-sm-3
             SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-2.rounded-3
               .tarjeta.color-adicional-2

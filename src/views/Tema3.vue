@@ -51,14 +51,14 @@
     .bg_img_4.mb-3
       .row.justify-content-center.align-items-center.mb-3
         .col-12.col-lg-5.mb-3
-          .tarjeta.color-adicional-3.text-center
+          .tarjeta.color-secundario-20.text-center
             figure
               img(src="@/assets/curso/temas/tema_3/img_4.png", class="img-fluid")
             h5.mb-3.p-3.pb-0 ESCALDADO EN AGUA CALIENTE
             p.p-3.pt-2 Consiste en sumergir los vegetales en agua a temperaturas entre 95°C y 100°C durante un tiempo determinado. Es un método común y efectivo, aunque puede generar cierta pérdida de nutrientes solubles en agua.
 
         .col-12.col-lg-5.mb-3
-          .tarjeta.color-secundario-10.text-center
+          .tarjeta.color-terciario-10.text-center
             figure
               img(src="@/assets/curso/temas/tema_3/img_5.png", class="img-fluid")
             h5.mb-3.p-3.pb-0 ESCALDADO POR VAPOR
@@ -119,7 +119,7 @@
           ImagenInfografica.time-line-info.pulso-invertido.mb-5
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/temas/tema_3/img_7.svg')
+                img(src='@/assets/curso/temas/tema_3/img_7.png')
 
             .tarjeta.color-adicional-1(x="47.26%" y="37.49%" numero="")
               .h5.mb-3 Textura

@@ -87,6 +87,7 @@
 
 .banner-interno__titulo__icono i
   color: $color-primario
+
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
   color: $color-sistema-texto
 
@@ -436,7 +437,7 @@
       content: ''
       position: absolute
       margin: 0
-      top: 45px
+      top: 0px
       left: -48px
       width: calc(100% + 96px)
       height: 100%
@@ -469,6 +470,20 @@
       width: calc(100% + 96px)
       height: 100%
       background-image: url('../assets/curso/temas/tema_8/img_11.png') !important
+      background-repeat: no-repeat
+  &_17
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/temas/tema_8/img_12.png') !important
       background-repeat: no-repeat
 
 //bgr

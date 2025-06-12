@@ -19,16 +19,16 @@
     .mb-3
 
     .bg_img_14.mb-3
-      .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-5
-        .col-6.col-lg-4.mb-lg-0.mb-3.d-flex
+      .row.justify-content-center.align-items-center.mb-5
+        .col-6.col-lg-3.mb-lg-0.mb-3.d-flex
           figure.w-100.d-flex.flex-column
             img(src='@/assets/curso/temas/tema_7/img_2.png', class="img-fluid").height-100
-        .col-12.col-lg-8
+        .col-12.col-lg-9.mb-0
           .cajon.color-secundario-b.p-4
-            p Las BPM son el conjunto de condiciones, normas y procedimientos que aseguran la higiene y el control del proceso de elaboración. Son el pilar de cualquier sistema de gestión de calidad en alimentos, y su cumplimiento es obligatorio según normativas como el Decreto 3075 de 1997 en Colombia y las directrices del Codex Alimentarius (FAO/OMS). Los aspectos clave que deben aplicarse en la producción de conservas son:
+            p.mb-0 Las BPM son el conjunto de condiciones, normas y procedimientos que aseguran la higiene y el control del proceso de elaboración. Son el pilar de cualquier sistema de gestión de calidad en alimentos, y su cumplimiento es obligatorio según normativas como el Decreto 3075 de 1997 en Colombia y las directrices del Codex Alimentarius (FAO/OMS). Los aspectos clave que deben aplicarse en la producción de conservas son:
       
     .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
-      .col-12.col-lg-7.order-2.order-lg-1.mb-lg-0.mb-3
+      .col-12.col-lg-8.order-2.order-lg-1.mb-lg-0.mb-3
         LineaTiempoD.color-adicional-3
           .row(numero="1" titulo="Higiene personal")
             .col-md-6.mb-4.mb-md-0
@@ -45,7 +45,7 @@
           .row(numero="5" titulo="Capacitación continua del personal")
             .col-md-6.mb-4.mb-md-0
               p.text-small El equipo debe conocer las prácticas de higiene, control de calidad y manipulación segura para garantizar un entorno productivo confiable.
-      .col-7.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
+      .col-7.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
         figure.w-100.d-flex.flex-column
          img(src='@/assets/curso/temas/tema_7/img_3.png', class="img-fluid").height-100
 
@@ -155,18 +155,18 @@
           .col-12.col-lg-7
             p.mb-3 <b>Aspectos evaluados:</b>
             ul.mb-3
-              li
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
-                |  	<b>Apariencia:</b> color, brillo y claridad
-              li
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
-                |  	<b>Aroma:</b> intensidad, naturalidad y frescura.
-              li
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
-                |  	<b>Sabor:</b> dulzor, acidez y equilibrio.
-              li
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
-                | 	<b>Textura:</b> firmeza, untuosidad y fluidez.
+              li.mb-0.d-flex.align-items-start
+                i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	<b>Apariencia:</b> color, brillo y claridad
+              li.mb-0.d-flex.align-items-start
+                i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	<b>Aroma:</b> intensidad, naturalidad y frescura.
+              li.mb-0.d-flex.align-items-start
+                i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	<b>Sabor:</b> dulzor, acidez y equilibrio.
+              li.mb-0.d-flex.align-items-start
+                i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	<b>Textura:</b> firmeza, untuosidad y fluidez.
 </template>
 
 <script>

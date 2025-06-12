@@ -30,15 +30,15 @@
                 img(src="@/assets/curso/temas/tema_2/img_2.png", class="img-fluid")
               h5.mb-3.p-3.pb-0 VENTAJAS
               ul.p-3.pt-2.mb-0
-                li.mb-3
-                  i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                  |   Mantienen frescura, textura y sabor natural.
-                li.mb-3
-                  i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                  |  	No requieren aditivos químicos.
-                li.mb-0
-                  i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                  |   Son útiles para productos como frutas escaldadas (fresas, moras entre otras) o vegetales pretratados (zanahorias y brócoli).
+                li.mb-3.d-flex.align-items-start
+                  i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                  span(style="line-height: 1.5") 	Mantienen frescura, textura y sabor natural.
+                li.mb-3.d-flex.align-items-start
+                  i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                  span(style="line-height: 1.5") 	No requieren aditivos químicos.
+                li.mb-0.d-flex.align-items-start
+                  i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                  span(style="line-height: 1.5") 	Son útiles para productos como frutas escaldadas (fresas, moras entre otras) o vegetales pretratados (zanahorias y brócoli).
         .col-12.col-lg-4.d-flex
           .w-100.d-flex.flex-column
             .tarjeta.color-secundario-10.mb-0.height-100
@@ -46,12 +46,12 @@
                 img(src="@/assets/curso/temas/tema_2/img_3.png", class="img-fluid")
               h5.mb-3.p-3.pb-0 LIMITACIONES
               ul.p-3.pt-2.mb-0
-                li.mb-3
-                  i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                  |   Requieren cadena de frío constante y suministro eléctrico estable.
-                li.mb-0
-                  i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                  |  	La descongelación puede afectar la textura, especialmente en frutas blandas.
+                li.mb-3.d-flex.align-items-start
+                  i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                  span(style="line-height: 1.5") 	Requieren cadena de frío constante y suministro eléctrico estable.
+                li.mb-0.d-flex.align-items-start
+                  i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                  span(style="line-height: 1.5") 	La descongelación puede afectar la textura, especialmente en frutas blandas.
 
     separador
 

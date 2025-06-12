@@ -58,15 +58,15 @@
                 .tarjeta--slider__title.mb-3 <b>Pasteurización</b>
                 .tarjeta--slider__content Colocar los frascos en baño María o túnel térmico.
                 ul.ps-3
-                  li
-                    i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                    | 	Frutas en almíbar: 85°C x 20 min
-                  li
-                    i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                    | 	Jaleas: 80°C x 10 min
-                  li
-                    i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                    | 	Encurtidos: 90°C x 15 min
+                  li.d-flex.align-items-start
+                    i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                    span(style="line-height: 1.5") 	Frutas en almíbar: 85°C x 20 min
+                  li.d-flex.align-items-start
+                    i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                    span(style="line-height: 1.5") 	Jaleas: 80°C x 10 min
+                  li.d-flex.align-items-start
+                    i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                    span(style="line-height: 1.5") 	Encurtidos: 90°C x 15 min
               .tarjeta.color-adicional-2
                 .tarjeta--10
                 .tarjeta--slider__title.mb-3 <b>Enfriamiento gradual</b>
@@ -103,15 +103,15 @@
             h2 Métodos más utilizados
             p Equipos empleados según tipo y escala de producción.
             ul
-              li
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                |  	Producción a pequeña escala: olla a presión doméstica
-              li
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
-                | 	Procesamiento continuo: autoclave industrial
-              li
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
-                | 	Uso masivo en plantas: retorta de vapor o agua sobrecalentada 
+              li.mb-0.d-flex.align-items-start
+                i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	Producción a pequeña escala: olla a presión doméstica
+              li.mb-0.d-flex.align-items-start
+                i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	Procesamiento continuo: autoclave industrial
+              li.mb-0.d-flex.align-items-start
+                i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	Uso masivo en plantas: retorta de vapor o agua sobrecalentada 
           .col-7.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_4/img_13.png', class="img-fluid")
@@ -121,15 +121,15 @@
             h2 Condiciones estándar del proceso
             p Temperaturas, tiempos y valor F₀ recomendados para garantizar esterilidad.
             ul
-              li
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                |  	Temperatura: 121°C
-              li
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
-                | 	Tiempo: 15 minutos
-              li
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px").mb-0
-                | 	Valor F₀ típico: 3.0 para asegurar esterilidad en vegetales enlatados
+              li.mb-0.d-flex.align-items-start
+                i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	Temperatura: 121°C
+              li.mb-0.d-flex.align-items-start
+                i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	Tiempo: 15 minutos
+              li.mb-0.d-flex.align-items-start
+                i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	Valor F₀ típico: 3.0 para asegurar esterilidad en vegetales enlatados
             p <b>valor F₀</b> representa el tiempo equivalente de letalidad a 121,1°C requerido para asegurar la esterilidad comercial de un alimento. Este valor permite ajustar los parámetros del proceso térmico según el tipo de producto, el tamaño del envase y la carga microbiana inicial.
             p <b>Condiciones estándar:</b> se recomienda una temperatura de 121°C durante 15 minutos, lo que equivale a un <b>valor F₀ de 3.0</b> , suficiente para garantizar la destrucción de esporas de Clostridium botulinum en vegetales enlatados.
           .col-7.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
@@ -141,15 +141,15 @@
             h2 Control microbiológico del tratamiento
             p Parámetros críticos, análisis previos y validación posterior del proceso.
             ul
-              li
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                |  	Registrar parámetros críticos: temperatura, presión y tiempo
-              li
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                | 	Verificar el pH antes del tratamiento (pH > 4.5 requiere esterilización)
-              li
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                | 	Realizar análisis microbiológicos postproceso para validar seguridad
+              li.mb-0.d-flex.align-items-start
+                i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	Registrar parámetros críticos: temperatura, presión y tiempo
+              li.mb-0.d-flex.align-items-start
+                i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	Verificar el pH antes del tratamiento (pH > 4.5 requiere esterilización)
+              li.mb-0.d-flex.align-items-start
+                i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	Realizar análisis microbiológicos postproceso para validar seguridad
           .col-7.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_4/img_15.png', class="img-fluid")
@@ -169,20 +169,21 @@
         )
           .row.justify-content-center.align-items-center
             .col-12.col-lg-6.order-2.order-lg-1.mb-3.mb-lg-0
-              h5.mb-3 Lavado inicial
-              ul
-                li.mb-3
-                  i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                  |  	Utiliza agua potable caliente para remover residuos visibles.
-                li.mb-3
-                  i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                  |  	Aplica detergente neutro, preferiblemente sin fragancia ni colorante, para evitar contaminaciones químicas.
-                li.mb-3
-                  i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                  |  	Usa esponjas suaves o cepillos exclusivos para utensilios de cocina.
-                li.mb-0
-                  i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                  |  	Asegúrate de alcanzar todas las superficies del frasco: boca, rosca, fondo y paredes.
+              div.container
+                h5.mb-3 Lavado inicial
+                ul
+                  li.mb-3.d-flex.align-items-start
+                    i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                    span(style="line-height: 1.5") 	Utiliza agua potable caliente para remover residuos visibles.
+                  li.mb-3.d-flex.align-items-start
+                    i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                    span(style="line-height: 1.5") 	Aplica detergente neutro, preferiblemente sin fragancia ni colorante, para evitarcontaminaciones químicas.
+                  li.mb-3.d-flex.align-items-start
+                    i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                    span(style="line-height: 1.5") 	Usa esponjas suaves o cepillos exclusivos para utensilios de cocina.
+                  li.mb-3.d-flex.align-items-start
+                    i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                    span(style="line-height: 1.5") 	Asegúrate de alcanzar todas las superficies del frasco: boca, rosca, fondo y paredes.
             .col-6.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema_4/img_20.png', class="img-fluid")
@@ -192,14 +193,15 @@
         )
           .row.justify-content-center.align-items-center
             .col-12.col-lg-6.order-2.order-lg-1.mb-3.mb-lg-0
-              h5.mb-3 Enjuague y revisión
-              ul
-                li.mb-3
-                  i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                  | 	Enjuaga varias veces con agua potable para eliminar por completo el detergente.
-                li.mb-0
-                  i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                  | 	Revisa cada envase: no deben tener fisuras, grietas o abolladuras. Las tapas deben cerrar de forma hermética y sin deformaciones.
+              div.container
+                h5.mb-3 Enjuague y revisión
+                ul
+                  li.mb-3.d-flex.align-items-start
+                    i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                    span(style="line-height: 1.5") 	Enjuaga varias veces con agua potable para eliminar por completo el detergente.
+                  li.mb-0.d-flex.align-items-start
+                    i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                    span(style="line-height: 1.5") 	Revisa cada envase: no deben tener fisuras, grietas o abolladuras. Las tapas deben cerrar de forma hermética y sin deformaciones.
             .col-6.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0
               figure
                   img(src='@/assets/curso/temas/tema_4/img_21.png', class="img-fluid")
@@ -209,17 +211,18 @@
         )
           .row.justify-content-center.align-items-center
             .col-12.col-lg-6.order-2.order-lg-1.mb-3.mb-lg-0
-              h5.mb-3 Esterilización
-              ul
-                li.mb-3
-                  i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                  | 	Opción 1: inmersión en agua hirviendo durante 15-30 minutos. Utiliza una olla con rejilla para evitar el contacto directo con la base.
-                li.mb-3
-                  i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                  | 	Opción 2: horno seco a 120°C por 10-15 minutos. Evita el sobrecalentamiento para no dañar los frascos o tapas plásticas.
-                li.mb-0
-                  i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                  | 	Usa pinzas desinfectadas para manipular los envases calientes.
+              div.container
+                h5.mb-3 Esterilización
+                ul
+                  li.mb-3.d-flex.align-items-start
+                    i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                    span(style="line-height: 1.5") 	Opción 1: inmersión en agua hirviendo durante 15-30 minutos. Utiliza una olla con rejilla para evitar el contacto directo con la base.
+                  li.mb-3.d-flex.align-items-start
+                    i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                    span(style="line-height: 1.5") 	Opción 2: horno seco a 120°C por 10-15 minutos. Evita el sobrecalentamiento para no dañar los frascos o tapas plásticas.
+                  li.mb-0.d-flex.align-items-start
+                    i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                    span(style="line-height: 1.5") 	Usa pinzas desinfectadas para manipular los envases calientes.
             .col-6.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema_4/img_22.png', class="img-fluid")
@@ -229,17 +232,18 @@
         )
           .row.justify-content-center.align-items-center
             .col-12.col-lg-6.order-2.order-lg-1.mb-3.mb-lg-0
-              h5.mb-3 Secado
-              ul
-                li.mb-3
-                  i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                  | 	Coloca los envases sobre una superficie limpia y desinfectada, preferiblemente una rejilla de acero inoxidable o bandeja de vidrio.
-                li.mb-3
-                  i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                  | 	Deja que se sequen al aire completamente. No uses paños, ya que pueden reintroducir microorganismos.
-                li.mb-0
-                  i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                  | 	No manipules los envases una vez secos hasta el momento del llenado.
+              div.container
+                h5.mb-3 Secado
+                ul
+                  li.mb-3.d-flex.align-items-start
+                    i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                    span(style="line-height: 1.5") 	Coloca los envases sobre una superficie limpia y desinfectada, preferiblemente una rejilla de acero inoxidable o bandeja de vidrio.
+                  li.mb-3.d-flex.align-items-start
+                    i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                    span(style="line-height: 1.5") 	Deja que se sequen al aire completamente. No uses paños, ya que pueden reintroducir microorganismos.
+                  li.mb-0.d-flex.align-items-start
+                    i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                    span(style="line-height: 1.5") 	No manipules los envases una vez secos hasta el momento del llenado.
             .col-6.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema_4/img_23.png', class="img-fluid")
@@ -255,32 +259,32 @@
       .col-12.col-lg-8.order-2.order-lg-1
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-adicional-5-6")
           div(titulo="Impide la oxidación y el oscurecimiento del producto")
-            p.mb-0 Al eliminar el oxígeno del interior del frasco, se reduce drásticamente la posibilidad de que ocurran reacciones de oxidación que afectan el color, sabor y valor nutricional del alimento. Esto es especialmente importante en frutas y verduras, ya que la exposición al aire puede producir un tono marrón, pérdida de aroma y deterioro de la textura.
+            p.ps-5.mb-0 Al eliminar el oxígeno del interior del frasco, se reduce drásticamente la posibilidad de que ocurran reacciones de oxidación que afectan el color, sabor y valor nutricional del alimento. Esto es especialmente importante en frutas y verduras, ya que la exposición al aire puede producir un tono marrón, pérdida de aroma y deterioro de la textura.
           div(titulo="Mejora la vida útil del alimento")
-            p.mb-3 El vacío crea un entorno donde los microorganismos aeróbicos (que necesitan oxígeno para vivir) no pueden sobrevivir ni reproducirse. Esto significa que las conservas:
-            ul
-              li
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                | 	Duran más tiempo en almacenamiento, sin necesidad de refrigeración inmediata.
-              li
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                | 	Conservan mejor sus propiedades sensoriales y nutritivas a lo largo del tiempo.
-              li
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                | 	Son menos propensas a contaminarse si se han seguido buenas prácticas de manufactura (BPM).
+            p.ps-5.mb-3 El vacío crea un entorno donde los microorganismos aeróbicos (que necesitan oxígeno para vivir) no pueden sobrevivir ni reproducirse. Esto significa que las conservas:
+            ul.ps-5
+              li.mb-3.d-flex.align-items-start
+                i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	Duran más tiempo en almacenamiento, sin necesidad de refrigeración inmediata.
+              li.mb-3.d-flex.align-items-start
+                i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	Conservan mejor sus propiedades sensoriales y nutritivas a lo largo del tiempo.
+              li.mb-0.d-flex.align-items-start
+                i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	Son menos propensas a contaminarse si se han seguido buenas prácticas de manufactura (BPM).
           div(titulo="Garantiza un sello hermético y presentación profesional")
-            p.mb-3 Realizar el vacío correctamente asegura que el envase quede completamente sellado, sin entrada de aire ni humedad, protegiendo el contenido de factores externos.
-            p.mb-0 Este sellado:
-            ul
-              li
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                | 	Evita fugas o derrames.
-              li
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                | 	Mejora la presentación comercial del producto.
-              li
-                i.fa-solid.fa-circle-check(style="color: #8C492A; font-size: 15px")
-                | 	Permite al consumidor comprobar que el envase está correctamente cerrado, por ejemplo, con el “click” de seguridad de la tapa metálica al abrirse por primera vez.
+            p.ps-5.mb-3 Realizar el vacío correctamente asegura que el envase quede completamente sellado, sin entrada de aire ni humedad, protegiendo el contenido de factores externos.
+            p.ps-5.mb-0 Este sellado:
+            ul.ps-5
+              li.mb-3.d-flex.align-items-start
+                i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	Evita fugas o derrames.
+              li.mb-3.d-flex.align-items-start
+                i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	Mejora la presentación comercial del producto.
+              li.mb-0.d-flex.align-items-start
+                i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	Permite al consumidor comprobar que el envase está correctamente cerrado, por ejemplo, con el “click” de seguridad de la tapa metálica al abrirse por primera vez.
       .col-6.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
         figure.w-100.d-flex.flex-column
           img(src="@/assets/curso/temas/tema_4/img_25.png", class="img-fluid").height-100
