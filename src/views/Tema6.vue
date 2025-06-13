@@ -211,13 +211,13 @@
       .col-12.col-lg-8.order-2.order-lg-1.mb-lg-0.mb-3
         LineaTiempoD.color-adicional-3
           .row(numero="1" titulo="Escaldado + salmuera + pasteurización")
-            .col-md-6.mb-4.mb-md-0
+            .col-md-12.mb-4.mb-md-0
               p.text-small Ideal para vegetales (zanahoria, coliflor, entre otros) que requieren firmeza y larga vida útil sin refrigeración.
           .row(numero="2" titulo="Azúcar + acidificación + vacío")
-            .col-md-6.mb-4.mb-md-0
+            .col-md-12.mb-4.mb-md-0
               p.text-small Usado en mermeladas o frutas en almíbar. El azúcar conserva, el ácido reduce pH y el vacío sella.
           .row(numero="3" titulo="Fermentación + refrigeración")
-            .col-md-6.mb-4.mb-md-0
+            .col-md-12.mb-4.mb-md-0
               p.text-small Conservas artesanales como chucrut, encurtidos caseros o kimchi. La fermentación acidifica, y la cadena de frío estabiliza.
       .col-7.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
         figure

@@ -31,19 +31,19 @@
       .col-12.col-lg-8.order-2.order-lg-1.mb-lg-0.mb-3
         LineaTiempoD.color-adicional-3
           .row(numero="1" titulo="Higiene personal")
-            .col-md-6.mb-4.mb-md-0
+            .col-md-12.mb-4.mb-md-0
               p.text-small Uso de uniforme limpio, lavado frecuente de manos, protección del cabello y uñas cortas. El manipulador es un factor crítico en la contaminación cruzada.
           .row(numero="2" titulo="Limpieza y desinfección")
-            .col-md-6.mb-4.mb-md-0
+            .col-md-12.mb-4.mb-md-0
               p.text-small Rutinas programadas para utensilios, superficies, tanques y equipos. Se deben usar productos aprobados y métodos efectivos sin dejar residuos peligrosos.
           .row(numero="3" titulo="Control de materias primas")
-            .col-md-6.mb-4.mb-md-0
+            .col-md-12.mb-4.mb-md-0
               p.text-small Verificación del estado, procedencia, almacenamiento y condiciones sanitarias de frutas, verduras y aditivos.
           .row(numero="4" titulo="Trazabilidad y documentación")
-            .col-md-6.mb-4.mb-md-0
+            .col-md-12.mb-4.mb-md-0
               p.text-small Registros actualizados del proceso, lotes, proveedores, fechas de producción y control de puntos críticos.
           .row(numero="5" titulo="Capacitación continua del personal")
-            .col-md-6.mb-4.mb-md-0
+            .col-md-12.mb-4.mb-md-0
               p.text-small El equipo debe conocer las prácticas de higiene, control de calidad y manipulación segura para garantizar un entorno productivo confiable.
       .col-7.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
         figure.w-100.d-flex.flex-column

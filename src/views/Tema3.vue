@@ -66,7 +66,7 @@
         .col-12.col-lg-10.mb-3
           .cajon.color-adicional-4-Mix-secundario.p-4.mb-3
             p La duración del escaldado debe ajustarse según el tipo de vegetal, su tamaño, nivel de madurez y forma de corte. Un tratamiento insuficiente puede dejar enzimas activas, mientras que un exceso de calor deteriora la textura y el valor nutricional.
-        .col-12.col-lg-7
+        .col-12.col-lg-8
           .titulo-sexto.color-acento-contenido
             h5 Tabla 1.
             I(style="font-weight: normal;") Tiempos de referencia para escaldado
