@@ -135,7 +135,7 @@
                   img(src="@/assets/curso/temas/tema_3/img_9.png", class="img-fluid")
                 .flex-grow-1.ms-md-3.ms-0
                   p.mb-3 Las hortalizas de hoja verde intensifican su color al escaldarse, debido a la inactivación de enzimas como la peroxidasa y la polifenoloxidasa. Este efecto mejora notablemente la apariencia visual de productos como espinaca, acelga y brócoli.
-            .tarjeta.color-adicional-1(x="57.45%" y="75.9%" numero="")
+            .tarjeta.color-adicional-1(x="57.45%" y="75.9%" numero="" style="transform: translate(-50%, -50%); max-width: 90vw;")
               .h5.mb-3 Carga microbiana
               .d-flex.flex-md-row.flex-column
                 .flex-shrink-0.mb-md-0.mb-3.d-flex.align-items-center.justify-content-center
