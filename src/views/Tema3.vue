@@ -49,20 +49,22 @@
     p.mb-3 El escaldado puede aplicarse mediante dos técnicas principales, cada una con particularidades que influyen en la calidad final del producto:
     
     .bg_img_4.mb-3
-      .row.justify-content-center.align-items-center.mb-3
-        .col-12.col-lg-5.mb-3
-          .tarjeta.color-secundario-20.text-center
-            figure
-              img(src="@/assets/curso/temas/tema_3/img_4.png", class="img-fluid")
-            h5.mb-3.p-3.pb-0 ESCALDADO EN AGUA CALIENTE
-            p.p-3.pt-2 Consiste en sumergir los vegetales en agua a temperaturas entre 95°C y 100°C durante un tiempo determinado. Es un método común y efectivo, aunque puede generar cierta pérdida de nutrientes solubles en agua.
+      .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
+        .col-12.col-lg-5.mb-3.d-flex
+          .w-100.d-flex.flex-column
+            .tarjeta.color-secundario-20.text-center.height-100
+              figure
+                img(src="@/assets/curso/temas/tema_3/img_4.png", class="img-fluid")
+              h5.mb-3.p-3.pb-0 ESCALDADO EN AGUA CALIENTE
+              p.p-3.pt-2 Consiste en sumergir los vegetales en agua a temperaturas entre 95°C y 100°C durante un tiempo determinado. Es un método común y efectivo, aunque puede generar cierta pérdida de nutrientes solubles en agua.
 
-        .col-12.col-lg-5.mb-3
-          .tarjeta.color-terciario-10.text-center
-            figure
-              img(src="@/assets/curso/temas/tema_3/img_5.png", class="img-fluid")
-            h5.mb-3.p-3.pb-0 ESCALDADO POR VAPOR
-            p.p-3.pt-2 Expone los alimentos a vapor de agua, a presión atmosférica o en autoclave. Esta alternativa conserva mejor el color, la textura y los compuestos nutritivos del vegetal, al reducir el contacto directo con el líquido.
+        .col-12.col-lg-5.mb-3.d-flex
+          .w-100.d-flex.flex-column
+            .tarjeta.color-terciario-10.text-center.height-100
+              figure
+                img(src="@/assets/curso/temas/tema_3/img_5.png", class="img-fluid")
+              h5.mb-3.p-3.pb-0 ESCALDADO POR VAPOR
+              p.p-3.pt-2 Expone los alimentos a vapor de agua, a presión atmosférica o en autoclave. Esta alternativa conserva mejor el color, la textura y los compuestos nutritivos del vegetal, al reducir el contacto directo con el líquido.
         .col-12.col-lg-10.mb-3
           .cajon.color-adicional-4-Mix-secundario.p-4.mb-3
             p La duración del escaldado debe ajustarse según el tipo de vegetal, su tamaño, nivel de madurez y forma de corte. Un tratamiento insuficiente puede dejar enzimas activas, mientras que un exceso de calor deteriora la textura y el valor nutricional.
