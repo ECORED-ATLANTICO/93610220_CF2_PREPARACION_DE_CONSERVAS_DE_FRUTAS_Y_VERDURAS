@@ -193,7 +193,7 @@
         .col-12.col-lg-8.mb-3
           .titulo-sexto.color-acento-contenido
             h5 Figura 1.
-            I(style="font-weight: normal;") Beneficios de la conservación de conservas
+            |    Beneficios de la conservación de conservas
           figure
             img(src='@/assets/curso/temas/tema_6/img_13.svg')
             figcaption <b>Fuente.</b> SENA, 2025

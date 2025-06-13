@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-  
+
     #Actividad                
       <Actividad :cuestionario="cuestionario"/>
   
@@ -77,7 +77,7 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Clostridium botulinum',
+              texto: '<I>Clostridium botulinum</I>',
               esCorrecta: true,
             },
             {

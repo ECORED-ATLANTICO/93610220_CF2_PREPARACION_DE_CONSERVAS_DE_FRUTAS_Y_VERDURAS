@@ -25,7 +25,7 @@
         img(src='@/assets/curso/temas/tema_4/img_2.png')
       .bloque-texto-t__texto.color-secundario-10.col-10.mb-0
         p.mb-0 La pasteurización consiste en someter los alimentos a temperaturas moderadas, generalmente entre 60 y 95°C, durante un tiempo controlado, con el fin de destruir microorganismos patógenos y reducir la carga microbiana sin comprometer las propiedades nutricionales y sensoriales del producto (Holdsworth & Simpson, 2008).
-    
+
     .bg_img_6.mb-3.height-100
       .row.justify-content-center.align-items-center.mb-3
         .col-12.col-lg-8.order-2.order-lg-1
@@ -33,7 +33,7 @@
         .col-6.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
           figure
             img(src="@/assets/curso/temas/tema_4/img_3.png", class="img-fluid")
-    
+
     h5.mb-3 ETAPAS DE LA PASTEURIZACIÓN EN CONSERVAS
 
     .bg_img_7.mb-3
@@ -92,10 +92,10 @@
 
     .bg_img_8
       img.mb-3(src="@/assets/curso/temas/tema_4/img_12.png", class="img-fluid")
-    
-      p.mb-3 La esterilización térmica es un proceso de conservación que aplica temperaturas superiores a 115°C con el objetivo de destruir microorganismos altamente resistentes al calor, incluidas sus formas esporuladas. Este tratamiento es especialmente crucial para alimentos de baja acidez (pH mayor a 4.5), donde existe riesgo de proliferación de patógenos peligrosos como Clostridium botulinum, responsable del botulismo, una intoxicación severa de origen alimentario (López-Malo et al., 2021).
+
+      p.mb-3 La esterilización térmica es un proceso de conservación que aplica temperaturas superiores a 115°C con el objetivo de destruir microorganismos altamente resistentes al calor, incluidas sus formas esporuladas. Este tratamiento es especialmente crucial para alimentos de baja acidez (pH mayor a 4.5), donde existe riesgo de proliferación de patógenos peligrosos como <I>Clostridium botulinum</I>, responsable del botulismo, una intoxicación severa de origen alimentario (López-Malo et al., 2021).
       p.mb-3 Entre los aspectos técnicos de la esterilización térmica se encuentran:
-    
+
     .tarjeta.tarjeta--fondo__slider.p-4.mb-0
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center
@@ -131,7 +131,7 @@
                 i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
                 span(style="line-height: 1.5") 	Valor F₀ típico: 3.0 para asegurar esterilidad en vegetales enlatados
             p <b>valor F₀</b> representa el tiempo equivalente de letalidad a 121,1°C requerido para asegurar la esterilidad comercial de un alimento. Este valor permite ajustar los parámetros del proceso térmico según el tipo de producto, el tamaño del envase y la carga microbiana inicial.
-            p <b>Condiciones estándar:</b> se recomienda una temperatura de 121°C durante 15 minutos, lo que equivale a un <b>valor F₀ de 3.0</b> , suficiente para garantizar la destrucción de esporas de Clostridium botulinum en vegetales enlatados.
+            p <b>Condiciones estándar:</b> se recomienda una temperatura de 121°C durante 15 minutos, lo que equivale a un <b>valor F₀ de 3.0</b> , suficiente para garantizar la destrucción de esporas de <I>Clostridium botulinum</I> en vegetales enlatados.
           .col-7.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_4/img_14.png', class="img-fluid")
@@ -159,9 +159,9 @@
     #t_4_3.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 4.3 Higienización de envases y técnica de vacío
     .mb-3  
-    
+
     p.mb-3 La limpieza y desinfección de los envases son pasos esenciales para garantizar la inocuidad del producto en conserva. El uso de frascos de vidrio, tapas metálicas o plásticas exige un procedimiento riguroso para evitar contaminación cruzada. Pasos sugeridos para higienización:
-    
+
     TabsB.color-secundario-60.mb-5
       .py-4.py-md-5(
         titulo="Lavado inicial" 
@@ -204,7 +204,7 @@
                     span(style="line-height: 1.5") 	Revisa cada envase: no deben tener fisuras, grietas o abolladuras. Las tapas deben cerrar de forma hermética y sin deformaciones.
             .col-6.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0
               figure
-                  img(src='@/assets/curso/temas/tema_4/img_21.png', class="img-fluid")
+                img(src='@/assets/curso/temas/tema_4/img_21.png', class="img-fluid")
       .py-4.py-md-5(
         titulo="Esterilización" 
         :icono="require('@/assets/curso/temas/tema_4/img_18.svg')"
@@ -254,7 +254,7 @@
           img(src="@/assets/curso/temas/tema_4/img_24.png", class="img-fluid")
       .col-12.col-lg-11
         p Posterior al llenado en caliente, se aplica la técnica de vacío para extraer el aire del interior del envase, lo cual contribuye significativamente a mejorar la estabilidad, inocuidad y vida útil del alimento. Esta etapa es clave para prevenir el desarrollo de microorganismos y conservar las características sensoriales del producto. Entre sus beneficios más destacados se encuentran:
-    
+
     .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
       .col-12.col-lg-8.order-2.order-lg-1
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-adicional-5-6")

@@ -266,7 +266,7 @@
     .bg_img_11.mb-3
       .titulo-sexto.color-acento-contenido
         h5 Tabla 2.
-        I(style="font-weight: normal;") Tipos de líquidos de cobertura
+        |   Tipos de líquidos de cobertura
       .tabla-a.mb-5
         table
           caption 
