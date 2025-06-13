@@ -96,19 +96,19 @@
         .col-12.col-lg-8.order-2.order-lg-1.mb-lg-0.mb-3
           LineaTiempoD.color-adicional-3
             .row(numero="1" titulo="Nombre comercial del producto")
-              .col-md-6.mb-4.mb-md-0
+              .col-md-12.mb-4.mb-md-0
                 p.text-small El nombre del producto debe ser claramente visible, legible y representar fielmente el contenido. Es fundamental que sea atractivo y fácil de identificar para el consumidor. Un buen nombre facilita el reconocimiento de marca y puede incluir descriptores que indiquen la variedad o características especiales, como “Conserva de mango orgánico” o “Mermelada gourmet sin azúcar”.
             .row(numero="2" titulo="Lista completa de ingredientes")
-              .col-md-6.mb-4.mb-md-0
+              .col-md-12.mb-4.mb-md-0
                 p.text-small Debe incluirse el detalle completo de todos los ingredientes usados en la elaboración, ordenados de mayor a menor proporción. Esto garantiza transparencia y permite a los consumidores conocer exactamente qué están consumiendo, útil especialmente para personas con alergias o restricciones dietarías. Además, puede incluir indicación de aditivos o conservantes usados.
             .row(numero="3" titulo="Información nutricional")
-              .col-md-6.mb-4.mb-md-0
+              .col-md-12.mb-4.mb-md-0
                 p.text-small Esta sección debe contener datos como valor energético (calorías), cantidad de macronutrientes (grasas, carbohidratos y proteínas), y otros nutrientes relevantes (fibra, sodio, azúcares, vitaminas, entre otros). Es esencial para que el consumidor pueda tomar decisiones informadas, especialmente aquellos que cuidan su salud o siguen dietas específicas.
             .row(numero="4" titulo="Registro sanitario y número de lote")
-              .col-md-6.mb-4.mb-md-0
+              .col-md-12.mb-4.mb-md-0
                 p.text-small El registro sanitario es un código que certifica que el producto cumple con los requisitos legales y sanitarios, otorgado por la autoridad competente (como INVIMA en Colombia). El número de lote permite identificar el grupo de producción, esencial para la trazabilidad en caso de reclamos o retiros del mercado.
             .row(numero="5" titulo="Fecha de vencimiento o consumo preferente")
-              .col-md-6.mb-4.mb-md-0
+              .col-md-12.mb-4.mb-md-0
                 p.text-small Esta fecha indica el periodo durante el cual el producto mantiene sus características óptimas de calidad y seguridad para el consumo. Es fundamental para evitar riesgos alimentarios y garantizar una experiencia satisfactoria al consumidor.
         .col-7.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
           figure.w-100.d-flex.flex-column
