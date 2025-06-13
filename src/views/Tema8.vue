@@ -57,7 +57,7 @@
     p.mb-3 La innovación es un motor clave para mantenerse competitivo y relevante en el mercado. Algunas propuestas aplicables incluyen:
 
     .tarjeta--container.row.mb-5
-      .col-md.tarjeta.color-secundario-20.p-5
+      .col-md.tarjeta.color-secundario-20.p-5.mb-lg-0.mb-3
         .row.justify-content-center.mb-4
           .col-6
             figure
@@ -65,7 +65,7 @@
           
         h2.text-center Conservas sin azúcar añadido
         p Diseñadas para personas con restricciones dietéticas, diabéticos o quienes prefieren reducir su ingesta calórica, estas opciones amplían la accesibilidad del producto.
-      .col-md.tarjeta.color-secundario-10.p-5
+      .col-md.tarjeta.color-secundario-10.p-5.mb-lg-0.mb-3
         .row.justify-content-center.mb-4
           .col-6
             figure
