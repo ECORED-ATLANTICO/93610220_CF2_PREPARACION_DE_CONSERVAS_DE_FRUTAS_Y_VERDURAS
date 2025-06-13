@@ -20,9 +20,9 @@ export default {
       tema:
         'Métodos de conservación y preparación de conservas de frutas y verduras.',
       titulo:
-        'Exploremos las ETA, su relación con las HACCP y las regulaciones de seguridad.',
+        'Análisis de las ETAs, su vínculo con HACCP y el marco regulatorio en seguridad alimentaria.',
       introduccion:
-        '<b> Objetivo:</b> Apropiar los conceptos y regulaciones de los métodos de conservación y preparación de conservas de frutas y verduras.',
+        '<b> Objetivo:</b> apropiar los conceptos y regulaciones de los métodos de conservación y preparación de conservas de frutas y verduras.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!..',
       titulo_reprobado: 'VUELVA A INTENTARLO..',
@@ -36,22 +36,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Desecación',
+              texto: 'Desecación.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Deshidratación',
+              texto: 'Deshidratación.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Irradiación',
+              texto: 'Irradiación.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Salazón',
+              texto: 'Salazón.',
               esCorrecta: false,
             },
           ],
@@ -67,22 +67,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Salmonella',
+              texto: '<I>Salmonella.</I>',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Escherichia coli',
+              texto: 'Escherichia coli.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<I>Clostridium botulinum</I>',
+              texto: '<I>Clostridium botulinum.</I>',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Listeria monocytogenes',
+              texto: 'Listeria monocytogenes.',
               esCorrecta: false,
             },
           ],
@@ -98,22 +98,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Mejorar su sabor',
+              texto: 'Mejorar su sabor.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Inactivar enzimas y reducir la carga microbiana',
+              texto: 'Inactivar enzimas y reducir la carga microbiana.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ablandar su textura',
+              texto: 'Ablandar su textura.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Aumentar su valor nutricional',
+              texto: 'Aumentar su valor nutricional.',
               esCorrecta: false,
             },
           ],
@@ -128,22 +128,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'La acidez de una solución',
+              texto: 'La acidez de una solución.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'La cantidad de agua en un alimento',
+              texto: 'La cantidad de agua en un alimento.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'La temperatura de cocción',
+              texto: 'La temperatura de cocción.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'La concentración de azúcar en una solución',
+              texto: 'La concentración de azúcar en una solución.',
               esCorrecta: true,
             },
           ],
@@ -159,22 +159,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Pasteurización',
+              texto: 'Pasteurización.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Esterilización',
+              texto: 'Esterilización.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Salazón',
+              texto: 'Salazón.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Cocción',
+              texto: 'Cocción.',
               esCorrecta: false,
             },
           ],
@@ -224,22 +224,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Aumentar la presión dentro del frasco',
+              texto: 'Aumentar la presión dentro del frasco.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Eliminar el oxígeno del interior del frasco',
+              texto: 'Eliminar el oxígeno del interior del frasco.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ablandar la textura del alimento',
+              texto: 'Ablandar la textura del alimento.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Mejorar el sabor del producto',
+              texto: 'Mejorar el sabor del producto.',
               esCorrecta: false,
             },
           ],
@@ -288,22 +288,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Una sola corona',
+              texto: 'Una sola corona.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '"Ojos" prominentes y bien formados',
+              texto: '"Ojos" prominentes y bien formados.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Zonas blandas en la piel',
+              texto: 'Zonas blandas en la piel.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Color verde intenso con algunas tonalidades amarillas',
+              texto: 'Color verde intenso con algunas tonalidades amarillas.',
               esCorrecta: false,
             },
           ],

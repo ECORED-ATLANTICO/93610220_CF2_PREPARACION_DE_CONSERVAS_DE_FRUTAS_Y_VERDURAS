@@ -26,7 +26,7 @@
       .col-6.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
         figure.w-100.d-flex.flex-column
           img(src="@/assets/curso/temas/tema_5/img_2.png", class="img-fluid").height-100
-    
+
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-adicional-5-6")
       div(titulo="FRUTAS EN ALMÍBAR").p-5.pb-0.pt-0
         p.mb-3 Este tipo de conserva se caracteriza por mantener trozos enteros o fraccionados de fruta suspendidos en un jarabe dulce. Se busca conservar la estructura de la fruta y mejorar su sabor y aspecto. Pasos para la elaboración:
@@ -44,13 +44,13 @@
             ul.mb-3
               li.mb-0.d-flex.align-items-start
                 i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                span(style="line-height: 1.5") 	<b>Ligero:</b> 20-30% de azúcar
+                span(style="line-height: 1.5") 	<b>Ligero:</b> 20-30 % de azúcar.
               li.mb-0.d-flex.align-items-start
                 i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                span(style="line-height: 1.5") 	<b>Medio:</b> 35-40%
+                span(style="line-height: 1.5") 	<b>Medio:</b> 35-40 %.
               li.mb-0.d-flex.align-items-start
                 i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                span(style="line-height: 1.5") 	<b>Espeso:</b> 50% o más
+                span(style="line-height: 1.5") 	<b>Espeso:</b> 50 % o más.
             p.mb-3 <b>5.	Llenado y tratamiento térmico:</b> se introducen las frutas en frascos de vidrio esterilizados, se cubren con almíbar caliente y se sellan. Finalmente, se realiza pasteurización al baño maría para asegurar la conservación.
           .col-7.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
             figure.w-100.d-flex.flex-column.p-2.pt-0.ps-0.pb-4 
@@ -63,7 +63,7 @@
               img(src="@/assets/curso/temas/tema_5/img_5.png", class="img-fluid").height-100
           .col-12.col-lg-7
             p.mb-3 <b>1. Preparación de la fruta:</b> lavar, pelar y picar frutas como fresa, mora, guayaba, o mango. Algunas pueden requerir eliminación de semillas.
-            p.mb-3 <b>2. Adición de azúcar y cocción:</b> se añade azúcar en una proporción del 60-65% respecto al peso de la fruta. La mezcla se cocina a fuego medio con agitación constante.
+            p.mb-3 <b>2. Adición de azúcar y cocción:</b> se añade azúcar en una proporción del 60-65 % respecto al peso de la fruta. La mezcla se cocina a fuego medio con agitación constante.
             p.mb-3 <b>3. Incorporación de pectina y ácido:</b>
             ul.mb-3
               li.mb-0.d-flex.align-items-start
@@ -74,15 +74,15 @@
                 span(style="line-height: 1.5") 	El ácido cítrico (limón) mejora la gelificación y conservación.
         .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-0
           .col-12.col-lg-7.order-2.order-lg-1
-            p.mb-3 <b>4. Control del punto de mermelada:</b>
+            p.mb-0 <b>4. Control del punto de mermelada:</b>
             p.mb-3 se verifica con pruebas tradicionales:
             ul.mb-3
               li.mb-0.d-flex.align-items-start
                 i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                span(style="line-height: 1.5") 	Gota sobre un plato frío (no debe deslizarse)
+                span(style="line-height: 1.5") 	Gota sobre un plato frío (no debe deslizarse).
               li.mb-0.d-flex.align-items-start
                 i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                span(style="line-height: 1.5") 	Gota en agua fría (forma una bola y no se desintegra)
+                span(style="line-height: 1.5") 	Gota en agua fría (forma una bola y no se desintegra).
             p.mb-3 <b>5. Envasado y pasteurización:</b> se llena en caliente en envases esterilizados, se sella y se pasteuriza para prolongar la vida útil.
           .col-7.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
             figure.w-100.d-flex.flex-column.p-2.pt-0.ps-0.pb-4 
@@ -96,7 +96,7 @@
           .col-12.col-lg-7
             p.mb-3 <b>1. Obtención del jugo:</b> las frutas (manzana, guayaba, uva, membrillo, entre otras) se cocinan con poca agua y luego se filtra el jugo con un paño de muselina sin presionar, para evitar turbidez.
             p.mb-3 <b>2. Formulación:</b> se mezcla el jugo con azúcar (proporción 1:1) y ácido cítrico si es necesario para mejorar la gelificación.
-            p.mb-3 <b>3. Cocción controlada:</b> la mezcla se lleva a ebullición hasta alcanzar el punto de jalea (105°C o prueba del plato).
+            p.mb-3 <b>3. Cocción controlada:</b> la mezcla se lleva a ebullición hasta alcanzar el punto de jalea (105 °C o prueba del plato).
             p.mb-3 <b>4. Envasado y conservación:</b> se vierte la jalea caliente en frascos de vidrio esterilizados, se sella y se realiza tratamiento térmico (pasteurización).
 
     separador
@@ -112,10 +112,10 @@
       .col-7.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
         figure.w-100.d-flex.flex-column
           img(src="@/assets/curso/temas/tema_5/img_8.png", class="img-fluid").height-100
-    
+
     h3(data-aos='zoom-in-right').mb-4
       span.label-title.label-title--1 VEGETALES EN SALMUERA
-    
+
     p.mb-3 La salmuera es una solución acuosa de sal común (cloruro de sodio) que inhibe el desarrollo de microorganismos mediante la reducción de la actividad del agua. Este método conserva la frescura de los vegetales y mejora su textura gracias al efecto osmótico de la sal. 
     p.mb-3 Pasos para la elaboración:
     .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
@@ -135,22 +135,22 @@
             |  Escaldado: se someten a una cocción breve en agua hirviendo (2 a 5 minutos) y luego se enfrían rápidamente para mantener el color y textura.
           li
             span.numero 4 
-            |  Preparación de salmuera: se disuelve sal al 5-10% en agua potable. Opcionalmente se puede agregar ácido ascórbico para mejorar la estabilidad.
+            |  Preparación de salmuera: se disuelve sal al 5-10 % en agua potable. Opcionalmente se puede agregar ácido ascórbico para mejorar la estabilidad.
           li
             span.numero 5  
             |  Llenado de frascos: los vegetales escaldados se introducen en frascos de vidrio esterilizados y se cubren completamente con la salmuera caliente.
           li
             span.numero 6  
             |  Pasteurización: se realiza un tratamiento térmico suave para garantizar seguridad microbiológica sin alterar la textura.
-    
+
     p.mb-3 Resultado esperado: vegetales crujientes, salados y estables por varios meses en condiciones adecuadas.
-    
+
     h3(data-aos='zoom-in-right').mb-4
       span.label-title.label-title--1 ENCURTIDOS
 
     p.mb-3 El encurtido consiste en la conservación de vegetales en vinagre, un ácido natural que actúa como barrera contra bacterias y hongos. Además de prolongar la vida útil, esta técnica proporciona un sabor ácido característico y permite la incorporación de especias para personalizar el perfil aromático del producto.
     p.mb-5 Pasos para la elaboración:
-    
+
     .bg_img_10.mb-3
       .row.justify-content-center.align-items-center.mb-5
         .col-12.col-lg-8.mb-0.order-2.order-lg-1.p-0
@@ -179,7 +179,7 @@
     h3(data-aos='zoom-in-right').mb-4
       span.label-title.label-title--1 VEGETALES AGRIDULCES
 
-    p.mb-3 Las conservas agridulces combinan azúcar, sal y vinagre para lograr un balance de sabores que resulta agradable al paladar. Este método es muy apreciado en cocina gourmet y platos étnicos por su perfil aromático y su versatilidad.
+    p.mb-3 Las conservas agridulces combinan azúcar, sal y vinagre para lograr un balance de sabores que resulta agradable al paladar. Este método es muy apreciado en cocina <I>gourmet</I> y platos étnicos por su perfil aromático y su versatilidad.
     p.mb-3 Pasos para la elaboración:
     .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
       .col-12.col-lg-8.mb-lg-3.mb-0.order-2.order-lg-1
@@ -202,7 +202,7 @@
       .col-6.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
         figure.w-100.d-flex.flex-column
           img(src="@/assets/curso/temas/tema_5/img_16.png", class="img-fluid").height-100
-    
+
     p.mb-0 Resultado esperado: productos con sabor contrastante, aptos para acompañar platos salados o servir como aperitivos.
 
     separador
@@ -210,7 +210,7 @@
     #t_5_3.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 5.3 Líquidos de cobertura
     .mb-3
-    
+
     .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-5
       .col-6.col-lg-4.mb-lg-0.mb-3.d-flex
         figure.w-100.d-flex.flex-column
@@ -262,7 +262,7 @@
       .col-12.col-lg-11
         p.mb-3 Existen diferentes tipos de líquidos de cobertura, cada uno diseñado para responder a las necesidades específicas del alimento a conservar. Su composición, acidez, dulzor o contenido de sal varía según el producto (frutas o vegetales), el método de conservación y el resultado deseado en sabor, textura y estabilidad.
         p A continuación, se presenta una tabla comparativa con los líquidos de cobertura más utilizados en la elaboración de conservas:
-    
+
     .bg_img_11.mb-3
       .titulo-sexto.color-acento-contenido
         h5 Tabla 2.
@@ -280,12 +280,12 @@
           tbody
             tr
               td.bg-table-01 <b>Almíbar</b>
-              td.bg-table-01 Agua + azúcar (30-50%)
+              td.bg-table-01 Agua + azúcar (30-50 %)
               td.bg-table-01 Conservas de frutas (piña, durazno, pera, entre otros)
               td.bg-table-01 Puede incluir canela, clavos, limón, entre otros. Mejora sabor y apariencia.
             tr
               td.bg-table-02 <b>Salmuera</b>
-              td.bg-table-02 Agua + sal (5-10%)
+              td.bg-table-02 Agua + sal (5-10 %)
               td.bg-table-02 Verduras escaldadas (zanahoria y arveja)
               td.bg-table-02 Aporta firmeza. Puede llevar ácido ascórbico para mayor estabilidad.
             tr
@@ -293,7 +293,7 @@
               td.bg-table-01  Ácido acético al 5 % + agua
               td.bg-table-01  Encurtidos y vegetales agridulces
               td.bg-table-01  Se puede mezclar con especias y azúcar para crear perfiles agridulces.
-    
+
     .row.justify-content-center.align-items-center.mb-3
       .col-12.col-lg-10
         .cajon.color-acento-contenido-10-Mix-secundario.p-4

@@ -59,7 +59,7 @@
     figure.mb-3
       img(src='@/assets/curso/temas/tema_6/img_6.png')
     p.mb-3 Una conserva de calidad comienza con la elección adecuada de sus componentes. Estos ingredientes no solo aportan sabor y textura, sino que cumplen funciones específicas para asegurar la estabilidad y la inocuidad del producto. Entre los ingredientes claves se encuentran:   
-    
+
     .tarjeta.tarjeta--fondo__slider.p-4.mb-5
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center
@@ -94,7 +94,7 @@
                 span(style="line-height: 1.5") 	<b>Vinagre</b> su acidez natural inhibe microorganismos, siendo ideal para encurtidos y conservas ácidas.
               li.mb-0.d-flex.align-items-start
                 i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                span(style="line-height: 1.5") 	<b>Especias:</b> como laurel, clavo, canela, jengibre, ajo o pimienta no solo aportan aroma y sabor, sino también propiedades antimicrobianas
+                span(style="line-height: 1.5") 	<b>Especias:</b> como laurel, clavo, canela, jengibre, ajo o pimienta no solo aportan aroma y sabor, sino también propiedades antimicrobianas.
           .col-7.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_6/img_8.png', class="img-fluid")
@@ -131,12 +131,12 @@
             span(style="line-height: 1.5") 	Puede ser manual (casero) o mecanizado (industrial).
           li.mb-0.d-flex.align-items-start
             i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-            span(style="line-height: 1.5") 	Elimina impurezas, tierra, insectos o residuos químicos
+            span(style="line-height: 1.5") 	Elimina impurezas, tierra, insectos o residuos químicos.
       div(titulo="Escaldado").p-5.pb-0.pt-0
         ul.mb-3
           li.mb-0.d-flex.align-items-start
             i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-            span(style="line-height: 1.5") 	Tratamiento térmico breve en agua o vapor (80-100°C).
+            span(style="line-height: 1.5") 	Tratamiento térmico breve en agua o vapor (80-100 °C).
           li.mb-0.d-flex.align-items-start
             i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
             span(style="line-height: 1.5") 	Inactiva enzimas responsables del deterioro, reduce carga microbiana y mejora color y textura.
@@ -152,7 +152,7 @@
         ul.mb-3
           li.mb-0.d-flex.align-items-start
             i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-            span(style="line-height: 1.5") 	El llenado debe hacerse en caliente para evitar recontaminación
+            span(style="line-height: 1.5") 	El llenado debe hacerse en caliente para evitar recontaminación.
           li.mb-0.d-flex.align-items-start
             i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
             span(style="line-height: 1.5") 	Según el pH del producto, se aplican técnicas de pasteurización (conservas ácidas) o esterilización (baja acidez).
@@ -195,7 +195,7 @@
             h5 Figura 1.
             |    Beneficios de la conservación de conservas
           figure
-            img(src='@/assets/curso/temas/tema_6/img_13.svg')
+            img(src='@/assets/curso/temas/tema_6/img_13.svg', alt="Seguridad alimentaria Estabilidad del producto Valor nutricional Aceptación sensorial"  class="img-fluid")
             figcaption <b>Fuente.</b> SENA, 2025
 
       .row.justify-content-center.align-items-center.mb-5
@@ -211,15 +211,15 @@
       .col-12.col-lg-8.order-2.order-lg-1.mb-lg-0.mb-3
         LineaTiempoD.color-adicional-3
           .row(numero="1" titulo="Escaldado + salmuera + pasteurización")
-            .col-md-12.mb-4.mb-md-0
+            .col-md-12.mb-3.mb-md-0
               p.text-small Ideal para vegetales (zanahoria, coliflor, entre otros) que requieren firmeza y larga vida útil sin refrigeración.
           .row(numero="2" titulo="Azúcar + acidificación + vacío")
-            .col-md-12.mb-4.mb-md-0
+            .col-md-12.mb-3.mb-md-0
               p.text-small Usado en mermeladas o frutas en almíbar. El azúcar conserva, el ácido reduce pH y el vacío sella.
           .row(numero="3" titulo="Fermentación + refrigeración")
-            .col-md-12.mb-4.mb-md-0
-              p.text-small Conservas artesanales como chucrut, encurtidos caseros o kimchi. La fermentación acidifica, y la cadena de frío estabiliza.
-      .col-7.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
+            .col-md-12.mb-3.mb-md-0
+              p.text-small Conservas artesanales como <I>chucrut</I>, encurtidos caseros o <I>kimchi</I>. La fermentación acidifica, y la cadena de frío estabiliza.
+      .col-7.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-4
         figure
           img(src='@/assets/curso/temas/tema_6/img_15.png', class="img-fluid")
 
@@ -235,7 +235,7 @@
                   figure
                     img(src="@/assets/curso/temas/tema_6/img_16.svg", class="img-fluid")
                 .col-12.col-lg-11
-                  p.mb-0 Permite personalizar conservas según el mercado objetivo (gourmet, dietético o artesanal). 
+                  p.mb-0 Permite personalizar conservas según el mercado objetivo (<I>gourmet</I>, dietético o artesanal). 
           .col-lg-12.mb-3
             .tarjeta.color-acento-contenido-20.p-3
               .row.justify-content-center.align-items-center.mb-0

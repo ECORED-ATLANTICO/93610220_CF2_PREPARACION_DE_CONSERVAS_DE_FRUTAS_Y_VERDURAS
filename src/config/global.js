@@ -324,7 +324,7 @@ export default {
     {
       termino: 'Esterilización',
       significado:
-        'proceso térmico que elimina microorganismos, incluyendo esporas, mediante temperaturas superiores a 115 °C. Se usa en productos de baja acidez.',
+        'proceso térmico que elimina microorganismos, incluyendo esporas, mediante temperaturas superiores a 115 °C. Se usa en productos de baja acidez.',
     },
     {
       termino: 'Higienización',
@@ -344,7 +344,7 @@ export default {
     {
       termino: 'Pasteurización',
       significado:
-        'tratamiento térmico a temperaturas moderadas (60–95 °C) que reduce la carga microbiana sin afectar significativamente las propiedades del alimento.',
+        'tratamiento térmico a temperaturas moderadas (6-95 °C) que reduce la carga microbiana sin afectar significativamente las propiedades del alimento.',
     },
     {
       termino: 'Salmuera',
@@ -371,12 +371,12 @@ export default {
     },
     {
       referencia:
-        'López-Malo, A., Palou, E., & Welti-Chanes, J. (2021). Procesos de conservación de alimentos: fundamentos y aplicaciones. Editorial Trillas.<br> Ministerio de Salud y Protección Social de Colombia. (2012). Resolución 2155 de 2012: Por la cual se establece el reglamento técnico sobre requisitos sanitarios de hortalizas procesadas. Diario Oficial, 48.516. ',
+        'López-Malo, A., Palou, E., & Welti-Chanes, J. (2021). Procesos de conservación de alimentos: fundamentos y aplicaciones. Editorial Trillas. Ministerio de Salud y Protección Social de Colombia. (2012). Resolución 2155 de 2012: Por la cual se establece el reglamento técnico sobre requisitos sanitarios de hortalizas procesadas. Diario Oficial, 48.516. ',
       link: 'https://faolex.fao.org/docs/pdf/col115862.pdf',
     },
     {
       referencia:
-        'Organización de las Naciones Unidas para la Agricultura y la Alimentación (FAO). (s.f.). El Codex Alimentarius y la inocuidad de los alimentos. ',
+        'Organización de las Naciones Unidas para la Agricultura y la Alimentación (FAO). (s.f.). El <I>Codex Alimentarius</I> y la inocuidad de los alimentos. ',
       link: 'https://www.fao.org/fao-who-codexalimentarius/home/es/',
     },
     {
@@ -386,7 +386,7 @@ export default {
     },
     {
       referencia:
-        'University of Minnesota Extension. (s.f.). Cómo blanquear verduras antes de conservarlas.<br>University of Minnesota Extension. (s.f.). Preparar y utilizar almíbares para conservar frutas.<br>Villar, L. (2010). Las mejores conservas. Editorial Integral. ',
+        'University of Minnesota Extension. (s.f.). Cómo blanquear verduras antes de conservarlas. University of Minnesota Extension. (s.f.). Preparar y utilizar almíbares para conservar frutas. Villar, L. (2010). Las mejores conservas. Editorial Integral. ',
       link:
         'https://ia800801.us.archive.org/22/items/tirapic/Las_mejores_conservas.pdf',
     },

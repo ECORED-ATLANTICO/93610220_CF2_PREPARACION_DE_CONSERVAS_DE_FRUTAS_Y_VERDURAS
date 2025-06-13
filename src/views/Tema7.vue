@@ -25,7 +25,7 @@
             img(src='@/assets/curso/temas/tema_7/img_2.png', class="img-fluid").height-100
         .col-12.col-lg-9.mb-0
           .cajon.color-secundario-b.p-4
-            p.mb-0 Las BPM son el conjunto de condiciones, normas y procedimientos que aseguran la higiene y el control del proceso de elaboración. Son el pilar de cualquier sistema de gestión de calidad en alimentos, y su cumplimiento es obligatorio según normativas como el Decreto 3075 de 1997 en Colombia y las directrices del Codex Alimentarius (FAO/OMS). Los aspectos clave que deben aplicarse en la producción de conservas son:
+            p.mb-0 Las BPM son el conjunto de condiciones, normas y procedimientos que aseguran la higiene y el control del proceso de elaboración. Son el pilar de cualquier sistema de gestión de calidad en alimentos, y su cumplimiento es obligatorio según normativas como el Decreto 3075 de 1997 en Colombia y las directrices del <I>Codex Alimentarius (FAO/OMS)</I>. Los aspectos clave que deben aplicarse en la producción de conservas son:
       
     .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
       .col-12.col-lg-8.order-2.order-lg-1.mb-lg-0.mb-3
@@ -157,7 +157,7 @@
             ul.mb-3
               li.mb-0.d-flex.align-items-start
                 i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                span(style="line-height: 1.5") 	<b>Apariencia:</b> color, brillo y claridad
+                span(style="line-height: 1.5") 	<b>Apariencia:</b> color, brillo y claridad.
               li.mb-0.d-flex.align-items-start
                 i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
                 span(style="line-height: 1.5") 	<b>Aroma:</b> intensidad, naturalidad y frescura.

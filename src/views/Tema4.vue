@@ -24,12 +24,12 @@
       .bloque-texto-t__img.mb-0
         img(src='@/assets/curso/temas/tema_4/img_2.png')
       .bloque-texto-t__texto.color-secundario-10.col-10.mb-0
-        p.mb-0 La pasteurización consiste en someter los alimentos a temperaturas moderadas, generalmente entre 60 y 95°C, durante un tiempo controlado, con el fin de destruir microorganismos patógenos y reducir la carga microbiana sin comprometer las propiedades nutricionales y sensoriales del producto (Holdsworth & Simpson, 2008).
+        p.mb-0 La pasteurización consiste en someter los alimentos a temperaturas moderadas, generalmente entre 60 y 95 °C, durante un tiempo controlado, con el fin de destruir microorganismos patógenos y reducir la carga microbiana sin comprometer las propiedades nutricionales y sensoriales del producto (Holdsworth & Simpson, 2008).
 
     .bg_img_6.mb-3.height-100
       .row.justify-content-center.align-items-center.mb-3
         .col-12.col-lg-8.order-2.order-lg-1
-          p.mb-0 En el caso de frutas en almíbar, por ejemplo, se emplea una temperatura de 85°C durante 20 minutos, mientras que para mermeladas o jaleas el tiempo es menor, gracias a su alta concentración de azúcar. Este proceso se realiza comúnmente mediante baño María, hornos o túneles térmicos, y debe ejecutarse justo después del envasado para evitar la recontaminación. Un control riguroso de la temperatura interna del alimento es indispensable para asegurar la efectividad del tratamiento. 
+          p.mb-0 En el caso de frutas en almíbar, por ejemplo, se emplea una temperatura de 85 °C durante 20 minutos, mientras que para mermeladas o jaleas el tiempo es menor, gracias a su alta concentración de azúcar. Este proceso se realiza comúnmente mediante baño María, hornos o túneles térmicos, y debe ejecutarse justo después del envasado para evitar la recontaminación. Un control riguroso de la temperatura interna del alimento es indispensable para asegurar la efectividad del tratamiento. 
         .col-6.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
           figure
             img(src="@/assets/curso/temas/tema_4/img_3.png", class="img-fluid")
@@ -60,13 +60,13 @@
                 ul.ps-3
                   li.d-flex.align-items-start
                     i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                    span(style="line-height: 1.5") 	Frutas en almíbar: 85°C x 20 min
+                    span(style="line-height: 1.5") 	Frutas en almíbar: 85 °C x 20 min.
                   li.d-flex.align-items-start
                     i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                    span(style="line-height: 1.5") 	Jaleas: 80°C x 10 min
+                    span(style="line-height: 1.5") 	Jaleas: 80 °C x 10 min.
                   li.d-flex.align-items-start
                     i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                    span(style="line-height: 1.5") 	Encurtidos: 90°C x 15 min
+                    span(style="line-height: 1.5") 	Encurtidos: 90 °C x 15 min.
               .tarjeta.color-adicional-2
                 .tarjeta--10
                 .tarjeta--slider__title.mb-3 <b>Enfriamiento gradual</b>
@@ -93,7 +93,7 @@
     .bg_img_8
       img.mb-3(src="@/assets/curso/temas/tema_4/img_12.png", class="img-fluid")
 
-      p.mb-3 La esterilización térmica es un proceso de conservación que aplica temperaturas superiores a 115°C con el objetivo de destruir microorganismos altamente resistentes al calor, incluidas sus formas esporuladas. Este tratamiento es especialmente crucial para alimentos de baja acidez (pH mayor a 4.5), donde existe riesgo de proliferación de patógenos peligrosos como <I>Clostridium botulinum</I>, responsable del botulismo, una intoxicación severa de origen alimentario (López-Malo et al., 2021).
+      p.mb-3 La esterilización térmica es un proceso de conservación que aplica temperaturas superiores a 115 °C con el objetivo de destruir microorganismos altamente resistentes al calor, incluidas sus formas esporuladas. Este tratamiento es especialmente crucial para alimentos de baja acidez (pH mayor a 4.5), donde existe riesgo de proliferación de patógenos peligrosos como <I>Clostridium botulinum</I>, responsable del botulismo, una intoxicación severa de origen alimentario (López-Malo et al., 2021).
       p.mb-3 Entre los aspectos técnicos de la esterilización térmica se encuentran:
 
     .tarjeta.tarjeta--fondo__slider.p-4.mb-0
@@ -105,13 +105,13 @@
             ul
               li.mb-0.d-flex.align-items-start
                 i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                span(style="line-height: 1.5") 	Producción a pequeña escala: olla a presión doméstica
+                span(style="line-height: 1.5") 	Producción a pequeña escala: olla a presión doméstica.
               li.mb-0.d-flex.align-items-start
                 i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                span(style="line-height: 1.5") 	Procesamiento continuo: autoclave industrial
+                span(style="line-height: 1.5") 	Procesamiento continuo: autoclave industrial.
               li.mb-0.d-flex.align-items-start
                 i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                span(style="line-height: 1.5") 	Uso masivo en plantas: retorta de vapor o agua sobrecalentada 
+                span(style="line-height: 1.5") 	Uso masivo en plantas: retorta de vapor o agua sobrecalentada. 
           .col-7.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_4/img_13.png', class="img-fluid")
@@ -123,15 +123,15 @@
             ul
               li.mb-0.d-flex.align-items-start
                 i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                span(style="line-height: 1.5") 	Temperatura: 121°C
+                span(style="line-height: 1.5") 	Temperatura: 121 °C.
               li.mb-0.d-flex.align-items-start
                 i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                span(style="line-height: 1.5") 	Tiempo: 15 minutos
+                span(style="line-height: 1.5") 	Tiempo: 15 minutos.
               li.mb-0.d-flex.align-items-start
                 i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                span(style="line-height: 1.5") 	Valor F₀ típico: 3.0 para asegurar esterilidad en vegetales enlatados
-            p <b>valor F₀</b> representa el tiempo equivalente de letalidad a 121,1°C requerido para asegurar la esterilidad comercial de un alimento. Este valor permite ajustar los parámetros del proceso térmico según el tipo de producto, el tamaño del envase y la carga microbiana inicial.
-            p <b>Condiciones estándar:</b> se recomienda una temperatura de 121°C durante 15 minutos, lo que equivale a un <b>valor F₀ de 3.0</b> , suficiente para garantizar la destrucción de esporas de <I>Clostridium botulinum</I> en vegetales enlatados.
+                span(style="line-height: 1.5") 	Valor F₀ típico: 3.0 para asegurar esterilidad en vegetales enlatados.
+            p <b>Valor F₀</b> representa el tiempo equivalente de letalidad a 121,1 °C requerido para asegurar la esterilidad comercial de un alimento. Este valor permite ajustar los parámetros del proceso térmico según el tipo de producto, el tamaño del envase y la carga microbiana inicial.
+            p <b>Condiciones estándar:</b> se recomienda una temperatura de 121 °C durante 15 minutos, lo que equivale a un <b>valor F₀ de 3.0</b> , suficiente para garantizar la destrucción de esporas de <I>Clostridium botulinum</I> en vegetales enlatados.
           .col-7.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_4/img_14.png', class="img-fluid")
@@ -143,13 +143,13 @@
             ul
               li.mb-0.d-flex.align-items-start
                 i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                span(style="line-height: 1.5") 	Registrar parámetros críticos: temperatura, presión y tiempo
+                span(style="line-height: 1.5") 	Registrar parámetros críticos: temperatura, presión y tiempo.
               li.mb-0.d-flex.align-items-start
                 i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                span(style="line-height: 1.5") 	Verificar el pH antes del tratamiento (pH > 4.5 requiere esterilización)
+                span(style="line-height: 1.5") 	Verificar el pH antes del tratamiento (pH > 4.5 requiere esterilización).
               li.mb-0.d-flex.align-items-start
                 i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                span(style="line-height: 1.5") 	Realizar análisis microbiológicos postproceso para validar seguridad
+                span(style="line-height: 1.5") 	Realizar análisis microbiológicos postproceso para validar seguridad.
           .col-7.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_4/img_15.png', class="img-fluid")
@@ -160,7 +160,7 @@
       .h2(data-aos="fade-right") 4.3 Higienización de envases y técnica de vacío
     .mb-3  
 
-    p.mb-3 La limpieza y desinfección de los envases son pasos esenciales para garantizar la inocuidad del producto en conserva. El uso de frascos de vidrio, tapas metálicas o plásticas exige un procedimiento riguroso para evitar contaminación cruzada. Pasos sugeridos para higienización:
+    p.mb-3 La limpieza y desinfección de los envases son pasos esenciales para garantizar la inocuidad del producto en conserva. El uso de frascos de vidrio, tapas metálicas o plásticas exige un procedimiento riguroso para evitar contaminación cruzada. Pasos sugeridos para la higienización:
 
     TabsB.color-secundario-60.mb-5
       .py-4.py-md-5(
@@ -219,7 +219,7 @@
                     span(style="line-height: 1.5") 	Opción 1: inmersión en agua hirviendo durante 15-30 minutos. Utiliza una olla con rejilla para evitar el contacto directo con la base.
                   li.mb-3.d-flex.align-items-start
                     i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                    span(style="line-height: 1.5") 	Opción 2: horno seco a 120°C por 10-15 minutos. Evita el sobrecalentamiento para no dañar los frascos o tapas plásticas.
+                    span(style="line-height: 1.5") 	Opción 2: horno seco a 120 °C por 10-15 minutos. Evita el sobrecalentamiento para no dañar los frascos o tapas plásticas.
                   li.mb-0.d-flex.align-items-start
                     i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
                     span(style="line-height: 1.5") 	Usa pinzas desinfectadas para manipular los envases calientes.

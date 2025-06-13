@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 8
       h1 Valor agregado, mejora e innovación
-      
+
     .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-8.mb-lg-0.mb-4
         .cajon.color-secundario-b.p-4
@@ -20,7 +20,7 @@
     #t_8_1.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 8.1 Aportes de valor al producto de conserva
     .mb-3
-    
+
     .bg_img_16.mb-3
       p.mb-3 Existen diversas vías para enriquecer el atractivo y la calidad de las conservas:
 
@@ -46,7 +46,7 @@
               .tarjeta.color-acento-contenido-10-b
                 .tarjeta--21
                 .tarjeta--slider__title.mb-3 Presentaciones diferenciadas
-                .tarjeta--slider__content Formatos gourmet, porciones listas para consumir o empaques con diseños atractivos y prácticos aumentan la conveniencia y la percepción de calidad.
+                .tarjeta--slider__content Formatos , porciones listas para consumir o empaques con diseños atractivos y prácticos aumentan la conveniencia y la percepción de calidad.
 
     separador
 
@@ -62,7 +62,7 @@
           .col-6
             figure
               img(src='@/assets/curso/temas/tema_8/img_7.svg', alt='Texto que describa la imagen')
-          
+
         h2.text-center Conservas sin azúcar añadido
         p Diseñadas para personas con restricciones dietéticas, diabéticos o quienes prefieren reducir su ingesta calórica, estas opciones amplían la accesibilidad del producto.
       .col-md.tarjeta.color-secundario-10.p-5.mb-lg-0.mb-3
@@ -70,7 +70,7 @@
           .col-6
             figure
               img(src='@/assets/curso/temas/tema_8/img_8.svg', alt='Texto que describa la imagen')
-          
+
         h2.text-center Combinaciones creativas de sabores 
         p La mezcla de frutas con especias o ingredientes aromáticos, como piña con jengibre o mango con ají, aporta perfiles sensoriales únicos que pueden diferenciar la oferta.
       .col-md.tarjeta.color-secundario-20.p-5
@@ -78,7 +78,7 @@
           .col-6
             figure
               img(src='@/assets/curso/temas/tema_8/img_9.svg', alt='Texto que describa la imagen')
-          
+
         h2.text-center Aplicación de tecnologías emergentes
         p Técnicas como el ultrasonido, microondas o la presión alta pueden optimizar procesos, mejorar la conservación de nutrientes y prolongar la vida útil sin comprometer la calidad.
 
@@ -89,7 +89,7 @@
       .h2(data-aos="fade-right") 8.3 Normatividad y etiquetado
     .mb-3
 
-    p.mb-3  Para garantizar la seguridad y confianza del consumidor, los productos en conserva deben cumplir con las normativas vigentes, tanto nacionales como internacionales. En Colombia, la Resolución 2674 de 2013 del INVIMA establece los requisitos obligatorios para estos productos, alineados con los lineamientos del Codex Alimentarius.
+    p.mb-3  Para garantizar la seguridad y confianza del consumidor, los productos en conserva deben cumplir con las normativas vigentes, tanto nacionales como internacionales. En Colombia, la Resolución 2674 de 2013 del INVIMA establece los requisitos obligatorios para estos productos, alineados con los lineamientos del <I>Codex Alimentarius</I>.
     p.mb-3 Los elementos esenciales del etiquetado incluyen:
     .bg_img_17.mb-3 
       .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
@@ -97,7 +97,7 @@
           LineaTiempoD.color-adicional-3
             .row(numero="1" titulo="Nombre comercial del producto")
               .col-md-12.mb-4.mb-md-0
-                p.text-small El nombre del producto debe ser claramente visible, legible y representar fielmente el contenido. Es fundamental que sea atractivo y fácil de identificar para el consumidor. Un buen nombre facilita el reconocimiento de marca y puede incluir descriptores que indiquen la variedad o características especiales, como “Conserva de mango orgánico” o “Mermelada gourmet sin azúcar”.
+                p.text-small El nombre del producto debe ser claramente visible, legible y representar fielmente el contenido. Es fundamental que sea atractivo y fácil de identificar para el consumidor. Un buen nombre facilita el reconocimiento de marca y puede incluir descriptores que indiquen la variedad o características especiales, como “Conserva de mango orgánico” o “Mermelada <I>gourmet</I> sin azúcar”.
             .row(numero="2" titulo="Lista completa de ingredientes")
               .col-md-12.mb-4.mb-md-0
                 p.text-small Debe incluirse el detalle completo de todos los ingredientes usados en la elaboración, ordenados de mayor a menor proporción. Esto garantiza transparencia y permite a los consumidores conocer exactamente qué están consumiendo, útil especialmente para personas con alergias o restricciones dietarías. Además, puede incluir indicación de aditivos o conservantes usados.
@@ -112,7 +112,7 @@
                 p.text-small Esta fecha indica el periodo durante el cual el producto mantiene sus características óptimas de calidad y seguridad para el consumo. Es fundamental para evitar riesgos alimentarios y garantizar una experiencia satisfactoria al consumidor.
         .col-7.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
           figure.w-100.d-flex.flex-column
-           img(src='@/assets/curso/temas/tema_8/img_10.png', class="img-fluid").height-100
+            img(src='@/assets/curso/temas/tema_8/img_10.png', class="img-fluid").height-100
 </template>
 
 <script>

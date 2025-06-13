@@ -19,7 +19,7 @@
       .h2(data-aos="fade-right") 2.1 Refrigeración y congelación
     .mb-3
 
-    p.mb-3 La refrigeración y la congelación son métodos físicos que conservan frutas y verduras al mantenerlas a bajas temperaturas. La refrigeración (0–4 °C) disminuye la velocidad de crecimiento microbiano, mientras que la congelación (−18 °C o menos) detiene su actividad casi por completo. Ambos métodos ayudan a preservar el valor nutricional y las características sensoriales de los alimentos.
+    p.mb-3 La refrigeración y la congelación son métodos físicos que conservan frutas y verduras al mantenerlas a bajas temperaturas. La refrigeración (0-4  °C) disminuye la velocidad de crecimiento microbiano, mientras que la congelación (−18  °C o menos) detiene su actividad casi por completo. Ambos métodos ayudan a preservar el valor nutricional y las características sensoriales de los alimentos.
 
     .bg_img_2.mb-3
       .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
@@ -127,7 +127,7 @@
           h5.mb-3.p-3.pb-0.ps-5 Esterilización  térmica
           .row.justify-content-center.align-items-center.mb-3.p-0
             .col-12.col-lg-9.order-2.order-lg-1
-              p.pt-0.p-2.pb-0 Consiste en aplicar temperaturas entre 116 °C y 120 °C a los alimentos envasados herméticamente, por ejemplo, en frascos de vidrio. Se realiza en autoclaves o en ollas a presión y está indicada para alimentos con pH superior a 4.5, como legumbres y verduras, ya que son más susceptibles a la bacteria <I>Clostridium botulinum</I>.
+              p.pt-0.p-2.pb-0 Consiste en aplicar temperaturas entre 116  °C y 120  °C a los alimentos envasados herméticamente, por ejemplo, en frascos de vidrio. Se realiza en autoclaves o en ollas a presión y está indicada para alimentos con pH superior a 4.5, como legumbres y verduras, ya que son más susceptibles a la bacteria <I>Clostridium botulinum</I>.
             .col-3.col-lg-2.order-1.order-lg-2.mb-lg-0.mb-3
               figure.p-2.pt-0.ps-0.pb-4 
                 img(src="@/assets/curso/temas/tema_2/img_8.svg", class="img-fluid")
