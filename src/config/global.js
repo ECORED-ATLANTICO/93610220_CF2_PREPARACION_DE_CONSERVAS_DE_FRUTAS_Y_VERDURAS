@@ -1,9 +1,9 @@
 export default {
   global: {
     Name:
-      'Métodos de conservación y preparación de conservas de frutas y verduras.',
+      'Métodos de conservación y preparación de conservas de frutas y verduras',
     Description:
-      'Este componente formativo aborda fundamentos teóricos y prácticos sobre los métodos de conservación y elaboración de conservas a base de frutas y verduras. Explora técnicas térmicas, físicas y químicas para prolongar la vida útil de los alimentos. Permite al aprendiz identificar, aplicar y evaluar procesos productivos con valor agregado.',
+      'Este componente formativo aborda fundamentos teóricos y prácticos sobre los métodos de conservación y elaboración de conservas a base de frutas y verduras. Explora técnicas térmicas, físicas y químicas para prolongar la vida útil de los alimentos. Permite al aprendiz identificar, aplicar y evaluar procesos productivos con valor agregado',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-contenido.png'),
     imagenesDecorativasBanner: [

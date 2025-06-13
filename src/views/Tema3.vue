@@ -18,7 +18,7 @@
     .mb-3
 
     .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
-      .col-12.col-lg-4.d-flex
+      .col-12.col-lg-4.mb-lg-0.mb-3.d-flex
         figure.w-100.d-flex.flex-column
           img(src="@/assets/curso/temas/tema_3/img_2.png", class="img-fluid").height-100
       .col-12.col-lg-8

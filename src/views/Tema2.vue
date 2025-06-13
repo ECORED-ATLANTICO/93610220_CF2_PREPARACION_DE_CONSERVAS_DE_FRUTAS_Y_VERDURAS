@@ -62,16 +62,16 @@
     p.mb-3 La deshidratación y la salazón son métodos tradicionales que conservan los alimentos al reducir el contenido de agua, lo que impide el desarrollo de la mayoría de los microorganismos, ya que éstos requieren humedad para sobrevivir y reproducirse.
 
     .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
-      .col-6.col-lg-4.mb-lg-3.mb-0.d-flex
+      .col-6.col-lg-4.mb-lg-0.mb-3.d-flex
         figure.w-100.d-flex.flex-column
           img(src="@/assets/curso/temas/tema_2/img_4.png", class="img-fluid").height-100
-      .col-12.col-lg-8
-        .tarjeta.color-adicional-4
-          h5(style="background-color: #C7D5B6;").mb-3.p-4.pb-3.rounded-top-3 Deshidratación
-          p.p-3.pb-4 Se puede realizar mediante el uso de energía solar directa, corrientes de aire caliente o tecnología de liofilización (congelación seguida de sublimación). Es ideal para frutas como mango, banano o piña. Además de conservar, facilita el almacenamiento y transporte por la reducción de peso y volumen.
-        .tarjeta.color-adicional-4
-          h5(style="background-color: #C7D5B6; ").mb-3.p-4.pb-3.rounded-top-3 Salazón
-          p.p-3.pb-4 Consiste en aplicar sal seca o preparar una salmuera (agua con sal) donde se sumergen los alimentos. Este método es común en hortalizas y como tratamiento previo a fermentaciones.
+      .col-12.col-lg-8.mb-lg-0.mb-3
+        .tarjeta.color-adicional-4.mb-4
+          h5.bgc.color-secundario-20.mb-0.p-4.pb-3.rounded-top-3 Deshidratación
+          p.mb-0.p-3.pb-4 Se puede realizar mediante el uso de energía solar directa, corrientes de aire caliente o tecnología de liofilización (congelación seguida de sublimación). Es ideal para frutas como mango, banano o piña. Además de conservar, facilita el almacenamiento y transporte por la reducción de peso y volumen.
+        .tarjeta.color-adicional-4.mb-0
+          h5.bgc.color-secundario-20.mb-0.p-4.pb-3.rounded-top-3 Salazón
+          p.mb-0.p-3.pb-4 Consiste en aplicar sal seca o preparar una salmuera (agua con sal) donde se sumergen los alimentos. Este método es común en hortalizas y como tratamiento previo a fermentaciones.
 
     p.mb-0 Ambos métodos han sido usados desde la antigüedad y, aunque pueden reducir el contenido nutricional, son eficaces y accesibles.
 
@@ -88,23 +88,23 @@
         .col-12.col-lg-5.d-flex.mb-3
           .w-100.d-flex.flex-column
             .tarjeta.color-secundario-10.height-100
-              h5(style="background-color: #FFCE79;").mb-3.p-4.pb-3.rounded-top-3 Conservas en azúcar
-              .row.justify-content-center.align-items-center.mb-3
-                .col-3.col-lg-3
-                  figure.p-2.pb-4
+              h5.bgc.color-acento-contenido.mb-0.p-4.pb-3.rounded-top-3 Conservas en azúcar
+              .row.justify-content-center.align-items-center.mb-0.p-4
+                .col-3.col-lg-3.mb-0
+                  figure
                     img(src="@/assets/curso/temas/tema_2/img_5.svg", class="img-fluid")
-                .col-12.col-lg-9
-                  p.p-3.ps-0.pb-4 Se elaboran productos como mermeladas, jaleas y frutas en almíbar, mediante la cocción de frutas con azúcar hasta alcanzar una concentración superior al 60 %, lo que reduce la actividad del agua y aporta sabor, brillo y textura.
+                .col-12.col-lg-9.mb-0
+                  p.mb-0 Se elaboran productos como mermeladas, jaleas y frutas en almíbar, mediante la cocción de frutas con azúcar hasta alcanzar una concentración superior al 60 %, lo que reduce la actividad del agua y aporta sabor, brillo y textura.
         .col-12.col-lg-5.d-flex.mb-3
           .w-100.d-flex.flex-column
             .tarjeta.color-secundario-10.height-100
-              h5(style="background-color: #FFCE79; ").mb-3.p-4.pb-3.rounded-top-3 Conservas en vinagre
-              .row.justify-content-center.align-items-center.mb-3
-                .col-3.col-lg-3
-                  figure.p-2.pb-4 
+              h5.bgc.color-acento-contenido.mb-0.p-4.pb-3.rounded-top-3 Conservas en vinagre
+              .row.justify-content-center.align-items-center.mb-0.p-4
+                .col-3.col-lg-3.mb-0
+                  figure.mb-0 
                     img(src="@/assets/curso/temas/tema_2/img_6.svg", class="img-fluid")
-                .col-12.col-lg-9
-                  p.p-3.ps-0.pb-4 Utilizan ácido acético (vinagre) en combinación con agua, sal, azúcar y especias para sumergir verduras como zanahoria, cebolla, pepino o coliflor. El pH final debe ser menor a 4.5 para garantizar la conservación.
+                .col-12.col-lg-9.mb-0
+                  p.mb-0 Utilizan ácido acético (vinagre) en combinación con agua, sal, azúcar y especias para sumergir verduras como zanahoria, cebolla, pepino o coliflor. El pH final debe ser menor a 4.5 para garantizar la conservación.
 
         .col-12.col-lg-10
           .cajon.color-acento-contenido-10-Mix-secundario.p-4

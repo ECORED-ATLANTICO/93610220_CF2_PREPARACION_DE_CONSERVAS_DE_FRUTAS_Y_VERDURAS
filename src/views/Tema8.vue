@@ -8,7 +8,7 @@
       h1 Valor agregado, mejora e innovación
       
     .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-5
-      .col-12.col-lg-8
+      .col-12.col-lg-8.mb-lg-0.mb-4
         .cajon.color-secundario-b.p-4
           p Incorporar valor añadido a los productos en conserva es una estrategia fundamental para destacarlos en mercados especializados y lograr una mayor rentabilidad. Esta valorización no solo responde a las exigencias del consumidor moderno, que busca calidad, salud y sostenibilidad, sino que también abre la puerta a nuevas oportunidades comerciales. El valor agregado puede manifestarse a través de la implementación de tecnologías avanzadas, la utilización de ingredientes únicos o la creación de empaques ecológicos y funcionales.
       .col-6.col-lg-4.d-flex

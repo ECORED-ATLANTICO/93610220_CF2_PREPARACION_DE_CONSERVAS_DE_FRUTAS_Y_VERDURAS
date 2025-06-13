@@ -138,7 +138,7 @@
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-adicional-5-6")
       div(titulo="Análisis  fisicoquímico del producto").p-5.pb-0.pt-0
         .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
-          .col-3.col-lg-5.d-flex
+          .col-7.col-lg-5.mb-lg-0.mb-3.d-flex
             figure.w-100.d-flex.flex-column
               img(src="@/assets/curso/temas/tema_7/img_12.png", class="img-fluid").height-100
           .col-12.col-lg-7
@@ -149,7 +149,7 @@
       div(titulo="Evaluación sensorial del producto").p-5.pb-0.pt-0
         p.mb-3 Esta prueba se realiza con <b>paneles entrenados o consumidores</b>, según el objetivo (control de calidad o validación de mercado).
         .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
-          .col-3.col-lg-5.d-flex
+          .col-7.col-lg-5.mb-lg-0.mb-3.d-flex
             figure.w-100.d-flex.flex-column.p-2.pt-0.ps-0.pb-4 
               img(src="@/assets/curso/temas/tema_7/img_13.png", class="img-fluid").height-100
           .col-12.col-lg-7

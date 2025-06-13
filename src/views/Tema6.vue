@@ -198,14 +198,14 @@
             img(src='@/assets/curso/temas/tema_6/img_13.svg')
             figcaption <b>Fuente.</b> SENA, 2025
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-6.col-lg-3.mb-lg-0.mb-3
-        figure
-          img(src='@/assets/curso/temas/tema_6/img_14.png', class="img-fluid")
-      .col-12.col-lg-9
-        .cajon.color-adicional-4-Mix-secundario.p-4
-          p La tecnología de conservación combinada permite aplicar varias técnicas que, juntas, mejoran la seguridad y estabilidad del alimento sin comprometer su calidad. Estas combinaciones no son al azar: cada una responde a las características del producto y a los resultados que se desean obtener.
-          p A continuación, se presentan tres ejemplos comunes de cómo se pueden integrar métodos físicos, químicos y biológicos para lograr conservas más seguras y duraderas:
+      .row.justify-content-center.align-items-center.mb-5
+        .col-6.col-lg-3.mb-lg-0.mb-3
+          figure
+            img(src='@/assets/curso/temas/tema_6/img_14.png', class="img-fluid")
+        .col-12.col-lg-9
+          .cajon.color-adicional-4-Mix-secundario.p-4
+            p La tecnología de conservación combinada permite aplicar varias técnicas que, juntas, mejoran la seguridad y estabilidad del alimento sin comprometer su calidad. Estas combinaciones no son al azar: cada una responde a las características del producto y a los resultados que se desean obtener.
+            p A continuación, se presentan tres ejemplos comunes de cómo se pueden integrar métodos físicos, químicos y biológicos para lograr conservas más seguras y duraderas:
 
     .row.justify-content-center.align-items-center.mb-3
       .col-12.col-lg-8.order-2.order-lg-1.mb-lg-0.mb-3

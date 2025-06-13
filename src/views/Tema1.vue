@@ -30,106 +30,112 @@
       .col-6.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
         figure.w-100.d-flex.flex-column
           img.mb-0(src="@/assets/curso/temas/tema_1/img_3.png", class="img-fluid").height-100
+    .row.justify-content-center.align-items-center
+      .col-10
+        ImagenInfografica.time-line-info.pulso-invertido.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema_1/img_4.png', class="img-fluid")
 
-    ImagenInfografica.time-line-info.pulso-invertido.mb-5
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/temas/tema_1/img_4.png', class="img-fluid")
+          .tarjeta.color-adicional-1(x="24.5%" y="26.4%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
+            .h5.mb-3 Inhibición microbiana
+            .d-flex.flex-md-row.flex-column.align-items-stretch.justify-content-center.align-items-center
+              .flex-shrink-0.mb-md-0.mb-3.d-flex
+                figure.w-100.d-flex.flex-column
+                  img(src="@/assets/curso/temas/tema_1/img_5.png", class="img-fluid").height-100
+              .flex-grow-1.ms-md-3.ms-0
+                p.mb-3 Detiene el crecimiento de levaduras, mohos y bacterias usando calor, frío, sal, azúcar o vinagre.
+                p 
+                  strong Ejemplo: 
+                  | escaldar espinacas y encurtir posteriormente.
 
-      .tarjeta.color-adicional-1(x="24.5%" y="26.4%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
-        .h5.mb-3 Inhibición microbiana
-        .d-flex.flex-md-row.flex-column.align-items-stretch.justify-content-center.align-items-center
-          .flex-shrink-0.mb-md-0.mb-3.d-flex
-            figure.w-100.d-flex.flex-column
-              img(src="@/assets/curso/temas/tema_1/img_5.png", class="img-fluid").height-100
-          .flex-grow-1.ms-md-3.ms-0
-            p.mb-3 Detiene el crecimiento de levaduras, mohos y bacterias usando calor, frío, sal, azúcar o vinagre.
-            p 
-              strong Ejemplo: 
-              | escaldar espinacas y encurtir posteriormente.
+          .tarjeta.color-adicional-1(x="30.9%" y="50%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
+            .h5.mb-2 Inactivación enzimática
+            .d-flex.flex-md-row.flex-column.align-items-stretch.justify-content-center.align-items-center
+              .flex-shrink-0.mb-md-0.mb-3.d-flex
+                figure.w-100.d-flex.flex-column
+                  img(src="@/assets/curso/temas/tema_1/img_6.png", class="img-fluid").height-100
+              .flex-grow-1.ms-md-3.ms-0
+                p.mb-3 Detiene la acción de enzimas que provocan pardeamiento o cambios de sabor.
+                p 
+                  strong Ejemplo: 
+                  | escaldar espinacas antes del enlatado para preservar el color.
 
-      .tarjeta.color-adicional-1(x="30.9%" y="50%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
-        .h5.mb-2 Inactivación enzimática
-        .d-flex.flex-md-row.flex-column.align-items-stretch.justify-content-center.align-items-center
-          .flex-shrink-0.mb-md-0.mb-3.d-flex
-            figure.w-100.d-flex.flex-column
-              img(src="@/assets/curso/temas/tema_1/img_6.png", class="img-fluid").height-100
-          .flex-grow-1.ms-md-3.ms-0
-            p.mb-3 Detiene la acción de enzimas que provocan pardeamiento o cambios de sabor.
-            p 
-              strong Ejemplo: 
-              | escaldar espinacas antes del enlatado para preservar el color.
+          .tarjeta.color-adicional-1(x="39.3%" y="78%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
+            .h5.mb-2 Preservación de nutrientes
+            .d-flex.flex-md-row.flex-column.align-items-stretch.justify-content-center.align-items-center
+              .flex-shrink-0.mb-md-0.mb-3.d-flex
+                figure.w-100.d-flex.flex-column
+                  img(src="@/assets/curso/temas/tema_1/img_7.png", class="img-fluid").height-100
 
-      .tarjeta.color-adicional-1(x="39.3%" y="78%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
-        .h5.mb-2 Preservación de nutrientes
-        .d-flex.flex-md-row.flex-column.align-items-stretch.justify-content-center.align-items-center
-          .flex-shrink-0.mb-md-0.mb-3.d-flex
-            figure.w-100.d-flex.flex-column
-              img(src="@/assets/curso/temas/tema_1/img_7.png", class="img-fluid").height-100
+              .flex-grow-1.ms-md-3.ms-0
+                p.mb-3 Reduce la pérdida de vitaminas sensibles para minimizar el deterioro nutricional.
+                p 
+                  strong Ejemplo: 
+                  | usar tratamientos térmicos suaves para mantener la vitamina C.
 
-          .flex-grow-1.ms-md-3.ms-0
-            p.mb-3 Reduce la pérdida de vitaminas sensibles para minimizar el deterioro nutricional.
-            p 
-              strong Ejemplo: 
-              | usar tratamientos térmicos suaves para mantener la vitamina C.
+          .tarjeta.color-adicional-1(x="73.1%" y="26.4%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
+            .h5.mb-2 Inocuidad alimentaria
+            .d-flex.flex-md-row.flex-column.align-items-stretch.justify-content-center.align-items-center
+              .flex-shrink-0.mb-md-0.mb-3.d-flex
+                figure.w-100.d-flex.flex-column
+                  img(src="@/assets/curso/temas/tema_1/img_8.png", class="img-fluid").height-100
 
-      .tarjeta.color-adicional-1(x="73.1%" y="26.4%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
-        .h5.mb-2 Inocuidad alimentaria
-        .d-flex.flex-md-row.flex-column.align-items-stretch.justify-content-center.align-items-center
-          .flex-shrink-0.mb-md-0.mb-3.d-flex
-            figure.w-100.d-flex.flex-column
-              img(src="@/assets/curso/temas/tema_1/img_8.png", class="img-fluid").height-100
+              .flex-grow-1.ms-md-3.ms-0
+                p.mb-3 Eliminar microorganismos como Clostridium <I>botulinum</I>.
+                p 
+                  strong Ejemplo: 
+                  | esterilizar alimentos a alta temperatura para evitar intoxicaciones.
 
-          .flex-grow-1.ms-md-3.ms-0
-            p.mb-3 Eliminar microorganismos como Clostridium <I>botulinum</I>.
-            p 
-              strong Ejemplo: 
-              | esterilizar alimentos a alta temperatura para evitar intoxicaciones.
+          .tarjeta.color-adicional-1(x="69.2%" y="51.2%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
+            .h5.mb-2 Calidad sensorial
+            .d-flex.flex-md-row.flex-column.align-items-stretch.justify-content-center.align-items-center
+              .flex-shrink-0.mb-md-0.mb-3.d-flex
+                figure.w-100.d-flex.flex-column
+                  img(src="@/assets/curso/temas/tema_1/img_9.png", class="img-fluid").height-100
 
-      .tarjeta.color-adicional-1(x="69.2%" y="51.2%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
-        .h5.mb-2 Calidad sensorial
-        .d-flex.flex-md-row.flex-column.align-items-stretch.justify-content-center.align-items-center
-          .flex-shrink-0.mb-md-0.mb-3.d-flex
-            figure.w-100.d-flex.flex-column
-              img(src="@/assets/curso/temas/tema_1/img_9.png", class="img-fluid").height-100
+              .flex-grow-1.ms-md-3.ms-
+                p.mb-3 Conserva características organolépticas como olor, color, sabor, textura y aroma.
+                p 
+                  strong Ejemplo: 
+                  | usar azúcar en jaleas no solo para conservar, sino para mantener el sabor.
 
-          .flex-grow-1.ms-md-3.ms-
-            p.mb-3 Conserva características organolépticas como olor, color, sabor, textura y aroma.
-            p 
-              strong Ejemplo: 
-              | usar azúcar en jaleas no solo para conservar, sino para mantener el sabor.
-
-      .tarjeta.color-adicional-1.pulso-invertido(x="60.7%" y="78%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
-        .h5.mb-2 Sostenibilidad
-        .d-flex.flex-md-row.flex-column.align-items-stretch.justify-content-center.align-items-center
-          .flex-shrink-0.mb-md-0.mb-3.d-flex
-            figure.w-100.d-flex.flex-column
-              img(src="@/assets/curso/temas/tema_1/img_10.png", class="img-fluid").height-100
-          .flex-grow-1.ms-md-3.ms- 
-            p.mb-3 Evitar el desperdicio, extendiendo la vida útil de excedentes agrícolas.
-            p 
-              strong Ejemplo: 
-              | transformar frutas maduras en productos de valor agregado como mermeladas.
-
-    .tarjeta_1_1
-      p.mb-3 Entre los objetivos principales de la conservación se encuentran:
-      ul.ps-4
-        li.mb-0.d-flex.align-items-start
-          .fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-          span(style="line-height: 1.5") 	Prolongar la vida útil del producto.
-        li.mb-0.d-flex.align-items-start
-          .fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-          span(style="line-height: 1.5") 	Prevenir el desarrollo de microorganismos patógenos o alterantes.
-        li.mb-0.d-flex.align-items-start
-          .fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-          span(style="line-height: 1.5") 	Mantener la calidad nutricional y organoléptica.
-        li.mb-0.d-flex.align-items-start
-          .fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-          span(style="line-height: 1.5") 	Facilitar el transporte y almacenamiento.
-        li.mb-0.d-flex.align-items-start
-          .fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-          span(style="line-height: 1.5") 	Disminuir pérdidas poscosecha y aprovechar excedentes productivos.
-      p.mb-0 Estos principios se aplican bajo diferentes técnicas, como la reducción de la actividad de agua, el control de temperatura, la modificación de la atmósfera interna del envase, la acidificación y la incorporación de sustancias conservantes.
+          .tarjeta.color-adicional-1.pulso-invertido(x="60.7%" y="78%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
+            .h5.mb-2 Sostenibilidad
+            .d-flex.flex-md-row.flex-column.align-items-stretch.justify-content-center.align-items-center
+              .flex-shrink-0.mb-md-0.mb-3.d-flex
+                figure.w-100.d-flex.flex-column
+                  img(src="@/assets/curso/temas/tema_1/img_10.png", class="img-fluid").height-100
+              .flex-grow-1.ms-md-3.ms- 
+                p.mb-3 Evitar el desperdicio, extendiendo la vida útil de excedentes agrícolas.
+                p 
+                  strong Ejemplo: 
+                  | transformar frutas maduras en productos de valor agregado como mermeladas.
+    .row.d-flex.align-items-stretch.justify-content-center.align-items-center
+      .col-6.col-lg-3.d-none.d-lg-flex.p-0
+        figure.w-100.d-flex.flex-column
+          img(src='@/assets/curso/temas/tema_1/img_11.png').height-100 
+      .col-12.col-lg-9.ps-0.d-flex
+        .w-100.d-flex.flex-column
+          .tarjeta_1_1.height-100
+            p.mb-3 Entre los objetivos principales de la conservación se encuentran:
+            ul.ps-4
+              li.mb-0.d-flex.align-items-start
+                .fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	Prolongar la vida útil del producto.
+              li.mb-0.d-flex.align-items-start
+                .fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	Prevenir el desarrollo de microorganismos patógenos o alterantes.
+              li.mb-0.d-flex.align-items-start
+                .fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	Mantener la calidad nutricional y organoléptica.
+              li.mb-0.d-flex.align-items-start
+                .fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	Facilitar el transporte y almacenamiento.
+              li.mb-0.d-flex.align-items-start
+                .fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                span(style="line-height: 1.5") 	Disminuir pérdidas poscosecha y aprovechar excedentes productivos.
+            p.mb-0 Estos principios se aplican bajo diferentes técnicas, como la reducción de la actividad de agua, el control de temperatura, la modificación de la atmósfera interna del envase, la acidificación y la incorporación de sustancias conservantes.
 
     separador
 
