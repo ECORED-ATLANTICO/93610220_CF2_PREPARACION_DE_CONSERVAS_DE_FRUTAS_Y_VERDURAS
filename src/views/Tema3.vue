@@ -73,14 +73,14 @@
             h5 Tabla 1.
             |   Tiempos de referencia para escaldado
           .tabla-a.mb-5
-            table
+            table(style="width: 100%; font-size: 0.9rem;")
               caption 
                 p <b>Fuente.</b>  SENA, 2025
               thead.text-white
                 tr
-                  th Vegetal
-                  th Agua hirviendo
-                  th Vapor
+                  th(style="width: 20%;") Vegetal
+                  th(style="width: 20%;") Agua hirviendo
+                  th(style="width: 20%;") Vapor
               tbody.b
                 tr
                   td.bg-table-01 Zanahoria (cubos)
