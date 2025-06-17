@@ -68,19 +68,19 @@
         .col-12.col-lg-10.mb-3
           .cajon.color-adicional-4-Mix-secundario.p-4.mb-3
             p La duración del escaldado debe ajustarse según el tipo de vegetal, su tamaño, nivel de madurez y forma de corte. Un tratamiento insuficiente puede dejar enzimas activas, mientras que un exceso de calor deteriora la textura y el valor nutricional.
-        .col-12.col-lg-6
+        .col-12.col-lg-8
           .titulo-sexto.color-acento-contenido
             h5 Tabla 1.
             |   Tiempos de referencia para escaldado
           .tabla-a.mb-5
-            table(style="width: 100%  !impotant; font-size: 0.85rem  !impotant;")
+            table
               caption 
                 p <b>Fuente.</b>  SENA, 2025
               thead.text-white
                 tr
-                  th(style="width: 20% !impotant;") Vegetal
-                  th(style="width: 20% !impotant;") Agua hirviendo
-                  th(style="width: 20% !impotant;") Vapor
+                  th Vegetal
+                  th Agua hirviendo
+                  th Vapor
               tbody.b
                 tr
                   td.bg-table-01 Zanahoria (cubos)
