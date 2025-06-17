@@ -270,7 +270,7 @@ export default {
   },
   complementario: [
     {
-      tema: 'Preparación de conservas de frutas.',
+      tema: 'Conservas en almíbar, mermeladas y jaleas.',
       referencia:
         'Paltrinieri, G. (1997). Procesamiento a pequeña escala de frutas y hortalizas amazónicas nativas e introducidas: Manual técnico. (Tratado de Cooperación Amazónica, Colaborador). TCA.',
       tipo: 'Capítulo de libro',
@@ -278,7 +278,7 @@ export default {
         'https://www.fao.org/4/x5029s/X5029S07.htm#4.3%20Mermeladas,%20jaleas,%20jarabes,%20dulces%20y%20confituras',
     },
     {
-      tema: 'Preparación de conservas de vegetales.',
+      tema: 'Vegetales en salmuera, encurtidos y agridulces.',
       referencia:
         'Paltrinieri, G. (1997). Procesamiento a pequeña escala de frutas y hortalizas amazónicas nativas e introducidas: Manual técnico. (Tratado de Cooperación Amazónica, Colaborador). TCA.',
       tipo: 'Capítulo de libro ',
@@ -371,12 +371,12 @@ export default {
     },
     {
       referencia:
-        'López-Malo, A., Palou, E., & Welti-Chanes, J. (2021). Procesos de conservación de alimentos: fundamentos y aplicaciones. Editorial Trillas. Ministerio de Salud y Protección Social de Colombia. (2012). Resolución 2155 de 2012: Por la cual se establece el reglamento técnico sobre requisitos sanitarios de hortalizas procesadas. Diario Oficial, 48.516. ',
+        'López-Malo, A., Palou, E., & Welti-Chanes, J. (2021). Procesos de conservación de alimentos: fundamentos y aplicaciones. Editorial Trillas.<br>Ministerio de Salud y Protección Social de Colombia. (2012). Resolución 2155 de 2012: Por la cual se establece el reglamento técnico sobre requisitos sanitarios de hortalizas procesadas. Diario Oficial, 48.516.<br>',
       link: 'https://faolex.fao.org/docs/pdf/col115862.pdf',
     },
     {
       referencia:
-        'Organización de las Naciones Unidas para la Agricultura y la Alimentación (FAO). (s.f.). El <I>Codex Alimentarius</I> y la inocuidad de los alimentos. ',
+        'Organización de las Naciones Unidas para la Agricultura y la Alimentación (FAO). (s.f.). El <I>Codex Alimentarius</I> y la inocuidad de los alimentos.<br>',
       link: 'https://www.fao.org/fao-who-codexalimentarius/home/es/',
     },
     {
@@ -386,7 +386,7 @@ export default {
     },
     {
       referencia:
-        'University of Minnesota Extension. (s.f.). Cómo blanquear verduras antes de conservarlas. University of Minnesota Extension. (s.f.). Preparar y utilizar almíbares para conservar frutas. Villar, L. (2010). Las mejores conservas. Editorial Integral. ',
+        '<I>University of Minnesota Extension.</I> (s.f.). Cómo blanquear verduras antes de conservarlas. <I>University of Minnesota Extension.</I> (s.f.). Preparar y utilizar almíbares para conservar frutas. Villar, L. (2010). Las mejores conservas. Editorial Integral. ',
       link:
         'https://ia800801.us.archive.org/22/items/tirapic/Las_mejores_conservas.pdf',
     },
@@ -422,7 +422,7 @@ export default {
           centro: 'Centro Agroindustrial Regional Quindío',
         },
         {
-          nombre: 'Heydy Cristina Gonzalez Garcia',
+          nombre: 'Heydy Cristina González García',
           cargo: 'Evaluadora instruccional',
           centro: 'Centro de Comercio  y Servicios Regional Atlántico',
         },
@@ -435,7 +435,7 @@ export default {
           nombre: 'Andrés Felipe Herrera',
           cargo: 'Diseñador web',
           centro:
-            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial - Regional Atlántico',
         },
         {
           nombre: 'Alexander Donado Molinares ',
@@ -443,7 +443,7 @@ export default {
           centro: 'Centro de Comercio  y Servicios Regional Atlántico',
         },
         {
-          nombre: 'Carmen Alicia Martinez Torres',
+          nombre: 'Carmen Alicia Martínez Torres',
           cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Comercio  y Servicios Regional Atlántico',
         },
@@ -453,7 +453,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Maria Fernanda Morales Angulo',
+          nombre: 'María Fernanda Morales Angulo',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio  y Servicios Regional Atlántico',
         },

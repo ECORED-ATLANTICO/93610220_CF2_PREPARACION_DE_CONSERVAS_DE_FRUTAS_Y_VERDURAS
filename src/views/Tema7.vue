@@ -25,7 +25,7 @@
             img(src='@/assets/curso/temas/tema_7/img_2.png', class="img-fluid").height-100
         .col-12.col-lg-9.mb-0
           .cajon.color-secundario-b.p-4
-            p.mb-0 Las BPM son el conjunto de condiciones, normas y procedimientos que aseguran la higiene y el control del proceso de elaboración. Son el pilar de cualquier sistema de gestión de calidad en alimentos, y su cumplimiento es obligatorio según normativas como el Decreto 3075 de 1997 en Colombia y las directrices del <I>Codex Alimentarius (FAO/OMS)</I>. Los aspectos clave que deben aplicarse en la producción de conservas son:
+            p.mb-0 Las BPM son el conjunto de condiciones, normas y procedimientos que aseguran la higiene y el control del proceso de elaboración. Son el pilar de cualquier sistema de gestión de calidad en alimentos, y su cumplimiento es obligatorio según normativas como el Decreto 3075 de 1997 en Colombia y las directrices del <I>Codex Alimentarius</I> (FAO/OMS). Los aspectos clave que deben aplicarse en la producción de conservas son:
       
     .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
       .col-12.col-lg-8.order-2.order-lg-1.mb-lg-0.mb-3
@@ -83,7 +83,7 @@
               img(src="@/assets/curso/temas/tema_7/img_6.png", alt="alt")
           .crd_hover_txt--body
             h4.mb-3.text-center Esterilización/ pasteurización
-            p.mb-1.text-small Temperaturas demasiado bajas o tiempos cortos pueden no eliminar esporas o bacterias resiste
+            p.mb-1.text-small Temperaturas demasiado bajas o tiempos cortos pueden no eliminar esporas o bacterias resiste.
     .bg_img_15.mb-3
       .tarjeta.color-secundario-5.p-3.justify-content-center.align-items-center.mb-5
         .row.justify-content-center.align-items-center.mb-0

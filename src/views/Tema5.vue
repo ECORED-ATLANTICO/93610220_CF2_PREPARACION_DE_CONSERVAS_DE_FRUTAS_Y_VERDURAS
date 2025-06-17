@@ -51,7 +51,7 @@
               li.mb-0.d-flex.align-items-start
                 i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
                 span(style="line-height: 1.5") 	<b>Espeso:</b> 50 % o más.
-            p.mb-3 <b>5.	Llenado y tratamiento térmico:</b> se introducen las frutas en frascos de vidrio esterilizados, se cubren con almíbar caliente y se sellan. Finalmente, se realiza pasteurización al baño maría para asegurar la conservación.
+            p.mb-3 <b>5.	Llenado y tratamiento térmico:</b> se introducen las frutas en frascos de vidrio esterilizados, se cubren con almíbar caliente y se sellan. Finalmente, se realiza pasteurización al baño María para asegurar la conservación.
           .col-7.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
             figure.w-100.d-flex.flex-column.p-2.pt-0.ps-0.pb-4 
               img(src="@/assets/curso/temas/tema_5/img_4.png", class="img-fluid").height-100
@@ -170,7 +170,7 @@
                 .tarjeta--slider__content Envasado: se agregan los vegetales en frascos esterilizados y se cubren con la solución aún caliente.
               .tarjeta.color-adicional-2
                 .tarjeta--17
-                .tarjeta--slider__content Pasteurización breve: se realiza un calentamiento leve (baño maría de 10-15 minutos) para garantizar la conservación.
+                .tarjeta--slider__content Pasteurización breve: se realiza un calentamiento leve (baño María de 10-15 minutos) para garantizar la conservación.
 
         .col-4.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3.ps-3
           figure
@@ -236,7 +236,7 @@
                 span(style="line-height: 1.5") 	Los líquidos actúan como vehículo para especias, sales, azúcares y ácidos.
               li.mb-0.d-flex.align-items-start
                 i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                span(style="line-height: 1.5") 	Esto permite personalizar el perfil de sabor del producto, adaptarlo a diferentes mercados o resaltar características típicas (agridulce, picante, aromático, herbal, entre otros.).
+                span(style="line-height: 1.5") 	Esto permite personalizar el perfil de sabor del producto, adaptarlo a diferentes mercados o resaltar características típicas (agridulce, picante, aromático, herbal, entre otros).
           div(titulo="Mejorar la textura y apariencia del producto")
             p.mb-0
             ul.mb-3

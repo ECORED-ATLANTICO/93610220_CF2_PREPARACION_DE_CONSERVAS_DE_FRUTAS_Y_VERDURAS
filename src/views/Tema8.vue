@@ -46,7 +46,7 @@
               .tarjeta.color-acento-contenido-10-b
                 .tarjeta--21
                 .tarjeta--slider__title.mb-3 Presentaciones diferenciadas
-                .tarjeta--slider__content Formatos , porciones listas para consumir o empaques con diseños atractivos y prácticos aumentan la conveniencia y la percepción de calidad.
+                .tarjeta--slider__content Formatos <I>gourmet</I>, porciones listas para consumir o empaques con diseños atractivos y prácticos aumentan la conveniencia y la percepción de calidad.
 
     separador
 
