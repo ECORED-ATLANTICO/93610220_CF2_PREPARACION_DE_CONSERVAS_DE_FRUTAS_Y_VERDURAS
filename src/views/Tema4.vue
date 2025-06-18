@@ -284,7 +284,7 @@
                 span(style="line-height: 1.5") 	Mejora la presentación comercial del producto.
               li.mb-0.d-flex.align-items-start
                 i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                span(style="line-height: 1.5") 	Permite al consumidor comprobar que el envase está correctamente cerrado, por ejemplo, con el click de seguridad de la tapa metálica al abrirse por primera vez.
+                span(style="line-height: 1.5") 	Permite al consumidor comprobar que el envase está correctamente cerrado, por ejemplo, con el <I>click</I> de seguridad de la tapa metálica al abrirse por primera vez.
       .col-6.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
         figure.w-100.d-flex.flex-column
           img(src="@/assets/curso/temas/tema_4/img_25.png", class="img-fluid").height-100
