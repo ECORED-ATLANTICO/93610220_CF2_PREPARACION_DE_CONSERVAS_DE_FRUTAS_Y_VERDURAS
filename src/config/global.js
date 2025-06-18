@@ -371,7 +371,7 @@ export default {
     },
     {
       referencia:
-        'López-Malo, A., Palou, E., & Welti-Chanes, J. (2021). Procesos de conservación de alimentos: fundamentos y aplicaciones. Editorial Trillas.<br>Ministerio de Salud y Protección Social de Colombia. (2012). Resolución 2155 de 2012: Por la cual se establece el reglamento técnico sobre requisitos sanitarios de hortalizas procesadas. Diario Oficial, 48.516.<br>',
+        'López-Malo, A., Palou, E., & Welti-Chanes, J. (2021). Procesos de conservación de alimentos: fundamentos y aplicaciones. Editorial Trillas.<br><br><br>Ministerio de Salud y Protección Social de Colombia. (2012). Resolución 2155 de 2012: Por la cual se establece el reglamento técnico sobre requisitos sanitarios de hortalizas procesadas. Diario Oficial, 48.516.<br>',
       link: 'https://faolex.fao.org/docs/pdf/col115862.pdf',
     },
     {
@@ -386,7 +386,7 @@ export default {
     },
     {
       referencia:
-        '<I>University of Minnesota Extension.</I> (s.f.). Cómo blanquear verduras antes de conservarlas. <I>University of Minnesota Extension.</I> (s.f.). Preparar y utilizar almíbares para conservar frutas. Villar, L. (2010). Las mejores conservas. Editorial Integral. ',
+        '<I>University of Minnesota Extension.</I> (s.f.). Cómo blanquear verduras antes de conservarlas.<br><br><I>University of Minnesota Extension.</I> (s.f.). Preparar y utilizar almíbares para conservar frutas.<br><br>Villar, L. (2010). Las mejores conservas. Editorial Integral.<br>',
       link:
         'https://ia800801.us.archive.org/22/items/tirapic/Las_mejores_conservas.pdf',
     },
