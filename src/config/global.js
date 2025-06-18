@@ -344,7 +344,7 @@ export default {
     {
       termino: 'Pasteurización',
       significado:
-        'tratamiento térmico a temperaturas moderadas (6-95 °C) que reduce la carga microbiana sin afectar significativamente las propiedades del alimento.',
+        'tratamiento térmico a temperaturas moderadas (60-95 °C) que reduce la carga microbiana sin afectar significativamente las propiedades del alimento.',
     },
     {
       termino: 'Salmuera',
