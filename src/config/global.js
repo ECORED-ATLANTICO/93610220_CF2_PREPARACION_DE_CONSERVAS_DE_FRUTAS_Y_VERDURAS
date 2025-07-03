@@ -272,7 +272,7 @@ export default {
     {
       tema: 'Conservas en almíbar, mermeladas y jaleas.',
       referencia:
-        'Paltrinieri, G. (1997). Procesamiento a pequeña escala de frutas y hortalizas amazónicas nativas e introducidas: Manual técnico. (Tratado de Cooperación Amazónica, Colaborador). TCA.',
+        'Paltrinieri, G. (1997). <i>Procesamiento a pequeña escala de frutas y hortalizas amazónicas nativas e introducidas: Manual técnico.</i> (Tratado de Cooperación Amazónica, Colaborador). TCA.',
       tipo: 'Capítulo de libro',
       link:
         'https://www.fao.org/4/x5029s/X5029S07.htm#4.3%20Mermeladas,%20jaleas,%20jarabes,%20dulces%20y%20confituras',
@@ -280,7 +280,7 @@ export default {
     {
       tema: 'Vegetales en salmuera, encurtidos y agridulces.',
       referencia:
-        'Paltrinieri, G. (1997). Procesamiento a pequeña escala de frutas y hortalizas amazónicas nativas e introducidas: Manual técnico. (Tratado de Cooperación Amazónica, Colaborador). TCA.',
+        'Paltrinieri, G. (1997). <i>Procesamiento a pequeña escala de frutas y hortalizas amazónicas nativas e introducidas: Manual técnico.</i> (Tratado de Cooperación Amazónica, Colaborador). TCA.',
       tipo: 'Capítulo de libro ',
       link: 'https://www.fao.org/4/x5029s/X5029S09.htm#4.6%20Encurtidos',
     },
@@ -360,39 +360,39 @@ export default {
   referencias: [
     {
       referencia:
-        'FAO. (1993). Prevención de pérdidas de alimentos poscosecha: frutas, hortalizas, raíces y tubérculos (Colección FAO: Capacitación N.º 17/2). Roma: FAO. ',
+        'FAO. (1993). <i>Prevención de pérdidas de alimentos poscosecha: frutas, hortalizas, raíces y tubérculos</i> (Colección FAO: Capacitación N.º 17/2). Roma: FAO. ',
       link: 'https://www.fao.org/4/t0073s/T0073S00.htm#Contents',
     },
     {
       referencia:
-        'FAO. (2020, 6 de abril). Serie COVID-19: Consejos para la conservación de las frutas y hortalizas con el fin de reducir el desperdicio de alimentos y alargar su vida útil. Plataforma FLW, FAO.',
+        'FAO. (2020, 6 de abril). <i>Serie COVID-19: Consejos para la conservación de las frutas y hortalizas con el fin de reducir el desperdicio de alimentos y alargar su vida útil.</i> Plataforma FLW, FAO.',
       link:
         'https://www.fao.org/platform-food-loss-waste/resources/news/news-detail/COVID-19-Series-Tips-for-the-Preservation-of-Fruits-and-Vegetables-to-Reduce-Food-Waste-and-Improve-Shelf-Life/es',
     },
     {
       referencia:
-        'López-Malo, A., Palou, E., & Welti-Chanes, J. (2021). Procesos de conservación de alimentos: fundamentos y aplicaciones. Editorial Trillas.<br><br><br>Ministerio de Salud y Protección Social de Colombia. (2012). Resolución 2155 de 2012: Por la cual se establece el reglamento técnico sobre requisitos sanitarios de hortalizas procesadas. Diario Oficial, 48.516.<br>',
+        'López-Malo, A., Palou, E., & Welti-Chanes, J. (2021). <i>Procesos de conservación de alimentos: fundamentos y aplicaciones.</i> Editorial Trillas.<br><br><br>Ministerio de Salud y Protección Social de Colombia. (2012). <i>Resolución 2155 de 2012: Por la cual se establece el reglamento técnico sobre requisitos sanitarios de hortalizas procesadas.</i> Diario Oficial, 48.516.<br>',
       link: 'https://faolex.fao.org/docs/pdf/col115862.pdf',
     },
     {
       referencia:
-        'Organización de las Naciones Unidas para la Agricultura y la Alimentación (FAO). (s.f.). El <I>Codex Alimentarius</I> y la inocuidad de los alimentos.<br>',
+        'Organización de las Naciones Unidas para la Agricultura y la Alimentación (FAO). (s.f.). <i>El Codex Alimentarius y la inocuidad de los alimentos.</i><br>',
       link: 'https://www.fao.org/fao-who-codexalimentarius/home/es/',
     },
     {
       referencia:
-        'Terra Food-Tech®. (s.f.). Esterilización vs. pasteurización. Blog de Conservas. ',
+        'Terra Food-Tech®. (s.f.). <i>Esterilización vs. pasteurización.</i> Blog de Conservas. ',
       link: 'https://www.terrafoodtech.com/esterilizacion-vs-pasteurizacion/',
     },
     {
       referencia:
-        '<I>University of Minnesota Extension.</I> (s.f.). Cómo blanquear verduras antes de conservarlas.<br><br><I>University of Minnesota Extension.</I> (s.f.). Preparar y utilizar almíbares para conservar frutas.<br><br>Villar, L. (2010). Las mejores conservas. Editorial Integral.<br>',
+        '<I>University of Minnesota Extension.</I> (s.f.). <i>Cómo blanquear verduras antes de conservarlas.</i><br><br><I>University of Minnesota Extension.</I> (s.f.). <i>Preparar y utilizar almíbares para conservar frutas.</i><br><br>Villar, L. (2010). <i>Las mejores conservas.</i> Editorial Integral.<br>',
       link:
         'https://ia800801.us.archive.org/22/items/tirapic/Las_mejores_conservas.pdf',
     },
     {
       referencia:
-        'Wikipedia. (s.f.). Escabeche. En Wikipedia, la enciclopedia libre.',
+        'Wikipedia. (s.f.). <i>Escabeche. En Wikipedia, la enciclopedia libre.</i>',
       link: 'https://es.wikipedia.org/wiki/Escabeche',
     },
   ],
