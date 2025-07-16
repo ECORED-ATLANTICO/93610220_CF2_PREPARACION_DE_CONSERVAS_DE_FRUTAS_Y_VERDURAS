@@ -33,19 +33,19 @@
             SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-3.rounded-3
               .tarjeta.color-acento-contenido-10-b
                 .tarjeta--18
-                .tarjeta--slider__title.mb-3 Incorporación  de frutas autóctonas o exóticas
+                .tarjeta--slider__title.h5.mb-3 Incorporación  de frutas autóctonas o exóticas
                 .tarjeta--slider__content Utilizar variedades locales o poco comunes aporta exclusividad y autenticidad, además de promover el desarrollo regional y la biodiversidad.
               .tarjeta.color-acento-contenido-10-b
                 .tarjeta--19
-                .tarjeta--slider__title.mb-3 Embalajes ecoamigables
+                .tarjeta--slider__title.h5.mb-3 Embalajes ecoamigables
                 .tarjeta--slider__content Optar por envases biodegradables, compostables o reutilizables no solo reduce el impacto ambiental, sino que también conecta con el consumidor consciente, mejorando la imagen de marca.
               .tarjeta.color-acento-contenido-10-b
                 .tarjeta--20
-                .tarjeta--slider__title.mb-3 Atributos funcionales añadidos
+                .tarjeta--slider__title.h5.mb-3 Atributos funcionales añadidos
                 .tarjeta--slider__content La inclusión de componentes beneficiosos para la salud, como antioxidantes naturales, versiones sin azúcar o con ingredientes bajos en sodio, amplía el público objetivo, especialmente entre quienes buscan opciones saludables.
               .tarjeta.color-acento-contenido-10-b
                 .tarjeta--21
-                .tarjeta--slider__title.mb-3 Presentaciones diferenciadas
+                .tarjeta--slider__title.h5.mb-3 Presentaciones diferenciadas
                 .tarjeta--slider__content Formatos <I>gourmet</I>, porciones listas para consumir o empaques con diseños atractivos y prácticos aumentan la conveniencia y la percepción de calidad.
 
     separador

@@ -34,7 +34,7 @@
           figure
             img(src="@/assets/curso/temas/tema_4/img_3.png", class="img-fluid")
 
-    h5.mb-3 ETAPAS DE LA PASTEURIZACIÓN EN CONSERVAS
+    h5.mb-3 Etapas de la pasteurización en conservas
 
     .bg_img_7.mb-3
       .row.justify-content-center.align-items-center.mb-5
@@ -129,8 +129,8 @@
                 span(style="line-height: 1.5") 	Tiempo: 15 minutos.
               li.mb-0.d-flex.align-items-start
                 i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                span(style="line-height: 1.5") 	Valor F₀ típico: 3.0 para asegurar esterilidad en vegetales enlatados.
-            p <b>Valor F₀</b> representa el tiempo equivalente de letalidad a 121,1 °C requerido para asegurar la esterilidad comercial de un alimento. Este valor permite ajustar los parámetros del proceso térmico según el tipo de producto, el tamaño del envase y la carga microbiana inicial.
+                span(style="line-height: 1.5") Valor F₀ típico: 3.0 para asegurar esterilidad en vegetales enlatados.
+            p El <b>Valor F₀</b> representa el tiempo equivalente de letalidad a 121,1 °C requerido para asegurar la esterilidad comercial de un alimento. Este valor permite ajustar los parámetros del proceso térmico según el tipo de producto, el tamaño del envase y la carga microbiana inicial.
             p <b>Condiciones estándar:</b> se recomienda una temperatura de 121 °C durante 15 minutos, lo que equivale a un <b>valor F₀ de 3.0</b> , suficiente para garantizar la destrucción de esporas de <I>Clostridium botulinum</I> en vegetales enlatados.
           .col-7.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
             figure
@@ -174,16 +174,16 @@
                 ul
                   li.mb-3.d-flex.align-items-start
                     i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                    span(style="line-height: 1.5") 	Utiliza agua potable caliente para remover residuos visibles.
+                    span(style="line-height: 1.5") 	Utilizar agua potable caliente para remover residuos visibles.
                   li.mb-3.d-flex.align-items-start
                     i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                    span(style="line-height: 1.5") 	Aplica detergente neutro, preferiblemente sin fragancia ni colorante, para evitarcontaminaciones químicas.
+                    span(style="line-height: 1.5") 	Aplicar detergente neutro, preferiblemente sin fragancia ni colorante, para evitarcontaminaciones químicas.
                   li.mb-3.d-flex.align-items-start
                     i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                    span(style="line-height: 1.5") 	Usa esponjas suaves o cepillos exclusivos para utensilios de cocina.
+                    span(style="line-height: 1.5") 	Usar esponjas suaves o cepillos exclusivos para utensilios de cocina.
                   li.mb-3.d-flex.align-items-start
                     i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                    span(style="line-height: 1.5") 	Asegúrate de alcanzar todas las superficies del frasco: boca, rosca, fondo y paredes.
+                    span(style="line-height: 1.5") 	Asegurar el alcance de  todas las superficies del frasco: boca, rosca, fondo y paredes.
             .col-6.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema_4/img_20.png', class="img-fluid")
@@ -198,10 +198,10 @@
                 ul
                   li.mb-3.d-flex.align-items-start
                     i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                    span(style="line-height: 1.5") 	Enjuaga varias veces con agua potable para eliminar por completo el detergente.
+                    span(style="line-height: 1.5") 	Enjuagar varias veces con agua potable para eliminar por completo el detergente.
                   li.mb-0.d-flex.align-items-start
                     i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                    span(style="line-height: 1.5") 	Revisa cada envase: no deben tener fisuras, grietas o abolladuras. Las tapas deben cerrar de forma hermética y sin deformaciones.
+                    span(style="line-height: 1.5") 	Revisar cada envase: no deben tener fisuras, grietas o abolladuras. Las tapas deben cerrar de forma hermética y sin deformaciones.
             .col-6.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema_4/img_21.png', class="img-fluid")
@@ -216,13 +216,16 @@
                 ul
                   li.mb-3.d-flex.align-items-start
                     i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
+                    span(style="line-height: 1.5") 	Esterilizar mediante una de las siguientes opciones:
+                  li.mb-3.d-flex.align-items-start
+                    i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
                     span(style="line-height: 1.5") 	Opción 1: inmersión en agua hirviendo durante 15-30 minutos. Utiliza una olla con rejilla para evitar el contacto directo con la base.
                   li.mb-3.d-flex.align-items-start
                     i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                    span(style="line-height: 1.5") 	Opción 2: horno seco a 120 °C por 10-15 minutos. Evita el sobrecalentamiento para no dañar los frascos o tapas plásticas.
+                    span(style="line-height: 1.5") 	Opción 2: colocar en horno seco a 120 °C por 10-15 minutos. Evita el sobrecalentamiento para no dañar los frascos o tapas plásticas.
                   li.mb-0.d-flex.align-items-start
                     i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                    span(style="line-height: 1.5") 	Usa pinzas desinfectadas para manipular los envases calientes.
+                    span(style="line-height: 1.5") 	Utilizar pinzas desinfectadas para manipular los envases calientes.
             .col-6.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema_4/img_22.png', class="img-fluid")
@@ -237,13 +240,13 @@
                 ul
                   li.mb-3.d-flex.align-items-start
                     i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                    span(style="line-height: 1.5") 	Coloca los envases sobre una superficie limpia y desinfectada, preferiblemente una rejilla de acero inoxidable o bandeja de vidrio.
+                    span(style="line-height: 1.5") 	Colocar los envases sobre una superficie limpia y desinfectada, preferiblemente una rejilla de acero inoxidable o bandeja de vidrio.
                   li.mb-3.d-flex.align-items-start
                     i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                    span(style="line-height: 1.5") 	Deja que se sequen al aire completamente. No uses paños, ya que pueden reintroducir microorganismos.
+                    span(style="line-height: 1.5") 	Dejar que se sequen al aire completamente. No uses paños, ya que pueden reintroducir microorganismos.
                   li.mb-0.d-flex.align-items-start
                     i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                    span(style="line-height: 1.5") 	No manipules los envases una vez secos hasta el momento del llenado.
+                    span(style="line-height: 1.5") 	Evitar la manipulación de manipules los envases una vez secos hasta el momento del llenado.
             .col-6.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema_4/img_23.png', class="img-fluid")

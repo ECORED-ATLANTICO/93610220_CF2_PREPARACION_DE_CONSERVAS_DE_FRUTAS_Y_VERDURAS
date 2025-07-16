@@ -28,7 +28,7 @@
           img(src="@/assets/curso/temas/tema_5/img_2.png", class="img-fluid").height-100
 
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--color-adicional-5-6")
-      div(titulo="FRUTAS EN ALMÍBAR").p-5.pb-0.pt-0
+      div(titulo="Frutas en almíbar").p-5.pb-0.pt-0
         p.mb-3 Este tipo de conserva se caracteriza por mantener trozos enteros o fraccionados de fruta suspendidos en un jarabe dulce. Se busca conservar la estructura de la fruta y mejorar su sabor y aspecto. Pasos para la elaboración:
         .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-4
           .col-7.col-lg-5.mb-lg-0.mb-3.d-flex
@@ -55,7 +55,7 @@
           .col-7.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
             figure.w-100.d-flex.flex-column.p-2.pt-0.ps-0.pb-4 
               img(src="@/assets/curso/temas/tema_5/img_4.png", class="img-fluid").height-100
-      div(titulo="MERMELADAS").p-5.pb-0.pt-0
+      div(titulo="Mermeladas").p-5.pb-0.pt-0
         p.mb-3 La mermelada es una mezcla semisólida de frutas troceadas y cocidas con azúcar hasta lograr una textura untable. Su preparación implica concentración, lo que reduce el contenido de agua y estabiliza el producto. Pasos clave:
         .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-4
           .col-7.col-lg-5.mb-lg-0.mb-3.d-flex
@@ -87,7 +87,7 @@
           .col-7.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
             figure.w-100.d-flex.flex-column.p-2.pt-0.ps-0.pb-4 
               img(src="@/assets/curso/temas/tema_5/img_6.png", class="img-fluid").height-100
-      div(titulo="JALEAS").p-5.pb-0.pt-0
+      div(titulo="Jaleas").p-5.pb-0.pt-0
         p.mb-3 La jalea es una conserva transparente y gelatinosa, elaborada a partir del jugo filtrado de frutas ricas en pectina. Su consistencia y apariencia cristalina la diferencian de las mermeladas. Pasos del proceso:
         .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
           .col-7.col-lg-5.mb-lg-0.mb-3.d-flex
@@ -114,7 +114,7 @@
           img(src="@/assets/curso/temas/tema_5/img_8.png", class="img-fluid").height-100
 
     h3(data-aos='zoom-in-right').mb-4
-      span.label-title.label-title--1 VEGETALES EN SALMUERA
+      span.label-title.label-title--1 Vegetales en salmuera
 
     p.mb-3 La salmuera es una solución acuosa de sal común (cloruro de sodio) que inhibe el desarrollo de microorganismos mediante la reducción de la actividad del agua. Este método conserva la frescura de los vegetales y mejora su textura gracias al efecto osmótico de la sal. 
     p.mb-3 Pasos para la elaboración:
@@ -146,7 +146,7 @@
     p.mb-3 Resultado esperado: vegetales crujientes, salados y estables por varios meses en condiciones adecuadas.
 
     h3(data-aos='zoom-in-right').mb-4
-      span.label-title.label-title--1 ENCURTIDOS
+      span.label-title.label-title--1 Encurtidos
 
     p.mb-3 El encurtido consiste en la conservación de vegetales en vinagre, un ácido natural que actúa como barrera contra bacterias y hongos. Además de prolongar la vida útil, esta técnica proporciona un sabor ácido característico y permite la incorporación de especias para personalizar el perfil aromático del producto.
     p.mb-5 Pasos para la elaboración:
@@ -177,7 +177,7 @@
             img(src="@/assets/curso/temas/tema_5/img_15.png", class="img-fluid").height-100          
 
     h3(data-aos='zoom-in-right').mb-4
-      span.label-title.label-title--1 VEGETALES AGRIDULCES
+      span.label-title.label-title--1 Vegetales agridulces
 
     p.mb-3 Las conservas agridulces combinan azúcar, sal y vinagre para lograr un balance de sabores que resulta agradable al paladar. Este método es muy apreciado en cocina <I>gourmet</I> y platos étnicos por su perfil aromático y su versatilidad.
     p.mb-3 Pasos para la elaboración:

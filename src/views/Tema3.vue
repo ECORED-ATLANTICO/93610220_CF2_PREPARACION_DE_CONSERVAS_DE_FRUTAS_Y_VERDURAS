@@ -55,7 +55,7 @@
             .tarjeta.color-secundario-20.text-center.height-100
               figure
                 img(src="@/assets/curso/temas/tema_3/img_4.png", class="img-fluid")
-              h5.mb-3.p-3.pb-0 ESCALDADO EN AGUA CALIENTE
+              h5.mb-3.p-3.pb-0 Escaldado en agua caliente
               p.p-3.pt-2 Consiste en sumergir los vegetales en agua a temperaturas entre 95 °C y 100 °C durante un tiempo determinado. Es un método común y efectivo, aunque puede generar cierta pérdida de nutrientes solubles en agua.
 
         .col-12.col-lg-5.mb-3.d-flex
@@ -63,7 +63,7 @@
             .tarjeta.color-terciario-10.text-center.height-100
               figure
                 img(src="@/assets/curso/temas/tema_3/img_5.png", class="img-fluid")
-              h5.mb-3.p-3.pb-0 ESCALDADO POR VAPOR
+              h5.mb-3.p-3.pb-0 Escaldado por vapor
               p.p-3.pt-2 Expone los alimentos a vapor de agua, a presión atmosférica o en autoclave. Esta alternativa conserva mejor el color, la textura y los compuestos nutritivos del vegetal, al reducir el contacto directo con el líquido.
         .col-12.col-lg-10.mb-3
           .cajon.color-adicional-4-Mix-secundario.p-4.mb-3

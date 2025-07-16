@@ -17,7 +17,7 @@
     #t_1_1.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 1.1 Principios básicos y objetivos
     .mb-3
-    .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
+    .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-8.mb-lg-3.mb-0.order-2.order-lg-1
         p.mb-3 La conservación de alimentos, y en particular de frutas y verduras, se basa en principios fisicoquímicos y microbiológicos que buscan mantener las características nutricionales, sensoriales y de inocuidad del producto durante un tiempo determinado. 
         .tarjeta.color-acento-contenido-10
@@ -30,11 +30,12 @@
       .col-6.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3.d-flex
         figure.w-100.d-flex.flex-column
           img.mb-0(src="@/assets/curso/temas/tema_1/img_3.png", class="img-fluid").height-100
+    h5(style="text-align: center;").mb-3 Principios y objetivos de la conservación de alimentos
     ImagenInfografica.time-line-info.pulso-invertido.mb-5
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/tema_1/img_4.png', class="img-fluid")
-
+     
       .tarjeta.color-adicional-1(x="32.6%" y="26.4%" numero="" @mouseenter="mostrarModal(3)" @click="toggleModal(3)")
         .h5.mb-3 Inhibición microbiana
         .d-flex.flex-md-row.flex-column.align-items-stretch.justify-content-center
@@ -150,23 +151,23 @@
             SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-2.rounded-3
               .tarjeta.color-adicional-2
                 .tarjeta--1
-                .tarjeta--slider__title.mb-3 Tipo de producto
+                .tarjeta--slider__title.h5.mb-3 Tipo de producto
                 .tarjeta--slider__content Cada fruta o verdura presenta características diferentes en cuanto a pH, contenido de agua, firmeza, carga microbiana, y respiración poscosecha.
               .tarjeta.color-adicional-2
                 .tarjeta--2
-                .tarjeta--slider__title.mb-3  Condición inicial
+                .tarjeta--slider__title.h5.mb-3  Condición inicial
                 .tarjeta--slider__content El estado de madurez, integridad, y limpieza del producto antes del procesamiento influye directamente en la calidad de la conserva.
               .tarjeta.color-adicional-2
                 .tarjeta--3
-                .tarjeta--slider__title.mb-3 Técnica de conservación
+                .tarjeta--slider__title.h5.mb-3 Técnica de conservación
                 .tarjeta--slider__content La selección del método adecuado (frío, calor, sal, azúcar y vinagre) depende de las propiedades fisicoquímicas del producto y del resultado deseado.
               .tarjeta.color-adicional-2
                 .tarjeta--4
-                .tarjeta--slider__title.mb-3 Material de empaque
+                .tarjeta--slider__title.h5.mb-3 Material de empaque
                 .tarjeta--slider__content El envase debe ser apto para contacto con alimentos, hermético, resistente al calor (en caso de tratamientos térmicos), y libre de defectos.
               .tarjeta.color-adicional-2
                 .tarjeta--5
-                .tarjeta--slider__title.mb-3 Condiciones de almacenamiento
+                .tarjeta--slider__title.h5.mb-3 Condiciones de almacenamiento
                 .tarjeta--slider__content Factores como temperatura, humedad, exposición a la luz y manipulación posterior inciden en la duración efectiva del alimento conservado.
 
         .col-5.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3.d-flex.ps-3

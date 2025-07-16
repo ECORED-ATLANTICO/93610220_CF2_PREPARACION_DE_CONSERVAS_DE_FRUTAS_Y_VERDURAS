@@ -15,7 +15,7 @@
     separador
 
     #t_7_1.titulo-segundo.color-acento-contenido
-      .h2(data-aos="fade-right") 7.1 Buenas prácticas de manufactura (BPM)
+      .h2(data-aos="fade-right") 7.1 Buenas Prácticas de Manufactura (BPM)
     .mb-3
 
     .bg_img_14.mb-3
@@ -82,7 +82,7 @@
             figure
               img(src="@/assets/curso/temas/tema_7/img_6.png", alt="alt")
           .crd_hover_txt--body
-            h4.mb-3.text-center Esterilización/ pasteurización
+            h4.mb-3.text-center Esterilización/pasteurización
             p.mb-1.text-small Temperaturas demasiado bajas o tiempos cortos pueden no eliminar esporas o bacterias resiste.
     .bg_img_15.mb-3
       .tarjeta.color-secundario-5.p-3.justify-content-center.align-items-center.mb-5

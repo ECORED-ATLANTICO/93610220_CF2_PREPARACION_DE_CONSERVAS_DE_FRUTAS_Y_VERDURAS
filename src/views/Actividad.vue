@@ -19,8 +19,7 @@ export default {
     cuestionario: {
       tema:
         'Métodos de conservación y preparación de conservas de frutas y verduras.',
-      titulo:
-        'Análisis de las ETAs, su vínculo con HACCP y el marco regulatorio en seguridad alimentaria.',
+      titulo: 'Técnicas de conservación y criterios de inocuidad alimentaria',
       introduccion:
         '<b> Objetivo:</b> apropiar los conceptos y regulaciones de los métodos de conservación y preparación de conservas de frutas y verduras.',
       barajarPreguntas: true,
@@ -344,9 +343,9 @@ export default {
         },
       ],
       mensaje_final_aprobado:
-        '¡Felicitaciones! Has demostrado un excelente conocimiento sobre la elaboración de conservas de frutas y verduras. Sigue explorando el mundo de la conservación de alimentos y disfruta de productos deliciosos y seguros.',
+        '¡Felicitaciones! Ha demostrado un excelente conocimiento sobre la elaboración de conservas de frutas y verduras. Siga explorando el mundo de la conservación de alimentos y disfrute de productos deliciosos y seguros.',
       mensaje_final_reprobado:
-        '¡Sigue practicando! Aunque has adquirido algunos conocimientos sobre conservas de frutas y verduras, es recomendable que repases algunos conceptos para fortalecer tu aprendizaje.  No te desanimes,  la práctica hace al maestro. ¡Continúa aprendiendo y pronto dominarás las técnicas para crear deliciosas conservas!',
+        '¡Sigue practicando! Aunque ha adquirido algunos conocimientos sobre conservas de frutas y verduras, es recomendable que repase algunos conceptos para fortalecer su aprendizaje.  No se desanime, la práctica hace al maestro. ¡Continúe aprendiendo y pronto dominará las técnicas para crear deliciosas conservas!',
     },
   }),
 }

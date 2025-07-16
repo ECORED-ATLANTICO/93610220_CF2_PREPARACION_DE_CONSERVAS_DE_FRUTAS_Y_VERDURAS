@@ -28,7 +28,7 @@
             .tarjeta.color-adicional-3.mb-0.height-100
               figure
                 img(src="@/assets/curso/temas/tema_2/img_2.png", class="img-fluid")
-              h5.mb-3.p-3.pb-0 VENTAJAS
+              h5.mb-3.p-3.pb-0 Ventajas
               ul.p-3.pt-2.mb-0
                 li.mb-3.d-flex.align-items-start
                   i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
@@ -44,7 +44,7 @@
             .tarjeta.color-secundario-10.mb-0.height-100
               figure
                 img(src="@/assets/curso/temas/tema_2/img_3.png", class="img-fluid")
-              h5.mb-3.p-3.pb-0 LIMITACIONES
+              h5.mb-3.p-3.pb-0 Limitaciones
               ul.p-3.pt-2.mb-0
                 li.mb-3.d-flex.align-items-start
                   i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
@@ -59,7 +59,7 @@
       .h2(data-aos="fade-right") 2.2 Deshidratación y salazón
     .mb-3
 
-    p.mb-3 La deshidratación y la salazón son métodos tradicionales que conservan los alimentos al reducir el contenido de agua, lo que impide el desarrollo de la mayoría de los microorganismos, ya que éstos requieren humedad para sobrevivir y reproducirse.
+    p.mb-3 La deshidratación y la salazón son métodos tradicionales que conservan los alimentos al reducir el contenido de agua, lo que impide el desarrollo de la mayoría de los microorganismos, ya que estos requieren humedad para sobrevivir y reproducirse.
 
     .row.d-flex.align-items-stretch.justify-content-center.align-items-center.mb-3
       .col-6.col-lg-4.mb-lg-0.mb-3.d-flex
