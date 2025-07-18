@@ -246,7 +246,7 @@
                     span(style="line-height: 1.5") 	Dejar que se sequen al aire completamente. No uses paños, ya que pueden reintroducir microorganismos.
                   li.mb-0.d-flex.align-items-start
                     i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                    span(style="line-height: 1.5") 	Evitar la manipulación de manipules los envases una vez secos hasta el momento del llenado.
+                    span(style="line-height: 1.5") 	Evitar la manipulación de los envases una vez secos hasta el momento del llenado.
             .col-6.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema_4/img_23.png', class="img-fluid")
