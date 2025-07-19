@@ -213,10 +213,8 @@
             .col-12.col-lg-6.order-2.order-lg-1.mb-3.mb-lg-0
               div.container
                 h5.mb-3 Esterilización
+                p.mb-1 Esterilizar mediante una de las siguientes opciones:
                 ul
-                  li.mb-3.d-flex.align-items-start
-                    i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
-                    span(style="line-height: 1.5") 	Esterilizar mediante una de las siguientes opciones:
                   li.mb-3.d-flex.align-items-start
                     i.fa-solid.fa-circle-check.me-2(style="color: #8C492A; font-size: 16px; margin-top: 4px;")
                     span(style="line-height: 1.5") 	Opción 1: inmersión en agua hirviendo durante 15-30 minutos. Utiliza una olla con rejilla para evitar el contacto directo con la base.
