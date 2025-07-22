@@ -270,7 +270,7 @@
       .tabla-a.mb-5
         table
           caption 
-            p <b>Fuente.</b>  SENA, 2025
+            p <b>Fuente:</b>  SENA, 2025.
           thead
             tr.text-white
               th Tipo

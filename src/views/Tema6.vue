@@ -196,7 +196,7 @@
             |    Beneficios de la conservación de conservas
           figure
             img(src='@/assets/curso/temas/tema_6/img_13.svg', alt="Se describen los beneficios de la conservación de conservas tales como: seguridad alimentaria, estabilidad del producto, valor nutricional y aceptación sensorial"  class="img-fluid")
-            figcaption <b>Fuente.</b> SENA, 2025
+            figcaption <b>Fuente:</b> SENA, 2025.
 
       .row.justify-content-center.align-items-center.mb-5
         .col-6.col-lg-3.mb-lg-0.mb-3

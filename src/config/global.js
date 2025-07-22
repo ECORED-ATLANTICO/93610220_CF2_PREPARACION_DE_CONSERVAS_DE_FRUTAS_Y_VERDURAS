@@ -184,7 +184,7 @@ export default {
         subMenu: [
           {
             numero: '7.1',
-            titulo: 'Buenas prácticas de manufactura (BPM)',
+            titulo: 'Buenas Prácticas de Manufactura (BPM)',
             hash: 't_7_1',
           },
           {
