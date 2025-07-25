@@ -254,7 +254,8 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CFA2_93610220_DU.pdf',
+        download:
+          'downloads/Métodos de conservación y preparación de conservas de frutas y verduras.pdf',
       },
       {
         icono: 'fas fa-download',
