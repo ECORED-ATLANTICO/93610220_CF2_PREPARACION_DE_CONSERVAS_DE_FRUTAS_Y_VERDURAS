@@ -254,8 +254,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download:
-          'downloads/Métodos de conservación y preparación de conservas de frutas y verduras.pdf',
+        download: 'downloads/CF02_93610220_DU.pdf',
       },
       {
         icono: 'fas fa-download',
