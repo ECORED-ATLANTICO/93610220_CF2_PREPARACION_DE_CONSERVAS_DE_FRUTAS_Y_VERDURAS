@@ -21,7 +21,7 @@ export default {
         'Métodos de conservación y preparación de conservas de frutas y verduras.',
       titulo: 'Técnicas de conservación y criterios de inocuidad alimentaria',
       introduccion:
-        '<b> Objetivo:</b> Apropiar los conceptos y regulaciones de los métodos de conservación y preparación de conservas de frutas y verduras.',
+        '<b> Objetivo:</b> apropiar los conceptos y regulaciones de los métodos de conservación y preparación de conservas de frutas y verduras.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!..',
       titulo_reprobado: 'VUELVA A INTENTARLO..',
